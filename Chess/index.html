@@ -9,7 +9,7 @@
 body {
     font-family: Verdana, Arial, sans-serif;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
     padding: 20px;
     background: #f5f5f5;
     color: #222;
@@ -17,23 +17,22 @@ body {
 
 header {
     text-align: center;
-    padding: 30px;
+    margin-bottom: 40px;
 }
 
 h1 {
     color: #1c355e;
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 .intro {
-    text-align: center;
-    font-size: 1.1em;
-    margin-bottom: 30px;
+    font-size: 1.2rem;
+    margin-top: 15px;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 20px;
 }
 
@@ -45,8 +44,8 @@ h1 {
 }
 
 .card h2 {
-    color: #1c355e;
     margin-top: 0;
+    color: #1c355e;
 }
 
 .card ul {
@@ -54,7 +53,7 @@ h1 {
 }
 
 .card li {
-    margin: 8px 0;
+    margin-bottom: 10px;
 }
 
 a {
@@ -69,74 +68,94 @@ a:hover {
 
 footer {
     text-align: center;
-    margin-top: 40px;
     color: #666;
+    margin-top: 40px;
 }
 </style>
+
 </head>
 
 <body>
 
 <header>
-    <h1>♟ Ramiras Sjakk</h1>
 
-    <p class="intro">
-        Sjakk har vært en viktig del av livet gjennom mange år,
-        med turneringer, vennskap, reiser og tusenvis av partier.
-    </p>
+<h1>♟ Ramiras Sjakk</h1>
+
+<p class="intro">
+Sjakk har vært en viktig del av livet gjennom mange år, med turneringer,
+vennskap, reiser og tusenvis av partier.
+</p>
+
 </header>
 
 <div class="grid">
 
-    <div class="card">
-        <h2>🏆 Turneringer</h2>
+<div class="card">
+<h2>🏆 Turneringer</h2>
 
-        <p>
-            Resultater, tabeller, partier og bilder fra turneringer
-            gjennom flere tiår.
-        </p>
+<p>
+Resultater, tabeller, partier og bilder fra turneringer gjennom flere tiår.
+</p>
 
-        <ul>
-            <li><a href="Turneringer/index.html">Turneringsarkiv</a></li>
-            <li><a href="Turneringer/NMU2001/">NM for Ungdomslag 2001</a></li>
-            <li><a href="Turneringer/LagNM2001/">Lag-NM 2001</a></li>
-            <li><a href="Turneringer/EMClub2002/">EM for Klubblag 2002</a></li>
-        </ul>
-    </div>
+<ul>
+<li><a href="Turneringer/index.html">Turneringsarkiv</a></li>
+<li><a href="Turneringer/NMU2001/">NM for Ungdomslag 2001</a></li>
+<li><a href="Turneringer/LagNM2001/">Lag-NM 2001</a></li>
+<li><a href="Turneringer/EMClub2002/">EM for Klubblag 2002</a></li>
+</ul>
 
-    <div class="card">
-        <h2>📖 Sjakkhistorie</h2>
+</div>
 
-        <ul>
-            <li><a href="sjakkhistorie.htm">Min sjakkhistorie</a></li>
-            <li><a href="Randaberg.htm">Randaberg SK</a></li>
-            <li><a href="PostChess.htm">Postsjakk</a></li>
-            <li><a href="memorable_games.htm">Minneverdige partier</a></li>
-        </ul>
-    </div>
+<div class="card">
+<h2>✉️ Correspondence Chess</h2>
 
-    <div class="card">
-        <h2>♞ Partier</h2>
+<p>
+Postsjakk, ICCF-turneringer, nordiske mesterskap,
+landskamper og historiske partier.
+</p>
 
-        <ul>
-            <li><a href="Partier/">Partisamling</a></li>
-            <li><a href="Best/">Beste partier</a></li>
-            <li><a href="Mimring/">Mimring</a></li>
-        </ul>
-    </div>
+<ul>
+<li><a href="../CorrespondenceChess/index.html">Correspondence Chess Archive</a></li>
+</ul>
 
-    <div class="card">
-        <h2>✈️ Gutteturer</h2>
+</div>
 
-        <ul>
-            <li><a href="Guttetur/">Reiser og opplevelser</a></li>
-        </ul>
-    </div>
+<div class="card">
+<h2>📖 Sjakkhistorie</h2>
+
+<ul>
+<li><a href="sjakkhistorie.htm">Min sjakkhistorie</a></li>
+<li><a href="Randaberg.htm">Randaberg SK</a></li>
+<li><a href="PostChess.htm">Postsjakk</a></li>
+<li><a href="memorable_games.htm">Minneverdige partier</a></li>
+</ul>
+
+</div>
+
+<div class="card">
+<h2>♞ Partier</h2>
+
+<ul>
+<li><a href="Partier/">Partisamling</a></li>
+<li><a href="Best/">Beste partier</a></li>
+<li><a href="Mimring/">Mimring</a></li>
+</ul>
+
+</div>
+
+<div class="card">
+<h2>✈️ Gutteturer</h2>
+
+<ul>
+<li><a href="Guttetur/">Reiser og opplevelser</a></li>
+</ul>
+
+</div>
 
 </div>
 
 <footer>
-    <p>Ramiras Sjakkarkiv</p>
+<p>Ramiras Sjakkarkiv</p>
 </footer>
 
 </body>
