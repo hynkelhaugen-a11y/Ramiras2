@@ -1,0 +1,38 @@
+[Event "Randaberg Vår"]
+[Site "MyTown"]
+[Date "2001.05.10"]
+[Round "?"]
+[White "Haugen, Arild"]
+[Black "Storland , Knut"]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "1697"]
+[BlackElo "2285"]
+[PlyCount "88"]
+[EventDate "2001.02.11"]
+
+{128MB, POWER.ctg. Cinet
+} 1. e4 d5 2. exd5 Nf6 3. c4 c6 4. dxc6 Nxc6 5. Nf3
+e5 6. Nc3 Bc5 7. d3 h6 8. Be2 O-O 9. O-O Bf5 10. a3 a5 11. Na4 $6 ({
+Tastatrekket:} 11. h3 {er vel bedre!} 11... Qe7 12. Qc2 Rfd8 13. Ne4 Bxe4 14.
+dxe4 Nd4 15. Nxd4 Bxd4 16. Rb1 a4) 11... Ba7 12. Be3 Bxe3 (12... Re8) 13. fxe3
+Ng4 14. Qd2 (14. Qc1 Bxd3 15. Rd1 e4 (15... Bxe2 16. Rxd8 Raxd8 17. Nd2 Nxe3
+18. Kf2 Nxc4 19. Nxc4 $16) 16. Bxd3 exd3 17. Qc3 Qe7 (17... Qc7) 18. Rxd3 Rad8
+19. Re1 Nce5 20. Nxe5 Qxe5 21. Qxe5) 14... e4 15. dxe4 (15. Ne1 exd3 (15... Qg5
+16. dxe4 Rad8 17. Qc3 (17. Rxf5 Qh4 18. Bd3 Qxh2+ 19. Kf1 Nce5 20. Ke2 Nxd3 21.
+Nxd3 Qxg2+ $11) 17... Bxe4 18. Bxg4 Qxg4 19. Nc5 f5 (19... Qg6) 20. Rf4 Nd4 21.
+exd4 Qxf4 22. Ne6 $16) 16. Rxf5 dxe2 17. Qxe2 Qh4 18. Nf3 Qe7 19. Re1 Rae8 20.
+e4 Qc7 21. Qd2 Nce5 22. b3 Rd8 (22... g6 23. Nxe5 gxf5 24. Nxg4 fxg4 25. Qxh6
+f5 26. Qg6+ Qg7 27. Qxg7+ Kxg7 28. e5 Re7 $11)) 15... Bxe4 16. Nd4 (16. Rad1
+Re8 (16... Bxf3 17. Rxf3 Qxd2 18. Rxd2 Rad8 19. Rxd8 Rxd8 20. h3 Rd2 21. Bf1
+Nge5 22. Rf2 $16) 17. Nd4 Bxg2 18. Bxg4 Bxf1 19. Kxf1 Ne5 $13) (16. Qxd8 Rfxd8
+17. Nc5 f5 18. Rfe1 Nxe3 19. Nxb7 Rdb8 20. Bd3 Bxd3 21. Rxe3 Bxc4 $11) 16...
+Nxe3 17. Qxe3 Qxd4 18. Qf2 Qxf2+ 19. Rxf2 Nd4 20. Bd1 f5 21. Nc5 Rfc8 22. Nd7 {
+her  var kanskje siste sjanse til remis!} (22. Nxe4 fxe4 23. Rf4 Rxc4 24. Rxe4
+Rd8 25. Bg4 $11) 22... Rc7 23. Ne5 g5 24. Rc1 (24. Ba4) 24... Kg7 25. Rd2 Rd8
+26. Kf2 Kf6 27. Nf3 Rcd7 {og resten er teknikk for den Store!} 28. Nxd4 (28.
+Ba4) 28... Rxd4 29. Rxd4 Rxd4 30. Ke3 Ke5 31. Bf3 Rd3+ 32. Ke2 Rb3 33. Bxe4
+Kxe4 34. Rc2 b6 35. Rd2 f4 36. Rc2 (36. h3 Rg3 37. Kf1 f3 $19) 36... Kd4 37.
+Kd2 h5 38. h3 a4 39. Kd1 f3 40. Rf2 fxg2 41. Rxg2 Rg3 42. Rd2+ Kxc4 43. Rh2 Kb3
+44. Ke1 Rg1+ 0-1
+
