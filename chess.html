@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="no">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>Ramiras - Sjakk</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ramiras Sjakk</title>
 
 <style>
-
 body{
-    font-family: Verdana, Arial, sans-serif;
+    font-family:Verdana,Arial,sans-serif;
     background:#f5f5f5;
-    color:#222;
-    max-width:1100px;
+    max-width:1200px;
     margin:auto;
     padding:20px;
 }
@@ -22,81 +19,104 @@ header{
     margin-bottom:30px;
 }
 
-h1{
-    color:#1c355e;
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
 }
 
-.section{
+.card{
     background:white;
-    padding:25px;
-    margin-bottom:20px;
-    border-radius:8px;
+    padding:20px;
+    border-radius:12px;
     box-shadow:0 2px 6px rgba(0,0,0,0.15);
 }
 
-.section h2{
+h1,h2{
     color:#1c355e;
 }
 
 a{
-    color:#355f92;
+    color:#204a87;
     text-decoration:none;
     font-weight:bold;
 }
 
 a:hover{
-
     text-decoration:underline;
 }
-
-ul{
-    line-height:1.8;
-}
-
-.footer{
-    text-align:center;
-    margin-top:30px;
-}
-
 </style>
+
 </head>
 
 <body>
 
 <header>
 
-<h1>♟ Sjakk</h1>
+<h1>♟ Ramiras Sjakk</h1>
 
 <p>
-Sjakk har vært en del av livet siden barndommen og har ført til
-turneringer, vennskap, reiser og mange gode historier.
+Sjakkhistorie, turneringer, postsjakk, partier og minner gjennom mange år.
 </p>
 
 </header>
 
-<div class="section">
+<div class="grid">
 
-<h2>Min sjakkhistorie</h2>
+<div class="card">
+<h2>🏆 Turneringer</h2>
 
 <p>
-Jeg lærte sjakk av min far, Nils Haugen (Ramiras), og har siden vært
-aktiv
-<div class="section">
-<h2>Sjakksider</h2>
+Resultater, tabeller, bilder og rapporter fra turneringer.
+</p>
 
-<ul>
-    <li><a href="Chess/sjakkhistorie.htm">Min sjakkhistorie</a></li>
-    <li><a href="Chess/Randaberg.htm">Randaberg SK</a></li>
-    <li><a href="Chess/PostChess.htm">Postsjakk</a></li>
-    <li><a href="Chess/memorable_games.htm">Minneverdige partier</a></li>
-</ul>
+<p>
+<a href="Turneringer/index.html">
+Åpne turneringsarkivet →
+</a>
+</p>
+
 </div>
-<h2>Gutteturer</h2>
+
+<div class="card">
+<h2>✉️ Correspondence Chess</h2>
+
+<p>
+Postsjakk, ICCF-turneringer, nordiske mesterskap og historiske partier.
+</p>
+
+<p>
+<a href="Correspondence%20Chess/index.html">
+Åpne Correspondence Chess →
+</a>
+</p>
+
+</div>
+
+<div class="card">
+<h2>📖 Historie</h2>
 
 <ul>
-    <li>
-        <a href="Chess/Guttetur/Praha/praha2003.htm">
-            Praha 2003
-        </a>
-    </li>
+<li><a href="sjakkhistorie.htm">Min sjakkhistorie</a></li>
+<li><a href="Randaberg.htm">Randaberg Sjakklubb</a></li>
+<li><a href="PostChess.htm">Postsjakk-artikler</a></li>
+<li><a href="memorable_games.htm">Minneverdige partier</a></li>
 </ul>
+
+</div>
+
+<div class="card">
+<h2>♞ Partier</h2>
+
+<ul>
+<li><a href="Partier/">Partisamling</a></li>
+<li><a href="Best/">Beste partier</a></li>
+<li><a href="Mimring/">Mimring</a></li>
+</ul>
+
+</div>
+
+</div>
+
+</body>
+</html>
