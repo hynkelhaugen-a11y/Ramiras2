@@ -1,0 +1,356 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META name="GENERATOR" content="ChessBase HTML Publisher 3.0">
+<STYLE TYPE='text/css'>
+<!--
+body {color: 000000; font-family:Times new Roman; font-size:12pt;  font: normal}
+p {color: 000000; font-family:Times new Roman; font-size:12pt;  font: normal}
+h1 {color: 000000}
+h4 {color: 000000}
+.e1b {font-family:Times new Roman; font-size:12pt;  font-style: normal; text-decoration: none}
+.e0 {color: 000000; font-family:Times new Roman; font-size:12pt;  font-style: normal; text-decoration: none}
+.e1 {color: #000000; font-family:Times new Roman; font-size:12pt;  font-style: normal; text-decoration: none}
+.e2 {color: #000000; font-family:Times new Roman; font-size:12pt;  font-style: normal; text-decoration: none}
+.e3 {color: #000000; font-family:Times new Roman; font-size:12pt;  font-style: normal; text-decoration: none}
+.e4 {color: #000000; font-family:Times new Roman; font-size:12pt;  font-style: normal; text-decoration: none}
+.game {font-family:Times new Roman; font-size:12pt;  font-style: normal;}
+//-->
+</STYLE>
+</HEAD>
+<BODY bgcolor="#FEFDE8">
+<script>
+<!--
+function g0(a,b) { parent.frames[0].g0(a,b); };
+
+var n0 = new Array();
+var b0 = -1;
+var m0 = new Array(1);
+var fenNota="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
+m0[1] = new Array(35,26);
+m0[1].base = new Array(15,0);
+m0[1].root =0;
+m0[1].move =15;
+m0[2] = new Array(5,19);
+m0[2].base = new Array(21,0);
+m0[2].root =0;
+m0[2].move =20;
+m0[3] = new Array(48,40,26,34,43,59,5,3);
+m0[3].base = new Array(29,30,31,32,0);
+m0[3].root =0;
+m0[3].move =28;
+m0[5] = new Array(21,31,46,39,31,37,39,15,6,5,52,36,37,27,30,13,3,4,36,38);
+m0[5].base = new Array(39,40,41,42,43,44,45,46,47,48,0);
+m0[5].root =4;
+m0[5].move =5;
+m0[6] = new Array(56,48,34,43,50,43,33,19);
+m0[6].base = new Array(52,53,54,55,0);
+m0[6].root =4;
+m0[6].move =8;
+m0[4] = new Array(58,37,5,3,45,30,26,34,43,46,35,43,28,43,0,48,56,60,34,43,37,10,43,52,30,15,21,36,15,21,36,21,10,3,21,36,50,42,36,46);
+m0[4].base = new Array(33,34,35,36,37,38,49,50,51,56,57,58,59,60,61,62,63,64,65,66,0);
+m0[4].root =0;
+m0[4].move =28;
+m0[7] = new Array(43,36,13,21,28,43,21,30,45,30,14,22);
+m0[7].base = new Array(69,70,71,72,73,74,0);
+m0[7].root =0;
+m0[7].move =30;
+m0[9] = new Array(28,22,26,53,62,63,27,37,22,5,2,9,30,45,0,5);
+m0[9].base = new Array(88,89,90,91,92,93,94,95,0);
+m0[9].root =8;
+m0[9].move =3;
+m0[8] = new Array(6,15,45,30,15,6,59,31,26,53,62,63,27,21,31,52,10,26);
+m0[8].base = new Array(84,85,86,87,96,97,98,99,100,0);
+m0[8].root =0;
+m0[8].move =39;
+m0[10] = new Array(62,53,10,28);
+m0[10].base = new Array(102,103,0);
+m0[10].root =0;
+m0[10].move =40;
+m0[11] = new Array(6,15,45,30,15,6,59,31,27,21);
+m0[11].base = new Array(105,106,107,108,109,0);
+m0[11].root =0;
+m0[11].move =41;
+m0[12] = new Array(30,38);
+m0[12].base = new Array(112,0);
+m0[12].root =0;
+m0[12].move =43;
+m0[13] = new Array(15,7,6,7,45,31,7,6,31,4,6,15,4,31);
+m0[13].base = new Array(114,115,116,117,118,119,120,0);
+m0[13].root =0;
+m0[13].move =44;
+m0[14] = new Array(37,53,7,2,0,2,47,20,18,10,20,28,10,17,48,32,25,33,28,19,17,8,60,59,2,26);
+m0[14].base = new Array(136,137,138,139,140,141,142,143,144,145,146,147,148,0);
+m0[14].root =0;
+m0[14].move =59;
+m0[15] = new Array(37,29);
+m0[15].base = new Array(151,0);
+m0[15].root =0;
+m0[15].move =61;
+m0[16] = new Array(7,2,0,2,60,20,37,19,20,19,18,19,31,25);
+m0[16].base = new Array(153,154,155,156,157,158,159,0);
+m0[16].root =0;
+m0[16].move =62;
+m0[17] = new Array(37,10);
+m0[17].base = new Array(161,0);
+m0[17].root =0;
+m0[17].move =63;
+m0[19] = new Array(60,20,2,20,7,0,34,42,0,40,25,33,40,16,18,27,16,17,29,35,17,33,35,50);
+m0[19].base = new Array(172,173,174,175,176,177,178,179,180,181,182,183,0);
+m0[19].root =18;
+m0[19].move =9;
+m0[18] = new Array(38,46,13,14,21,36,55,46,37,46,14,46,36,46,63,55,46,29,48,40,34,42,54,38,29,12,60,61,0,40,61,13,40,48,13,12,48,50,55,46,2,11,7,0,18,19,12,13,50,51);
+m0[18].base = new Array(162,163,164,165,166,167,168,169,170,171,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,0);
+m0[18].root =0;
+m0[18].move =63;
+m0[20] = new Array(51,19,20,19,18,19,13,14,19,20);
+m0[20].base = new Array(203,204,205,206,207,0);
+m0[20].root =0;
+m0[20].move =67;
+m0[0] = new Array(52,36,12,20,51,35,11,27,57,51,10,26,62,45,1,18,61,25,8,16,36,27,16,25,27,18,9,18,60,62,127,61,26,35,45,28,3,10,61,60,6,21,51,45,5,33,60,52,18,26,59,43,4,6,71,5,58,30,21,27,52,36,26,34,43,35,33,26,35,59,13,21,36,39,21,30,39,15,26,53,62,63,5,45,59,45,10,28,45,31,6,5,15,7,5,12,31,4,12,19,4,5,19,18,5,53,28,49,56,60,49,21,53,46,21,37,46,47,30,38,47,31,27,21,31,13,37,51,7,2,0,2,60,20,18,26,13,12,26,35,20,19,21,27,19,27);
+m0[0].base = new Array(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,14,16,17,18,19,20,22,23,24,25,26,27,27,28,67,68,75,76,77,78,79,80,81,82,83,101,104,110,111,113,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,149,150,152,160,199,200,201,202,208,209,210,211,212,0);
+m0[0].root =0;
+m0[0].move =0;
+//-->
+</script>
+<P><H4>(1) Østgård,P - Haugen,A [C07]<BR>
+ Trondhjemsmesterskapet MyTown (6), 1976<BR>
+</H4></P>
+<P><B>
+<BR><BR>
+<a href="javascript:g0(1,0)" id='0' CLASS='e0' name="zeroAnchor">1.e4</a>
+ <a href="javascript:g0(2,0)" id='0' CLASS='e0'>e6</a>
+ <a href="javascript:g0(3,0)" id='0' CLASS='e0'>2.d4</a>
+ <a href="javascript:g0(4,0)" id='0' CLASS='e0'>d5</a>
+ <a href="javascript:g0(5,0)" id='0' CLASS='e0'>3.Nd2</a>
+ <a href="javascript:g0(6,0)" id='0' CLASS='e0'>c5</a>
+ <a href="javascript:g0(7,0)" id='0' CLASS='e0'>4.Ngf3</a>
+ <a href="javascript:g0(8,0)" id='0' CLASS='e0'>Nc6</a>
+ <a href="javascript:g0(9,0)" id='0' CLASS='e0'>5.Bb5</a>
+ <a href="javascript:g0(10,0)" id='0' CLASS='e0'>a6</a>
+ <a href="javascript:g0(11,0)" id='0' CLASS='e0'>6.exd5</a>
+ <a href="javascript:g0(12,0)" id='0' CLASS='e0'>axb5</a>
+ <a href="javascript:g0(13,0)" id='0' CLASS='e0'>7.dxc6</a>
+ <a href="javascript:g0(14,0)" id='0' CLASS='e0'>bxc6</a>
+ <a href="javascript:g0(15,0)" id='0' CLASS='e0'>8.0-0</a>
+ </B>not too good! <B></B> [ <a href="javascript:g0(1,1)" id='0' CLASS='e1'>8.dxc5</a>
+] <B><BR><BR>
+<a href="javascript:g0(16,0)" id='0' CLASS='e0'>8...cxd4</a>
+ <a href="javascript:g0(17,0)" id='0' CLASS='e0'>9.Ne5</a>
+ <a href="javascript:g0(18,0)" id='0' CLASS='e0'>Qc7</a>
+ <a href="javascript:g0(19,0)" id='0' CLASS='e0'>10.Re1</a>
+ <a href="javascript:g0(20,0)" id='0' CLASS='e0'>Nf6</a>
+ </B> [ <a href="javascript:g0(1,2)" id='0' CLASS='e1'>10...Bd6</a>
+] <B><BR><BR>
+<a href="javascript:g0(21,0)" id='0' CLASS='e0'>11.Ndf3</a>
+ <a href="javascript:g0(22,0)" id='0' CLASS='e0'>Bb4</a>
+ <a href="javascript:g0(23,0)" id='0' CLASS='e0'>12.Re2</a>
+ <a href="javascript:g0(24,0)" id='0' CLASS='e0'>c5</a>
+ <a href="javascript:g0(25,0)" id='0' CLASS='e0'>13.Qd3</a>
+ <a href="javascript:g0(26,0)" id='0' CLASS='e0'>0-0</a>
+ <a href="javascript:g0(27,0)" id='0' CLASS='e0'>14.Bg5</a>
+ </B> [ <a href="javascript:g0(1,3)" id='0' CLASS='e1'>14.a3</a>
+ <a href="javascript:g0(2,3)" id='0' CLASS='e1'>c4</a>
+ <a href="javascript:g0(3,3)" id='0' CLASS='e1'>15.Qd1</a>
+ <a href="javascript:g0(4,3)" id='0' CLASS='e1'>Rd8-/+</a>
+;  <a href="javascript:g0(1,4)" id='0' CLASS='e1'>14.Bf4</a>
+ <a href="javascript:g0(2,4)" id='0' CLASS='e1'>Rd8</a>
+ <a href="javascript:g0(3,4)" id='0' CLASS='e1'>15.Ng5</a>
+ <a href="javascript:g0(4,4)" id='0' CLASS='e1'>c4</a>
+ <a href="javascript:g0(5,4)" id='0' CLASS='e1'>16.Qg3</a>
+ <a href="javascript:g0(6,4)" id='0' CLASS='e1'>d3!</a>
+ <I> ( <a href="javascript:g0(1,5)" id='0' CLASS='e2'>16...Nh5</a>
+ <a href="javascript:g0(2,5)" id='0' CLASS='e2'>17.Qh4</a>
+ <a href="javascript:g0(3,5)" id='0' CLASS='e2'>Nxf4</a>
+ <a href="javascript:g0(4,5)" id='0' CLASS='e2'>18.Qxh7+</a>
+ <a href="javascript:g0(5,5)" id='0' CLASS='e2'>Kf8</a>
+ <a href="javascript:g0(6,5)" id='0' CLASS='e2'>19.Re4</a>
+ <a href="javascript:g0(7,5)" id='0' CLASS='e2'>Nd5</a>
+ <a href="javascript:g0(8,5)" id='0' CLASS='e2'>20.Ngxf7</a>
+ <a href="javascript:g0(9,5)" id='0' CLASS='e2'>Re8</a>
+ <a href="javascript:g0(10,5)" id='0' CLASS='e2'>21.Rg4+-</a>
+) </I><a href="javascript:g0(7,4)" id='0' CLASS='e1'>17.Nxd3</a>
+ <a href="javascript:g0(8,4)" id='0' CLASS='e1'>Rxa2!</a>
+ <a href="javascript:g0(9,4)" id='0' CLASS='e1'>18.Rae1</a>
+ <I> ( <a href="javascript:g0(1,6)" id='0' CLASS='e2'>18.Rxa2</a>
+ <a href="javascript:g0(2,6)" id='0' CLASS='e2'>cxd3</a>
+ <a href="javascript:g0(3,6)" id='0' CLASS='e2'>19.cxd3</a>
+ <a href="javascript:g0(4,6)" id='0' CLASS='e2'>Bd6-+</a>
+) </I><a href="javascript:g0(10,4)" id='0' CLASS='e1'>18...cxd3</a>
+ <a href="javascript:g0(11,4)" id='0' CLASS='e1'>19.Bxc7</a>
+ <a href="javascript:g0(12,4)" id='0' CLASS='e1'>dxe2</a>
+ <a href="javascript:g0(13,4)" id='0' CLASS='e1'>20.Nxh7</a>
+ <a href="javascript:g0(14,4)" id='0' CLASS='e1'>Ne4</a>
+ <a href="javascript:g0(15,4)" id='0' CLASS='e1'>21.Nf6+</a>
+ <a href="javascript:g0(16,4)" id='0' CLASS='e1'>Nxf6</a>
+ <a href="javascript:g0(17,4)" id='0' CLASS='e1'>22.Bxd8</a>
+ <a href="javascript:g0(18,4)" id='0' CLASS='e1'>Ne4</a>
+ <a href="javascript:g0(19,4)" id='0' CLASS='e1'>23.c3</a>
+ <a href="javascript:g0(20,4)" id='0' CLASS='e1'>Nxg3-+</a>
+] <B><BR><BR>
+<a href="javascript:g0(28,0)" id='0' CLASS='e0'>14...Nd5</a>
+ <a href="javascript:g0(29,0)" id='0' CLASS='e0'>15.Re4</a>
+ </B> [ <a href="javascript:g0(1,7)" id='0' CLASS='e1'>15.Qe4</a>
+ <a href="javascript:g0(2,7)" id='0' CLASS='e1'>f6</a>
+ <a href="javascript:g0(3,7)" id='0' CLASS='e1'>16.Nd3</a>
+ <a href="javascript:g0(4,7)" id='0' CLASS='e1'>fxg5</a>
+ <a href="javascript:g0(5,7)" id='0' CLASS='e1'>17.Nxg5</a>
+ <a href="javascript:g0(6,7)" id='0' CLASS='e1'>g6-+</a>
+] <B><BR><BR>
+<a href="javascript:g0(30,0)" id='0' CLASS='e0'>15...c4</a>
+ <a href="javascript:g0(31,0)" id='0' CLASS='e0'>16.Qxd4</a>
+ <a href="javascript:g0(32,0)" id='0' CLASS='e0'>Bc5</a>
+ <a href="javascript:g0(33,0)" id='0' CLASS='e0'>17.Qd1</a>
+ <a href="javascript:g0(34,0)" id='0' CLASS='e0'>f6</a>
+ <a href="javascript:g0(35,0)" id='0' CLASS='e0'>18.Rh4</a>
+ <a href="javascript:g0(36,0)" id='0' CLASS='e0'>fxg5</a>
+ <a href="javascript:g0(37,0)" id='0' CLASS='e0'>19.Rxh7?!</a>
+ <a href="javascript:g0(38,0)" id='0' CLASS='e0'>Bxf2+</a>
+ </B>Her måtte jeg briljere litt! <B></B> [ <a href="javascript:g0(1,8)" id='0' CLASS='e1'>19...Kxh7</a>
+ <a href="javascript:g0(2,8)" id='0' CLASS='e1'>20.Nxg5+</a>
+ <a href="javascript:g0(3,8)" id='0' CLASS='e1'>Kg8</a>
+ <a href="javascript:g0(4,8)" id='0' CLASS='e1'>21.Qh5</a>
+ <I> ( <a href="javascript:g0(1,9)" id='0' CLASS='e2'>21.Ng6</a>
+ <a href="javascript:g0(2,9)" id='0' CLASS='e2'>Bxf2+</a>
+ <a href="javascript:g0(3,9)" id='0' CLASS='e2'>22.Kh1</a>
+ <a href="javascript:g0(4,9)" id='0' CLASS='e2'>Nf4</a>
+ <a href="javascript:g0(5,9)" id='0' CLASS='e2'>23.Nxf8</a>
+ <a href="javascript:g0(6,9)" id='0' CLASS='e2'>Bb7</a>
+ <a href="javascript:g0(7,9)" id='0' CLASS='e2'>24.Nf3</a>
+ <a href="javascript:g0(8,9)" id='0' CLASS='e2'>Rxf8-+</a>
+) </I><a href="javascript:g0(5,8)" id='0' CLASS='e1'>21...Bxf2+</a>
+ <a href="javascript:g0(6,8)" id='0' CLASS='e1'>22.Kh1</a>
+ <a href="javascript:g0(7,8)" id='0' CLASS='e1'>Nf6</a>
+ <a href="javascript:g0(8,8)" id='0' CLASS='e1'>23.Qe2</a>
+ <a href="javascript:g0(9,8)" id='0' CLASS='e1'>Qc5-+</a>
+] <B><BR><BR>
+<a href="javascript:g0(39,0)" id='0' CLASS='e0'>20.Kh1</a>
+ </B> [ <a href="javascript:g0(1,10)" id='0' CLASS='e1'>20.Kxf2</a>
+ <a href="javascript:g0(2,10)" id='0' CLASS='e1'>Qxe5-+</a>
+] <B><BR><BR>
+<a href="javascript:g0(40,0)" id='0' CLASS='e0'>20...Rxf3??</a>
+ </B>Kollaps! <B></B> [ <a href="javascript:g0(1,11)" id='0' CLASS='e1'>20...Kxh7</a>
+ <a href="javascript:g0(2,11)" id='0' CLASS='e1'>21.Nxg5+</a>
+ <a href="javascript:g0(3,11)" id='0' CLASS='e1'>Kg8</a>
+ <a href="javascript:g0(4,11)" id='0' CLASS='e1'>22.Qh5</a>
+ <a href="javascript:g0(5,11)" id='0' CLASS='e1'>Nf6-+</a>
+ Dette ble for enkelt ...] <B><BR><BR>
+<a href="javascript:g0(41,0)" id='0' CLASS='e0'>21.Qxf3</a>
+ <a href="javascript:g0(42,0)" id='0' CLASS='e0'>Qxe5??</a>
+ </B>Her røyk seieren! <B></B> [ <a href="javascript:g0(1,12)" id='0' CLASS='e1'>21...g4-+</a>
+] <B><BR><BR>
+<a href="javascript:g0(43,0)" id='0' CLASS='e0'>22.Qh5?</a>
+ </B>Han ville ikke ha den! <B></B> [ <a href="javascript:g0(1,13)" id='0' CLASS='e1'>22.Rh8+=</a>
+ <a href="javascript:g0(2,13)" id='0' CLASS='e1'>Kxh8</a>
+ <a href="javascript:g0(3,13)" id='0' CLASS='e1'>23.Qh5+</a>
+ <a href="javascript:g0(4,13)" id='0' CLASS='e1'>Kg8</a>
+ <a href="javascript:g0(5,13)" id='0' CLASS='e1'>24.Qe8+</a>
+ <a href="javascript:g0(6,13)" id='0' CLASS='e1'>Kh7</a>
+ <a href="javascript:g0(7,13)" id='0' CLASS='e1'>25.Qh5+</a>
+] <B><BR><BR>
+<a href="javascript:g0(44,0)" id='0' CLASS='e0'>22...Kf8</a>
+ <a href="javascript:g0(45,0)" id='0' CLASS='e0'>23.Rh8+</a>
+ <a href="javascript:g0(46,0)" id='0' CLASS='e0'>Ke7</a>
+ <a href="javascript:g0(47,0)" id='0' CLASS='e0'>24.Qe8+</a>
+ <a href="javascript:g0(48,0)" id='0' CLASS='e0'>Kd6</a>
+ <a href="javascript:g0(49,0)" id='0' CLASS='e0'>25.Qf8+</a>
+ <a href="javascript:g0(50,0)" id='0' CLASS='e0'>Kc6</a>
+ <a href="javascript:g0(51,0)" id='0' CLASS='e0'>26.Qxf2</a>
+ <a href="javascript:g0(52,0)" id='0' CLASS='e0'>Qxb2</a>
+ <a href="javascript:g0(53,0)" id='0' CLASS='e0'>27.Re1</a>
+ <a href="javascript:g0(54,0)" id='0' CLASS='e0'>Qf6</a>
+ <a href="javascript:g0(55,0)" id='0' CLASS='e0'>28.Qg3</a>
+ <a href="javascript:g0(56,0)" id='0' CLASS='e0'>Qf4</a>
+ <a href="javascript:g0(57,0)" id='0' CLASS='e0'>29.Qh3</a>
+ <a href="javascript:g0(58,0)" id='0' CLASS='e0'>g4</a>
+ </B> [ <a href="javascript:g0(1,14)" id='0' CLASS='e1'>29...Qf2</a>
+ <a href="javascript:g0(2,14)" id='0' CLASS='e1'>30.Rxc8+</a>
+ <a href="javascript:g0(3,14)" id='0' CLASS='e1'>Rxc8</a>
+ <a href="javascript:g0(4,14)" id='0' CLASS='e1'>31.Qxe6+</a>
+ <a href="javascript:g0(5,14)" id='0' CLASS='e1'>Kc7</a>
+ <a href="javascript:g0(6,14)" id='0' CLASS='e1'>32.Qe5+</a>
+ <a href="javascript:g0(7,14)" id='0' CLASS='e1'>Kb6</a>
+ <a href="javascript:g0(8,14)" id='0' CLASS='e1'>33.a4</a>
+ <a href="javascript:g0(9,14)" id='0' CLASS='e1'>b4</a>
+ <a href="javascript:g0(10,14)" id='0' CLASS='e1'>34.Qd6+</a>
+ <a href="javascript:g0(11,14)" id='0' CLASS='e1'>Ka7</a>
+ <a href="javascript:g0(12,14)" id='0' CLASS='e1'>35.Rd1</a>
+ <a href="javascript:g0(13,14)" id='0' CLASS='e1'>Rc5-+</a>
+] <B><BR><BR>
+<a href="javascript:g0(59,0)" id='0' CLASS='e0'>30.Qh5</a>
+ <a href="javascript:g0(60,0)" id='0' CLASS='e0'>Nf6</a>
+ </B>Her røyk seieren igjen! <B></B> [ <a href="javascript:g0(1,15)" id='0' CLASS='e1'>30...Qf5-+</a>
+] <B><BR><BR>
+<a href="javascript:g0(61,0)" id='0' CLASS='e0'>31.Qf7?</a>
+ </B>Han ville ikke ha den nå heller! <B></B> [ <a href="javascript:g0(1,16)" id='0' CLASS='e1'>31.Rxc8+</a>
+ <a href="javascript:g0(2,16)" id='0' CLASS='e1'>Rxc8</a>
+ <a href="javascript:g0(3,16)" id='0' CLASS='e1'>32.Rxe6+</a>
+ <a href="javascript:g0(4,16)" id='0' CLASS='e1'>Qd6</a>
+ <a href="javascript:g0(5,16)" id='0' CLASS='e1'>33.Rxd6+</a>
+ <a href="javascript:g0(6,16)" id='0' CLASS='e1'>Kxd6</a>
+ <a href="javascript:g0(7,16)" id='0' CLASS='e1'>34.Qxb5+-</a>
+] <B><BR><BR>
+<a href="javascript:g0(62,0)" id='0' CLASS='e0'>31...Qd2?</a>
+ </B> [ <a href="javascript:g0(1,17)" id='0' CLASS='e1'>31...Qc7</a>
+;  <a href="javascript:g0(1,18)" id='0' CLASS='e1'>31...g3</a>
+ <a href="javascript:g0(2,18)" id='0' CLASS='e1'>32.Qxg7</a>
+ <a href="javascript:g0(3,18)" id='0' CLASS='e1'>Ne4</a>
+ <a href="javascript:g0(4,18)" id='0' CLASS='e1'>33.hxg3</a>
+ <a href="javascript:g0(5,18)" id='0' CLASS='e1'>Qxg3</a>
+ <a href="javascript:g0(6,18)" id='0' CLASS='e1'>34.Qxg3</a>
+ <a href="javascript:g0(7,18)" id='0' CLASS='e1'>Nxg3+</a>
+ <a href="javascript:g0(8,18)" id='0' CLASS='e1'>35.Kh2</a>
+ <a href="javascript:g0(9,18)" id='0' CLASS='e1'>Nf5</a>
+ <a href="javascript:g0(10,18)" id='0' CLASS='e1'>36.a3</a>
+ <I> ( <a href="javascript:g0(1,19)" id='0' CLASS='e2'>36.Rxe6+</a>
+ <a href="javascript:g0(2,19)" id='0' CLASS='e2'>Bxe6</a>
+ <a href="javascript:g0(3,19)" id='0' CLASS='e2'>37.Rxa8</a>
+ <a href="javascript:g0(4,19)" id='0' CLASS='e2'>c3</a>
+ <a href="javascript:g0(5,19)" id='0' CLASS='e2'>38.Ra3</a>
+ <a href="javascript:g0(6,19)" id='0' CLASS='e2'>b4</a>
+ <a href="javascript:g0(7,19)" id='0' CLASS='e2'>39.Ra6+</a>
+ <a href="javascript:g0(8,19)" id='0' CLASS='e2'>Kd5</a>
+ <a href="javascript:g0(9,19)" id='0' CLASS='e2'>40.Rb6</a>
+ <a href="javascript:g0(10,19)" id='0' CLASS='e2'>Nd4</a>
+ <a href="javascript:g0(11,19)" id='0' CLASS='e2'>41.Rxb4</a>
+ <a href="javascript:g0(12,19)" id='0' CLASS='e2'>Nxc2-+</a>
+) </I><a href="javascript:g0(11,18)" id='0' CLASS='e1'>36...c3</a>
+ <a href="javascript:g0(12,18)" id='0' CLASS='e1'>37.g4</a>
+ <a href="javascript:g0(13,18)" id='0' CLASS='e1'>Ne7</a>
+ <a href="javascript:g0(14,18)" id='0' CLASS='e1'>38.Rf1</a>
+ <a href="javascript:g0(15,18)" id='0' CLASS='e1'>Rxa3</a>
+ <a href="javascript:g0(16,18)" id='0' CLASS='e1'>39.Rf7</a>
+ <a href="javascript:g0(17,18)" id='0' CLASS='e1'>Ra2</a>
+ <a href="javascript:g0(18,18)" id='0' CLASS='e1'>40.Rxe7</a>
+ <a href="javascript:g0(19,18)" id='0' CLASS='e1'>Rxc2+</a>
+ <a href="javascript:g0(20,18)" id='0' CLASS='e1'>41.Kg3</a>
+ <a href="javascript:g0(21,18)" id='0' CLASS='e1'>Bd7</a>
+ <a href="javascript:g0(22,18)" id='0' CLASS='e1'>42.Ra8</a>
+ <a href="javascript:g0(23,18)" id='0' CLASS='e1'>Kd6</a>
+ <a href="javascript:g0(24,18)" id='0' CLASS='e1'>43.Rf7</a>
+ <a href="javascript:g0(25,18)" id='0' CLASS='e1'>Rd2-+</a>
+] <B><BR><BR>
+<a href="javascript:g0(63,0)" id='0' CLASS='e0'>32.Rxc8+</a>
+ </B>Tredje gangen gjelder det! <B><BR><BR>
+<a href="javascript:g0(64,0)" id='0' CLASS='e0'>32...Rxc8</a>
+ <a href="javascript:g0(65,0)" id='0' CLASS='e0'>33.Rxe6+</a>
+ <a href="javascript:g0(66,0)" id='0' CLASS='e0'>Kc5</a>
+ </B> [ <a href="javascript:g0(1,20)" id='0' CLASS='e1'>33...Qd6</a>
+ <a href="javascript:g0(2,20)" id='0' CLASS='e1'>34.Rxd6+</a>
+ <a href="javascript:g0(3,20)" id='0' CLASS='e1'>Kxd6</a>
+ <a href="javascript:g0(4,20)" id='0' CLASS='e1'>35.Qxg7</a>
+ <a href="javascript:g0(5,20)" id='0' CLASS='e1'>Ke6</a>
+ holder vel heller ikke!] <B><BR><BR>
+<a href="javascript:g0(67,0)" id='0' CLASS='e0'>34.Qe7+</a>
+ <a href="javascript:g0(68,0)" id='0' CLASS='e0'>Kd4</a>
+ <a href="javascript:g0(69,0)" id='0' CLASS='e0'>35.Rd6+</a>
+ <a href="javascript:g0(70,0)" id='0' CLASS='e0'>Nd5</a>
+ <a href="javascript:g0(71,0)" id='0' CLASS='e0'>36.Rxd5+</a>
+ 1-0</B></P>
+<BR><BR></CENTER>
+<script>
+<!--
+if ( parent.loaded >= 1 ) parent.frames[0].Start( parent.frames[1].m0, parent.frames[1].n0); else parent.loaded++;
+//-->
+</script>
+</BODY></HTML>
