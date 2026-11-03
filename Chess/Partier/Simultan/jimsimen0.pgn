@@ -1,0 +1,40 @@
+[Event "Simultan"]
+[Site "?"]
+[Date "2001.10.13"]
+[Round "?"]
+[White "Steedman, James"]
+[Black "Agdestein, Simen"]
+[Result "0-1"]
+[ECO "A57"]
+[PlyCount "76"]
+[EventDate "2001.10.13"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. f3 bxc4 5. e4 Qa5+ $2 6. Bd2 Qb6 7. Na3 Ba6 (
+7... Qxb2 8. Nxc4 $18) 8. Bc3 e6 (8... d6) 9. Bxc4 (9. Nxc4) 9... exd5 10. e5
+$2 (10. exd5 Be7 11. Qe2 $16) (10. Bxd5 Nxd5 11. Qxd5 Bb7 (11... Qc6 12. O-O-O
+$14) 12. Qe5+ $14) 10... dxc4 (10... d4 11. exf6 dxc3 12. Qe2+ Kd8 13. bxc3
+Qxf6 $15) 11. exf6 gxf6 12. Ne2 Bd6 (12... Bb7 13. Nxc4 (13. O-O d5) 13... Qe6
+14. Na5 Ba6 15. Kf2 Bh6 16. Bd2 Bxe2 $13) 13. Qd5 (13. Bxf6 Bg3+ (13... Rg8)
+14. hxg3 Qxf6 15. Qd5 Nc6 16. O-O-O $11) 13... Qc6 14. Qf5 Rg8 (14... Be7 15.
+Nf4 $16) 15. Bxf6 (15. O-O Rg6) 15... Rxg2 16. Nc3 Rg6 (16... Be7 17. Bxe7 Kxe7
+18. Nd5+ Kd8 19. O-O-O Qg6 $11) 17. Nd5 (17. O-O-O $14) 17... c3 18. Bxc3 (18.
+O-O-O cxb2+ 19. Bxb2 Kf8 20. Qh5 c4 21. Qxh7 c3 22. Qh8+ Rg8 23. Qh6+ Rg7 $11 (
+23... Ke8 24. Rhe1+ Kd8 25. Qf6+ Kc8 26. Nxc3 $14)) 18... Qa4 (18... Re6+ 19.
+Kf2 Re2+ 20. Kg1 Be5 21. Rd1 Bxc3 22. Nxc3 Qe6 23. Qxe6+ fxe6 24. Nxe2 Bxe2 $15
+) 19. Kd2 (19. Nf6+ Kd8 20. Ne4 $11) 19... Nc6 20. Rae1+ (20. Nf6+ Kf8 (20...
+Rxf6 21. Qxf6 Qf4+ 22. Kd1 Qxf6 23. Bxf6 Kf8 $11) 21. Nxh7+ Ke7 22. Rae1+ Kd8
+23. Re4 Rg2+ 24. Kc1 Nb4 25. Qf6+ Kc7 26. Bxb4 cxb4 27. Rd1 Qc6+ 28. Nc4 Bxc4
+29. Rxd6 Rg1+ 30. Rd1 Be6+ 31. Kd2 Rg2+ 32. Ke3 Qb6+ 33. Kf4 Rxh2 34. Qe7 Rxh7
+35. Rxe6 Rh4+ 36. Qxh4 $17) 20... Kf8 21. Re4 Nd4 22. Qh5 Bb7 (22... Rb8 23.
+Rg1 Kg7 $11) (22... f5 23. Qxf5+ Nxf5 24. Rxa4 Rg2+ 25. Kc1 Bb7 $17) 23. Rhe1 (
+23. Qxh7 Rg2+ 24. Ke1 Qa6 (24... f5 25. Bxd4 fxe4 26. Qf5+ Ke8 27. Qh5+ Kf8 28.
+fxe4 Qxd4 29. Rf1+ Kg8 30. Nf6+ $18) 25. Qh8+ Rg8 26. Qh6+ Rg7 $11) 23... Nxf3+
+$2 (23... Bxd5 24. Qxd5 Qc6 25. Qxc6 Nxc6 $17) (23... Re6 24. Bxd4 cxd4 25.
+Rxe6 Bb4+ 26. Ke2 dxe6 27. Qh6+ Ke8 28. Nc7+ Kd7 29. Nxa8 d3+ 30. Kf2 d2 $19)
+24. Kc1 Nxe1 $2 (24... Qxe4 25. Rxe4 Ng5 $11 {fulgt av Bxd5}) 25. Rxa4 $18 Re8
+26. Nf6 (26. Rxa7 Bc6 27. Qxh7 Bxd5 28. Qh8+ Ke7 29. Qh4+ f6 30. Qxe1+ $18) (
+26. Qxh7 Bxd5 27. Qh8+ Ke7 28. Qh4+ Kf8 29. Bxe1 Rg1 30. Nc2 $18) 26... Re6 27.
+Nxd7+ Ke8 28. Rxa7 (28. Nf6+ Rgxf6 29. Bxf6 $18) 28... Nd3+ 29. Kd2 Nf4 30.
+Qxg6 hxg6 31. Rxb7 Nd5 32. Nc4 Bxh2 33. Nxc5 Rc6 34. b4 Nxc3 35. Kxc3 g5 36.
+Kd3 g4 37. Rb6 $4 (37. Ke4) (37. a4) 37... Rxb6 38. Nxb6 g3 $19 0-1
+
