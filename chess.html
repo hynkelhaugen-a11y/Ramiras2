@@ -6,47 +6,68 @@
 <title>Ramiras Sjakk</title>
 
 <style>
-body{
-    font-family:Verdana,Arial,sans-serif;
-    background:#f5f5f5;
-    max-width:1200px;
-    margin:auto;
-    padding:20px;
+body {
+    font-family: Verdana, Arial, sans-serif;
+    background: #f5f5f5;
+    color: #222;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
 }
 
-header{
-    text-align:center;
-    margin-bottom:30px;
+header {
+    text-align: center;
+    margin-bottom: 40px;
 }
 
-.grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-    gap:20px;
+h1 {
+    color: #1c355e;
+    font-size: 3em;
 }
 
-.card{
-    background:white;
-    padding:20px;
-    border-radius:12px;
-    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+.subtitle {
+    font-size: 1.1em;
+    color: #666;
 }
 
-h1,h2{
-    color:#1c355e;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
 }
 
-a{
-    color:#204a87;
-    text-decoration:none;
-    font-weight:bold;
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
-a:hover{
-    text-decoration:underline;
+.card h2 {
+    margin-top: 0;
+    color: #1c355e;
+}
+
+.card p {
+    line-height: 1.5;
+}
+
+a {
+    color: #204a87;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #666;
 }
 </style>
-
 </head>
 
 <body>
@@ -55,8 +76,8 @@ a:hover{
 
 <h1>♟ Ramiras Sjakk</h1>
 
-<p>
-Sjakkhistorie, turneringer, postsjakk, partier og minner gjennom mange år.
+<p class="subtitle">
+Turneringer, postsjakk, klubbhistorie, partier og minner gjennom mange år.
 </p>
 
 </header>
@@ -64,14 +85,14 @@ Sjakkhistorie, turneringer, postsjakk, partier og minner gjennom mange år.
 <div class="grid">
 
 <div class="card">
-<h2>🏆 Turneringer</h2>
+<h2>🏆 Turneringsarkiv</h2>
 
 <p>
 Resultater, tabeller, bilder og rapporter fra turneringer.
 </p>
 
 <p>
-<a href="Turneringer/index.html">
+<a href="Chess/Turneringer/index.html">
 Åpne turneringsarkivet →
 </a>
 </p>
@@ -82,11 +103,11 @@ Resultater, tabeller, bilder og rapporter fra turneringer.
 <h2>✉️ Correspondence Chess</h2>
 
 <p>
-Postsjakk, ICCF-turneringer, nordiske mesterskap og historiske partier.
+ICCF-turneringer, nordiske mesterskap, landskamper og postsjakkpartier.
 </p>
 
 <p>
-<a href="Correspondence%20Chess/index.html">
+<a href="CorrespondenceChess/index.html">
 Åpne Correspondence Chess →
 </a>
 </p>
@@ -94,44 +115,72 @@ Postsjakk, ICCF-turneringer, nordiske mesterskap og historiske partier.
 </div>
 
 <div class="card">
-<h2>📖 Historie</h2>
+<h2>📖 Sjakkhistorie</h2>
 
-<ul>
-<li><a href="sjakkhistorie.htm">Min sjakkhistorie</a></li>
-<li><a href="Randaberg.htm">Randaberg Sjakklubb</a></li>
-<li><a href="PostChess.htm">Postsjakk-artikler</a></li>
-<li><a href="memorable_games.htm">Minneverdige partier</a></li>
-</ul>
+<p>
+Historier, minner og personlige opplevelser fra et langt sjakkliv.
+</p>
+
+<p>
+<a href="Chess/sjakkhistorie.htm">
+Les mer →
+</a>
+</p>
 
 </div>
 
 <div class="card">
-<h2>♞ Partier</h2>
+<h2>♜ Randaberg Sjakklubb</h2>
 
-<ul>
-<li><a href="Partier/">Partisamling</a></li>
-<li><a href="Best/">Beste partier</a></li>
-<li><a href="Mimring/">Mimring</a></li>
-</ul>
+<p>
+Klubbhistorie, turneringer og aktiviteter fra Randaberg SK.
+</p>
+
+<p>
+<a href="Chess/Randaberg.htm">
+Åpne klubbhistorien →
+</a>
+</p>
+
+</div>
+
+<div class="card">
+<h2>♞ Minneverdige partier</h2>
+
+<p>
+Et utvalg spennende, lærerike og historiske partier.
+</p>
+
+<p>
+<a href="Chess/memorable_games.htm">
+Se partiene →
+</a>
+</p>
+
+</div>
+
+<div class="card">
+<h2>📂 Historisk arkiv</h2>
+
+<p>
+Den opprinnelige Chess-strukturen med eldre sider og arkivmateriale.
+</p>
+
+<p>
+<a href="Chess/index.html">
+Åpne historisk arkiv →
+</a>
+</p>
 
 </div>
 
 </div>
 
-    <div class="card">
-    <h2>✉️ Correspondence Chess</h2>
+<footer>
 
-    <p>
-        ICCF-turneringer, nordiske mesterskap,
-        landskamper, analyser og historiske partier.
-    </p>
+<p>Ramiras Sjakkarkiv</p>
 
-    <p>
-        <a href="CorrespondenceChess/index.html">
-            Åpne Correspondence Chess →
-        </a>
-    </p>
-</div>
+</footer>
 
 </body>
 </html>
