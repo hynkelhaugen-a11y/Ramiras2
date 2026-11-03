@@ -1,0 +1,174 @@
+[Event "Gausdal Internationa"]
+[Site "?"]
+[Date "1993.??.??"]
+[Round "1"]
+[White "Gunnarson, Jon Viktor ISL"]
+[Black "Haugen, Arild"]
+[Result "1-0"]
+[ECO "C01"]
+[PlyCount "59"]
+[EventDate "1993.??.??"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. c4 Nf6 $6 5. Nc3 c6 6. Nf3 Bb4 7. Qc2 O-O 8.
+Bg5 Re8+ 9. Be2 dxc4 $2 (9... h6 10. Bh4 Nbd7 {og Sf8 og Sg6}) 10. O-O Bxc3 (
+10... Nbd7 11. Bxc4 Nb6 12. Bxf7+) 11. bxc3 b5 12. Ne5 h6 13. Bh4 Be6 14. f4
+Bd5 15. Bf3 Qd6 16. Bxf6 gxf6 (16... Qxf6 17. a4 Bxf3 18. Rxf3 Qd6 19. f5 f6
+20. Ng6 Nd7) 17. Ng4 Kg7 18. Bxd5 Qxd5 19. Rae1 Rxe1 (19... Nd7 20. Ne3 Qh5 21.
+Rf3) 20. Rxe1 Nd7 21. Ne3 Qh5 22. Nf5+ Kf8 (22... Kh8 23. Re3) 23. Qe4 Kg8 24.
+Qxc6 Qxf5 25. Qxa8+ Kg7 26. Qc8 h5 27. h3 h4 28. Re8 Qxf4 29. Rg8+ Kh7 30. Rg4
+1-0
+
+[Event "Gausdal Internationa"]
+[Site "?"]
+[Date "1993.??.??"]
+[Round "2"]
+[White "Haugen, Arild"]
+[Black "Stokstad, Petter Glenne"]
+[Result "0-1"]
+[ECO "B12"]
+[PlyCount "124"]
+[EventDate "1993.??.??"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Bd3 Bxd3 5. Qxd3 {cxd3! Svedenborg} 5... e6 6.
+f4 {Se2 og Le3} 6... Ne7 7. Nf3 Qa5+ 8. Bd2 Qa6 9. Qxa6 Nxa6 10. g4 $4 {?}
+10... h5 11. g5 (11. gxh5 Rxh5 12. Nc3 Nf5 13. Ne2 {Kf2 og Sg3}) 11... c5 12.
+c3 Nf5 13. Ke2 (13. g6 fxg6 14. Rg1 Ne7 15. Ng5 Kd7) 13... g6 14. a4 Kd7 15.
+Na3 Be7 16. Nc2 Rhc8 17. Rhc1 (17. Be3) (17. Rhd1) 17... Rc7 18. Rab1 (18. Be3)
+18... Rac8 19. Nce1 b6 20. Nd3 Nb8 21. Be1 (21. Be3) 21... Nc6 22. Bf2 cxd4 23.
+cxd4 (23. Bxd4 Ncxd4+ 24. Nxd4 Nxd4+ (24... Rc4) 25. cxd4 Rc2+ 26. Rxc2 Rxc2+
+27. Kf3 Rxh2 (27... Rc4) 28. Nf2 h4) 23... Na5 24. Rxc7+ Rxc7 25. Rc1 Rc4 26.
+Rxc4 dxc4 27. Nc1 a6 $2 {Kc6} 28. d5 exd5 29. Bxb6 Nb7 30. Nd4 (30. b3) 30...
+Nxd4+ 31. Bxd4 Nc5 32. a5 Ne6 33. Be3 (33. Ke3 Nxg5 34. fxg5 Bxg5+) 33... d4 (
+33... Bb4) 34. Bd2 Kc6 35. Kf3 Kd5 36. Na2 Nc7 37. Nb4+ (37. Bb4 $1 {
+offer paa a6}) 37... Bxb4 38. Bxb4 Ne6 39. h3 $3 {T} 39... Ng7 40. Be1 Ne8 41.
+Bb4 Nc7 42. Be7 Nb5 43. Bf6 c3 44. bxc3 dxc3 45. Ke3 Ke6 (45... Kc4 46. f5 gxf5
+47. e6) 46. Kd3 Kf5 47. e6 fxe6 48. Be5 h4 49. Bb8 c2 50. Kxc2 Ke4 51. Kb3 Kf3
+52. Kb4 Kg2 53. Kc5 Kxh3 54. Kb6 Nd4 55. Kxa6 (55. Be5 Nb3 56. Kxa6 Kg4 57. Kb6
+Nxa5 58. Kxa5 Kf5 59. Bd4 h3 60. Bg1 Kxf4 61. Bh2+) 55... Nc6 56. Bd6 Kg4 57.
+Kb6 Nxa5 58. Kxa5 Kf5 59. Bc5 Kxf4 60. Kb5 e5 61. Kc4 h3 62. Bg1 Kg3 0-1
+
+[Event "Gausdal Internationa"]
+[Site "?"]
+[Date "1993.??.??"]
+[Round "3"]
+[White "Hansen, Hans M"]
+[Black "Haugen, Arild"]
+[Result "1-0"]
+[ECO "C01"]
+[PlyCount "69"]
+[EventDate "1993.??.??"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 Bd6 5. h3 Be6 {Se7 og Lf5} 6. Qf3 c6 7.
+c3 Nd7 8. Ne2 Qf6 $4 9. Bf4 Bxf4 10. Nxf4 O-O-O 11. Nd2 g6 (11... g5 12. Nh5
+Qxf3 13. Nxf3 h6 14. Ng7 Ngf6 15. Nxe6 fxe6 16. O-O-O Rhf8 17. Rde1 Rde8 18.
+Ne5 Nxe5) (11... Bf5) 12. O-O-O Re8 13. Rhe1 Qd8 (13... h5 14. Nxe6 Rxe6 15.
+Rxe6) 14. Re2 Nh6 15. g4 Nf8 16. Rde1 Qd7 17. Nb3 b6 18. Ba6+ Kd8 (18... Kb8
+19. Nxe6 (19. Nd3) 19... Nxe6 20. Rxe6 Rxe6 21. Rxe6 Qxe6 22. Qf4+ Ka8 23. Qxh6
+Qe1+ 24. Kc2 Qxf2+ 25. Nd2 b5 26. Qg5 Re8 27. Bxb5 f6 28. Bxc6+ Kb8 29. Qxd5) (
+18... Kc7) 19. Nd3 (19. Nxe6+ Nxe6 20. Qg3) (19. Qg3 {vinner}) 19... f5 (19...
+f6 $4) 20. Ne5 Qc7 21. Qf4 Ng8 (21... Nf7) 22. Qg5+ Ne7 23. Qf6 Rg8 24. Nd3 (
+24. g5) 24... fxg4 25. Rxe6 Nxe6 26. Rxe6 Ref8 27. Rd6+ Ke8 28. Qe5 (28. Qe6
+gxh3 29. Ne5 h2 30. Rd7) 28... gxh3 29. Nb4 (29. Nf4 Rxf4 30. Qxf4 Rf8 31. Qh2
+Rxf2) 29... h2 30. Qxh2 Rf6 31. Nxd5 cxd5 $4 (31... Qxd6 32. Nxf6+ Qxf6 33.
+Qb8+ Kf7 34. Bc4+ Nd5) 32. Bb5+ Nc6 33. Bxc6+ Qxc6 34. Qe5+ Kf7 35. Qxf6+ 1-0
+
+[Event "Gausdal Internationa"]
+[Site "?"]
+[Date "1993.??.??"]
+[Round "4"]
+[White "Haugen, Arild"]
+[Black "Jensson, Einar Hjalti"]
+[Result "1/2-1/2"]
+[ECO "B34"]
+[PlyCount "53"]
+[EventDate "1993.??.??"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. Be3 Bg7 6. Nc3 d6 7. Bb5 Bd7 8.
+O-O Nf6 9. h3 O-O 10. f4 Nxd4 11. Bxd4 Nxe4 12. Bxg7 Kxg7 13. Qd4+ Nf6 14. Bxd7
+Qxd7 15. Ne4 Qc6 16. Nxf6 exf6 17. Rf2 Qc5 18. Rd1 Rfd8 19. Rfd2 Rac8 20. c3
+Qxd4+ 21. Rxd4 Rc6 22. c4 Kf8 23. b3 f5 24. Rd5 Ke7 25. Kf2 Kd7 26. Ra5 a6 27.
+Rad5 1/2-1/2
+
+[Event "Gausdal Internationa"]
+[Site "?"]
+[Date "1993.??.??"]
+[Round "5"]
+[White "Gvein, Kenneth"]
+[Black "Haugen, Arild"]
+[Result "1-0"]
+[ECO "A62"]
+[PlyCount "91"]
+[EventDate "1993.??.??"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. g3 g6 7. Bg2 Bg7 8. Nf3
+O-O 9. O-O a6 10. a4 Re8 11. Re1 Nh5 12. e4 f5 13. exf5 Bxf5 14. Ng5 {
+Svart burde ikke spilt f5 saatidlig paa grunn av svakhetenpaa og dernest svakh
+et paa d5hvis avslag pK e6.} 14... Nf6 15. Ne6 Bxe6 16. dxe6 Nc6 17. Bf4 Nd4
+18. Nd5 Nxd5 19. Bxd5 Qe7 20. Rb1 Rac8 21. h4 Bf6 22. a5 Kh8 23. Qd2 Nf5 24.
+Bg5 Bxg5 25. hxg5 Rc7 26. Kg2 Qg7 27. Re4 Rce7 28. Rbe1 Rf8 29. f4 Nd4 30. g4
+Rfe8 31. b4 Rc7 32. Rf1 Rf8 33. bxc5 dxc5 34. Re5 Rd8 35. Qe3 Nc2 36. Qe4 Nb4
+37. Rf2 Re7 38. Re2 Rd6 39. Qc4 Nxd5 40. Rxd5 Rxd5 41. Qxd5 Qd4 42. Qxd4+ cxd4
+43. f5 Re8 44. f6 d3 45. f7 Rc8 46. e7 1-0
+
+[Event "Gausdal Internationa"]
+[Site "?"]
+[Date "1993.??.??"]
+[Round "6"]
+[White "Hoyer Berg, Anders"]
+[Black "Haugen, Arild"]
+[Result "1-0"]
+[ECO "C07"]
+[PlyCount "77"]
+[EventDate "1993.??.??"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. exd5 Qxd5 5. Ngf3 cxd4 6. Bc4 Qd6 7. O-O Nf6 8.
+Nb3 Nc6 9. Nbxd4 Nxd4 10. Qxd4 a6 11. Bf4 Qxd4 12. Nxd4 b5 13. Be2 Bb7 14. Rfd1
+Bc5 15. c3 O-O 16. a4 Bxd4 17. Rxd4 Nd5 18. Bg3 e5 19. Rd2 e4 20. Rad1 Nf6 21.
+axb5 axb5 22. Bxb5 Ba6 23. Bxa6 Rxa6 24. c4 Rfa8 25. Rd8+ Ne8 26. Rxa8 Rxa8 27.
+Kf1 f5 28. b4 Ra4 29. Rb1 Nf6 30. b5 g5 31. Bd6 Rxc4 32. b6 Nd7 33. b7 Kf7 34.
+g3 g4 35. b8=Q Nxb8 36. Bxb8 Rc5 37. Be5 Ra5 38. Kg2 Ra6 39. Rb5 1-0
+
+[Event "Gausdal internationa"]
+[Site "?"]
+[Date "1993.??.??"]
+[Round "7"]
+[White "Haugen, Arild"]
+[Black "Knutsson, Larus ISL"]
+[Result "0-1"]
+[ECO "C45"]
+[PlyCount "64"]
+[EventDate "1993.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Qh4 5. Nc3 Bb4 6. Be2 Qxe4 7. Ndb5 Bxc3+
+8. bxc3 Kd8 9. O-O a6 10. Nd4 (10. Bg5+ f6) 10... Nxd4 11. cxd4 d6 12. Bf3 (12.
+Re1 $3) 12... Qf5 13. c4 Nf6 14. Re1 $2 (14. d5 $1 {og c5}) 14... g5 $1 (14...
+Re8) 15. h3 $4 h5 16. g4 hxg4 17. hxg4 Qg6 (17... Nxg4 18. Bxg4 Qxg4+ 19. Qxg4
+Bxg4 20. Bxg5+ Kc8 $1) 18. Qe2 Re8 (18... Be6 19. d5 Nxg4) 19. Be3 c6 20. a4
+Kc7 21. a5 Nd7 $4 (21... Ne4) 22. c5 d5 23. Bf4+ gxf4 24. Qxe8 Qd3 25. Kg2 Qxd4
+26. Qxf7 (26. Red1 Qxc5 27. Rac1 Qxa5 28. Bxd5 Kb8 29. Bxf7 {vinner}) 26... Kb8
+27. Rad1 Qb4 28. Bxd5 (28. Re8 Ka7 29. Rh1) (28. g5) 28... cxd5 29. c6 Nc5 30.
+Rb1 f3+ 31. Kh2 (31. Qxf3 Qxg4+ 32. Qxg4 Bxg4 33. Rec1 Kc7 (33... Ne6 34. Rxb7+
+Kc8 35. Rh1 Bf5 36. Rh8+ Nd8 37. Rf7 Be4+ 38. Kg3 Rb8) 34. cxb7 Rb8) 31... Qxg4
+32. Qh7 Qg2# 0-1
+
+[Event "Gausdal Internationa"]
+[Site "?"]
+[Date "1993.??.??"]
+[Round "8"]
+[White "Haugen, Arild"]
+[Black "Sparreboom, Will"]
+[Result "0-1"]
+[ECO "C10"]
+[PlyCount "102"]
+[EventDate "1993.??.??"]
+
+1. e4 e6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bd7 {
+Jfr.partiet Hellers-Anderssoni en privatkamp 1993.} 5. Bd3 Bc6 6. c3 Nd7 7. Nf3
+Bxe4 8. Bxe4 c6 9. O-O Ngf6 10. Bd3 Bd6 11. Re1 Qc7 12. h3 h6 13. Qe2 O-O-O 14.
+Be3 Nd5 15. a3 Nxe3 16. fxe3 g5 17. e4 Bg3 18. Rf1 f6 19. Kh1 h5 20. c4 Nf8 21.
+d5 Ng6 22. Nd4 Nf4 23. Rxf4 Qxf4 24. Nxe6 Qh4 25. Nxd8 Rxd8 26. c5 Be5 27. Rd1
+Qg3 28. Kg1 g4 29. Qf2 Qh2+ 30. Kf1 gxh3 31. Qf5+ Kb8 32. Qxh3 Qxh3 33. gxh3
+cxd5 34. Be2 Bxb2 35. Rd3 d4 36. c6 bxc6 37. Rb3+ Kc7 38. Rxb2 c5 39. Rb5 Kd6
+40. Ra5 Rc8 41. Bc4 Ke5 42. Bd5 Rc7 43. Ra6 d3 44. Re6+ Kd4 45. Rxf6 c4 46. Rc6
+Rxc6 47. Bxc6 c3 48. Ke1 Ke3 49. Kd1 c2+ 50. Kc1 d2+ 51. Kxc2 Ke2 0-1
+
