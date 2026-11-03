@@ -1,0 +1,216 @@
+/* RAMIRAS 2.0 */
+
+body{
+    margin:0;
+    font-family:Verdana, Arial, sans-serif;
+    background:#f5f5f5;
+    color:#222;
+    line-height:1.6;
+}
+
+header{
+    background:#1c355e;
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+header h1{
+    margin:0;
+    font-size:3em;
+}
+
+header p{
+    margin:10px 0 0 0;
+}
+
+nav{
+    background:#355f92;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 12px;
+    padding:8px 12px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    background:white;
+    color:#355f92;
+    border-radius:4px;
+}
+
+main{
+    max-width:1100px;
+    margin:auto;
+    padding:25px;
+}
+
+.section{
+    background:white;
+    padding:25px;
+    margin-bottom:20px;
+    border-radius:8px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.section h2{
+    color:#1c355e;
+    margin-top:0;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.card h2{
+    margin-top:0;
+    color:#1c355e;
+}
+
+a{
+    color:#355f92;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+ul{
+    line-height:1.8;
+}
+
+footer{
+    background:#1c355e;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+.back{
+    text-align:center;
+    margin-top:25px;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+/* Mobilmeny */
+
+@media (max-width: 768px){
+
+    nav{
+        display:flex;
+        flex-direction:column;
+        padding:10px;
+    }
+
+    nav a{
+        display:block;
+        margin:4px 0;
+        padding:12px;
+        border-radius:6px;
+    }
+
+    header h1{
+        font-size:2em;
+    }
+
+    .cards{
+        grid-template-columns:1fr;
+    }
+
+}
+/* ===== GENERELT ===== */
+
+body {
+    font-family: Segoe UI, Arial, sans-serif;
+}
+
+/* ===== MENY ===== */
+
+/* menykode */
+
+/* ===== FORSIDE ===== */
+
+.hero {
+    background:#0d2b45;
+    color:white;
+    padding:80px 20px;
+    text-align:center;
+}
+
+.cards {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    padding:40px;
+}
+
+/* ===== SLEKTSTRE ===== */
+
+.family-tree {
+    max-width:1200px;
+    margin:auto;
+    padding:20px;
+}
+<section class="family-tree">
+
+    <h2>Slektstre</h2>
+
+    <ul>
+        <li>
+            <div class="person">Anders Johan Haugen<br>1897-1975</div>
+            <div class="person">Ragnhild Henriette Pedersen<br>1899-1981</div>
+
+            <ul>
+                <li>
+                    <div class="person highlight">
+                        Nils Haugen<br>1926-2018
+                    </div>
+
+                    <div class="spouse">
+                        Anne Irene Hiim<br>1929-2024
+                    </div>
+
+                    <ul>
+                        <li>
+                            <div class="person central">
+                                Arild Haugen
+                            </div>
+                        </li>
+                    </ul>
+
+                </li>
+            </ul>
+
+        </li>
+    </ul>
+
+    <div class="maternal">
+        <div class="person">
+            Hans Emil Hiim<br>1904-1980
+        </div>
+
+        <div class="person">
+            Inger Gurine Henriksen<br>1902-1976
+        </div>
+    </div>
+
+</section>

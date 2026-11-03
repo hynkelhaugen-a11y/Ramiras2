@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Genealogi | Ramiras2</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f8;
+    color: #333;
+}
+
+header {
+    background: #1d3557;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+nav {
+    background: #457b9d;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.family-tree {
+    text-align: center;
+    background: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 20px;
+}
+
+.person-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    transition: transform .2s;
+}
+
+.person-card:hover {
+    transform: translateY(-4px);
+}
+
+.person-card h3 {
+    color: #1d3557;
+    margin-top: 0;
+}
+
+.role {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.birth {
+    color: #2a9d8f;
+}
+
+.death {
+    color: #c1121f;
+}
+
+footer {
+    background: #1d3557;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 40px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Familien Haugen og Hiim</h1>
+    <p>Et slektsoversikt fra Stavanger og Ryfylke</p>
+</header>
+
+<nav>
+    <a href="index.html">Hjem</a>
+    <a href="chess.html">Sjakk</a>
+    <a href="music.html">Musikk</a>
+    <a href="genealogy.html">Genealogi</a>
+    <a href="travel.html">Reiser</a>
+</nav>
+
+<div class="container">
+
+<div class="family-tree">
+<h2>Slektslinje</h2>
+
+<pre>
+Anders Johan Haugen ── Ragnhild Henriette Pedersen
+                         │
+                    Nils Haugen ── Anne Irene Hiim
+                                   │
+                              Arild Haugen
+                                   │
+               Hans Emil Hiim ── Inger Gurine Henriksen
+</pre>
+
+</div>
+
+<h2>Nærmeste familie</h2>
+
+<div class="cards">
+
+<div class="person-card">
+<h3>Nils Haugen</h3>
+<p class="role">Far</p>
+<p class="birth">Født: 13. februar 1926, Stavanger</p>
+<p>Gift med Anne Irene Hiim 7. juli 1951.</p>
+<p class="death">Død: 23. januar 2018</p>
+<p>Gravferd fra Eiganes kapell 2. februar 2018.</p>
+</div>
+
+<div class="person-card">
+<h3>Anne Irene Hiim</h3>
+<p class="role">Mor</p>
+<p class="birth">Født: 21. februar 1929, Stavanger</p>
+<p>Gift med Nils Haugen 7. juli 1951.</p>
+<p class="death">Død: 14. august 2024</p>
+<p>Gravferd fra Eiganes kapell 27. august 2024.</p>
+</div>
+
+<div class="person-card">
+<h3>Anders Johan Haugen</h3>
+<p class="role">Farfar</p>
+<p class="birth">Født: 1897</p>
+<p>Sønn av Johannes Olai Andersen og Anna Nilsdatter Hauge.</p>
+<p class="death">Død: 5. juni 1975</p>
+<p>Gravlagt ved Eiganes gravlund.</p>
+</div>
+
+<div class="person-card">
+<h3>Ragnhild Henriette Pedersen</h3>
+<p class="role">Farmor</p>
+<p class="birth">Født: 17. mai 1899</p>
+<p>Datter av John Pedersen Dusevig og Severine Helgesdatter Odland.</p>
+<p class="death">Død: 13. januar 1981</p>
+<p>Gravlagt ved Eiganes gravlund.</p>
+</div>
+
+<div class="person-card">
+<h3>Hans Emil Hiim</h3>
+<p class="role">Morfar</p>
+<p class="birth">Født: 30. september 1904, Hiimsmoen, Sand</p>
+<p class="death">Død: 31. mai 1980</p>
+<p>Gravlagt ved Eiganes gravlund.</p>
+</div>
+
+<div class="person-card">
+<h3>Inger Gurine Henriksen</
