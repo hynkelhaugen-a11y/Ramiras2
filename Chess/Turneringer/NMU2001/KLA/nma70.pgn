@@ -1,0 +1,259 @@
+[Event "NMu:A"]
+[Site "?"]
+[Date "2001.11.25"]
+[Round "7"]
+[White "Stava, Sissel S"]
+[Black "Øgaard, Henning"]
+[Result "1-0"]
+[ECO "D02"]
+[Annotator "Arild Haugen"]
+[PlyCount "39"]
+[EventDate "2001.??.??"]
+
+1. d4 d5 2. Nf3 Nf6 3. Bf4 e6 4. e3 c5 5. c4 Nc6 6. Nc3 Be7 7. Bd3 b6 8. O-O
+Bb7 9. Nb5 Rc8 (9... O-O) 10. Ne5 a6 11. Nxc6 Bxc6 12. Na7 Rc7 13. Bxc7 Qxc7
+14. Nxc6 Qxc6 15. cxd5 exd5 16. dxc5 bxc5 17. Re1 h5 18. Qe2 g5 19. Bxa6 h4 20.
+Bb5 1-0
+
+[Event "NMu:A"]
+[Site "?"]
+[Date "2001.11.25"]
+[Round "7"]
+[White "Carlsen, Magnus"]
+[Black "Reppen, Sigmund"]
+[Result "1-0"]
+[ECO "A17"]
+[Annotator "Arild Haugen"]
+[PlyCount "79"]
+[EventDate "2001.??.??"]
+
+1. Nf3 Nf6 2. c4 e6 3. Nc3 Nc6 4. d4 d5 5. Bg5 Be7 6. e3 O-O 7. Rc1 b6 8. Bd3
+Nb4 9. Be2 c5 10. dxc5 Bxc5 11. a3 Nc6 12. Bxf6 Qxf6 13. cxd5 exd5 14. Nxd5 Qd8
+(14... Qxb2 $1 15. Rb1 Qxa3 16. Ra1 Bb4+ 17. Kf1 Qb2 18. Rb1 $11) 15. b4 Ne7
+16. bxc5 Qxd5 17. Qxd5 Nxd5 18. O-O bxc5 19. Rxc5 Nf6 20. Nd4 Ne4 21. Rc7 Be6
+22. Rfc1 Bd5 23. f3 Nf6 24. e4 Ba2 25. R1c2 Be6 26. Nxe6 fxe6 27. Re7 Rfe8 28.
+Rcc7 g6 29. Rg7+ Kh8 30. Rxa7 Rxa7 31. Rxa7 Kg8 32. Bb5 Rc8 33. a4 h5 34. a5 g5
+35. a6 g4 36. Rb7 gxf3 37. gxf3 Rc1+ 38. Bf1 Ra1 39. a7 Ne8 40. Rb8 1-0
+
+[Event "NMu:A"]
+[Site "?"]
+[Date "2001.11.25"]
+[Round "7"]
+[White "Nordahl, Odd"]
+[Black "Borchenvik, Harald"]
+[Result "0-1"]
+[ECO "B20"]
+[Annotator "Arild Haugen"]
+[PlyCount "60"]
+
+1. e4 c5 2. b4 cxb4 3. a3 bxa3 4. d4 {Dette kan vel ikke vare sunt?} 4... d5 5.
+e5 Bf5 6. Bxa3 e6 7. Bxf8 Kxf8 8. Nc3 Nc6 9. Nb5 Nge7 10. Be2 Be4 11. f3 Bg6
+12. h4 Nf5 13. Kf2 h5 14. Bd3 Qb6 15. Bxf5 Bxf5 16. Rb1 Nxe5 17. Na3 Qa5 18.
+dxe5 Qxa3 19. Rxb7 Qc5+ 20. Kg3 Rh6 21. Qb1 Rg6+ 22. Kh2 Kg8 23. Qe1 Rc8 24.
+Ne2 Qe3 25. Rg1 Rxc2 26. Ng3 Qf4 27. Rb4 d4 28. Rf1 Qxh4+ 29. Kg1 Rxg3 30. Rf2
+Rxg2+ 0-1
+
+[Event "NMu:A"]
+[Site "?"]
+[Date "2001.11.25"]
+[Round "7"]
+[White "Fatah, Sirwan M"]
+[Black "Kjernlie, Ole Ivar"]
+[Result "1-0"]
+[ECO "B00"]
+[PlyCount "85"]
+
+1. e4 Nc6 2. d4 d5 3. Bb5 dxe4 4. Nc3 Bd7 5. Bxc6 Bxc6 6. d5 Bd7 7. Nxe4 e6 8.
+Nf3 exd5 9. Qxd5 Bc6 10. Qxd8+ Rxd8 11. Ned2 Bd6 12. O-O Ne7 13. c3 O-O 14. Nd4
+Bd5 15. c4 Bc6 16. Nxc6 Nxc6 17. Nf3 Rfe8 18. Be3 Ne5 19. Nxe5 Bxe5 20. g3 b6
+21. Rab1 Bd4 22. Bxd4 Rxd4 23. Rfe1 Red8 24. b3 g6 25. Re2 Rd1+ 26. Rxd1 Rxd1+
+27. Kg2 Rd7 28. f4 Kg7 29. Kf3 h5 30. Ke3 Re7+ 31. Kd3 Rxe2 32. Kxe2 Kf6 33.
+Ke3 Ke6 34. h3 f5 35. b4 a5 36. bxa5 bxa5 37. Kd4 Kd6 38. c5+ Kc6 39. a4 Kd7
+40. Kd5 c6+ 41. Ke5 Ke7 42. h4 Kd7 43. Kf6 1-0
+
+[Event "NMU:A"]
+[Site "?"]
+[Date "2001.11.25"]
+[Round "7"]
+[White "Lie, Kjetil A"]
+[Black "Lie, Espen"]
+[Result "1-0"]
+[ECO "A13"]
+[Annotator "Arild Haugen"]
+[PlyCount "61"]
+[EventDate "2001.11.24"]
+
+1. c4 e6 2. g3 d5 3. Bg2 c6 4. Nf3 Nf6 5. O-O Be7 6. Qc2 O-O 7. b3 b6 8. Bb2 h6
+9. d3 Bb7 10. e4 Na6 11. a3 Rc8 12. Nbd2 Nd7 13. b4 Qc7 14. Rfe1 Bf6 15. e5 Be7
+16. Rac1 Rfd8 17. Qd1 dxc4 18. dxc4 Nf8 19. Qe2 c5 20. b5 Nb8 21. Ne4 Rd7 22.
+Qe3 Bxe4 23. Qxe4 Rcd8 24. Bc3 f5 25. exf6 {Her gar det galt!#} 25... gxf6 $2 (
+25... Bxf6 26. Ne5 Rd6 27. f4 $14) 26. Qg4+ Kh7 27. Qh5 Ng6 28. Ng5+ fxg5 29.
+Rxe6 Rd1+ 30. Rxd1 Rxd1+ 31. Qxd1 1-0
+
+[Event "NMU:A"]
+[Site "?"]
+[Date "2001.11.25"]
+[Round "7"]
+[White "Snarheim, Synnøve"]
+[Black "Vea, Odin Blikra"]
+[Result "0-1"]
+[ECO "B02"]
+[PlyCount "72"]
+[EventDate "2001.11.24"]
+
+1. e4 Nf6 2. Nc3 d5 3. exd5 Nxd5 4. Nf3 Nxc3 5. bxc3 Bg4 6. Be2 e6 7. d4 Bd6 8.
+Be3 Nd7 9. Rb1 b6 10. O-O O-O 11. Qd3 Bf5 12. Qd2 c5 13. Nh4 Be4 14. Nf3 Qc7
+15. h3 f5 16. Bg5 f4 17. dxc5 Nxc5 18. Rfd1 Be7 19. Bxe7 Qxe7 20. Rb4 e5 21.
+Bc4+ $2 (21. Rxe4 Nxe4 22. Qd5+ $18) 21... Kh8 22. Qe2 Rad8 23. Re1 Bxf3 24.
+Qxf3 e4 25. Qg4 Rf6 26. Bb5 f3 27. g3 Rg6 28. Qf4 Rf8 29. Qd2 Qe6 30. Kh2 Rh6
+31. h4 Qg4 32. Bd7 $2 (32. Bf1) 32... Nxd7 33. Rbxe4 Rxh4+ 34. Kg1 Rh1+ 35.
+Kxh1 Qh3+ 36. Kg1 Qg2# 0-1
+
+[Event "NMU:A"]
+[Site "?"]
+[Date "2001.11.25"]
+[Round "7"]
+[White "Sterk, Michel"]
+[Black "Bae, Torstein"]
+[Result "0-1"]
+[ECO "D82"]
+[Annotator "Arild Haugen"]
+[PlyCount "56"]
+[EventDate "2001.11.24"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bf4 Bg7 5. e3 c5 6. dxc5 Qa5 7. Qa4+ Qxa4 8.
+Nxa4 Bd7 9. Nc3 Ne4 10. Nxe4 $6 (10. Nxd5 Na6 11. f3 $14) 10... dxe4 11. Bxb8
+Bxb2 12. Rb1 Bc3+ 13. Ke2 Rxb8 14. Rb3 Bg7 15. f4 e6 16. Kf2 Bf8 17. Ne2 Bxc5
+18. Nc3 Bc6 19. Be2 Ke7 20. Rhb1 h6 21. g3 a5 22. Nb5 Rhd8 23. Rd1 Rxd1 24.
+Bxd1 Rd8 25. Be2 Rd2 26. Nc3 f5 27. Ke1 Bxe3 28. Nb1 Rc2 0-1
+
+[Event "NMU:A"]
+[Site "?"]
+[Date "2001.11.25"]
+[Round "7"]
+[White "Berstad, Jørund"]
+[Black "Lund, Frode Ryan"]
+[Result "1-0"]
+[ECO "B01"]
+[Annotator "Arild Haugen"]
+[PlyCount "83"]
+[EventDate "2001.11.24"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 Nf6 5. Nf3 Bf5 6. Bd2 c6 7. Bc4 e6 8. a3
+Nbd7 9. b4 Qc7 10. b5 Nb6 11. Bb3 c5 12. dxc5 Bxc5 13. h3 O-O 14. Nh4 Be4 (
+14... Bd4 $19) 15. O-O Bd4 16. Nxe4 Bxa1 17. Qxa1 Nxe4 18. Bb4 Rfd8 19. Re1 Qf4
+20. Nf3 Nd5 21. Qd4 Nxb4 (21... Ndc3 $19) 22. Qxb4 Qf5 (22... f5 $15) 23. Qxe4
+Qxb5 24. Ne5 Rf8 25. Nxf7 Rxf7 26. Bxe6 Raf8 27. Bxf7+ Rxf7 28. Qe8+ Qxe8 29.
+Rxe8+ Rf8 30. Re7 Rf7 31. Re8+ Rf8 32. Rxf8+ Kxf8 33. f4 Ke7 34. Kf2 Ke6 35.
+Ke3 Kd5 36. g4 b5 37. h4 a5 38. Kf3 h6 39. h5 b4 40. axb4 axb4 41. g5 Ke6 42.
+Ke4 1-0
+
+[Event "NMu:A"]
+[Site "?"]
+[Date "2001.11.25"]
+[Round "7"]
+[White "Lutken, Chris"]
+[Black "Hansen, Victor"]
+[Result "0-1"]
+[ECO "A11"]
+[Annotator "Arild Haugen"]
+[PlyCount "120"]
+
+1. c4 c6 2. Nc3 d5 3. e3 Nf6 4. Nf3 g6 5. b3 Bg7 6. Bb2 O-O 7. d4 Nbd7 8. Bd3
+Re8 9. cxd5 Nxd5 10. Nxd5 cxd5 11. O-O Nf6 12. Ne5 a6 13. Qe2 Bf5 14. Bxf5 gxf5
+15. f3 Nd7 16. Qd3 e6 17. Rfc1 Nb6 18. Qd2 Qd6 19. Nd3 Rec8 20. a4 Qd8 21. Nc5
+Rab8 22. Rc2 Nd7 23. Rac1 Nxc5 24. Rxc5 Rxc5 25. Rxc5 $11 Bf8 26. Rc2 Rc8 27.
+Rxc8 Qxc8 28. e4 fxe4 29. fxe4 h6 30. e5 Qd8 31. Bc1 Qh4 32. Qe3 Qg4 33. Qd3
+Bg7 34. h3 $11 Qh4 35. Be3 Qe1+ 36. Kh2 Qb4 37. Qc2 Bf8 38. Qc8 Qxb3 $6 (38...
+Kg7 $11) 39. Bxh6 Qb4 40. Bxf8 Qxf8 41. Qxb7 Qh6 42. Qb3 Kf8 43. Qd3 Qf4+ 44.
+Kg1 Qc1+ 45. Kf2 Qa1 {Dette skulle vel hvit kunne holde?#} 46. Kg3 $6 Qxa4 47.
+Kh4 a5 48. g4 Qb4 49. Kh5 a4 50. Qc2 Qxd4 51. g5 Qc4 52. Qh7 Qe2+ 53. Kh6 Qe4
+54. Qh8+ Ke7 55. Qf6+ Ke8 56. Qh8+ Kd7 57. Qf6 Qf5 58. Qxf5 exf5 59. Kg7 Ke6
+60. h4 a3 0-1
+
+[Event "NMU:A"]
+[Site "?"]
+[Date "2001.11.25"]
+[Round "7"]
+[White "Hersvik, Daniel"]
+[Black "Berg-Jensen, Joachim"]
+[Result "1-0"]
+[ECO "A08"]
+[WhiteElo "2245"]
+[BlackElo "2134"]
+[Annotator "Arild Haugen"]
+[PlyCount "136"]
+
+1. e4 e6 2. d3 d5 3. Nd2 c5 4. Ngf3 Nc6 5. g3 Nf6 6. Bg2 Be7 7. O-O O-O 8. Re1
+Re8 9. e5 Nd7 10. Nf1 a5 11. h4 Nf8 12. N1h2 a4 13. a3 b5 14. h5 b4 15. Ng4
+bxa3 16. Rxa3 Nd4 17. h6 g6 18. Nh4 (18. c3 $5) 18... Bd7 19. c3 Nb5 20. Ra2 a3
+21. c4 axb2 22. Rxb2 Nc3 23. Qd2 Na4 24. Rb7 Qc8 (24... Bc6) 25. Qf4 $5 {
+Et meget spennende trekk! I kjent stil er ikke Hersvik sa noye med a telle
+brikker sa lenge han far til et skikkeligangrep!#} 25... Qxb7 26. Nf6+ Kh8 27.
+Nxd5 $1 {Dette er ikke helt uten komplikasjoner, men det var vel ingen bedre
+alternativer!} 27... exd5 28. Qxf7 Ne6 {Veiskille.#} 29. Bxd5 (29. cxd5 Rf8 (
+29... Qb4 30. Re4 Qc3 31. dxe6 Qxc1+ 32. Kh2 Qxh6 33. exd7 $18) 30. Qxe7 Rae8
+31. dxe6 Rxe7 (31... Qxg2+ 32. Nxg2 Rxe7 33. exd7 Rxd7 34. Nf4 $40)) 29... Bc6
+30. Bxe6 Bd8 (30... Bxh4 $1 31. gxh4 Qxf7 32. Bxf7 Rf8 33. Bd5 (33. e6) 33...
+Bxd5 34. cxd5 Rf3 35. Be3 Nb2 36. e6 Nxd3 37. Rd1 c4 38. d6 Kg8 39. d7 Rxe3 40.
+fxe3 Kf8 41. Rf1+ Ke7 42. Rf7+ Kxe6 43. Rxh7 Rd8 44. Rg7 Kf6 $19) 31. Qxb7 (31.
+Nxg6+ $2 hxg6 32. Qxg6 Qh7 $19) 31... Bxb7 32. Bf7 Rf8 33. e6 Bf6 34. e7 Rfc8 (
+34... Rfe8 35. Bf4 g5 36. Re6 Nc3 37. Kh2 gxf4 38. Bxe8 fxg3+ 39. fxg3 Bxh4 40.
+Bd7 Bxe7 41. Rxe7 $11) 35. e8=Q+ Rxe8 36. Bxe8 Kg8 37. Bd7 Nb2 38. Be6+ Kf8 39.
+Bxb2 Bxb2 40. Rb1 Bc6 41. Ng2 Bd4 42. Nf4 (42. Bd5 Bxd5 43. cxd5 $40) 42... Ra2
+43. Rf1 Rd2 44. Bh3 Kf7 45. Ne6 Kf6 46. Nxd4 cxd4 47. Ra1 Kg5 48. Bf1 Kxh6 49.
+Ra6 Bf3 50. Rf6 Bb7 51. Rf4 Rd1 52. f3 g5 53. Rf7 (53. Rxd4 Bxf3 54. Kf2 g4)
+53... Bc8 54. Kf2 Kg6 55. Rc7 Bf5 56. Rc6+ Kf7 57. Be2 Rh1 58. g4 Bg6 59. Rd6
+Rh2+ 60. Ke1 Rh1+ 61. Kd2 h5 62. gxh5 Bxh5 63. Rxd4 Ke6 64. c5 Rh3 65. c6 Bxf3
+66. Bxf3 Rxf3 67. c7 Rf2+ 68. Ke3 Rf1 1-0
+
+[Event "NMU:A"]
+[Site "?"]
+[Date "2001.11.25"]
+[Round "7"]
+[White "Østtveit, Martin"]
+[Black "Bjerke, Silje"]
+[Result "0-1"]
+[ECO "A00"]
+[Annotator "Arild Haugen"]
+[PlyCount "114"]
+
+1. g3 d5 2. Bg2 Nf6 3. d3 e5 4. Nf3 Bd6 5. O-O O-O 6. Nbd2 c6 7. e4 Re8 8. Qe2
+Bg4 9. h3 Bh5 10. Rd1 Nbd7 11. c3 Qc7 12. Nf1 Nc5 13. N1d2 Rad8 14. b4 Na4 15.
+Nb1 a5 16. a3 b5 17. Ra2 dxe4 18. dxe4 Bxf3 (18... Nxe4 19. Qxe4 Bg6 20. Qe1
+Bxb1 21. Re2 $15) 19. Qxf3 c5 20. Bf1 c4 21. Bg5 Be7 22. Bxf6 Bxf6 23. Rad2
+Rxd2 24. Rxd2 Rd8 25. Rd5 axb4 26. axb4 Qb6 27. Be2 h6 28. Bd1 Qa6 29. Bc2 Nb6
+30. Rxd8+ Bxd8 31. Qd1 Bc7 32. Qc1 Qb7 33. Nd2 Nd7 34. Nf1 Nf6 35. Qd1 Qc6 36.
+Ne3 Qe6 37. Kg2 Kh7 38. Nf5 g6 39. Ne3 Qc6 40. Qf3 Kg7 41. g4 Bb6 42. Nf1 Qd7
+43. Qe2 Ba7 44. Nh2 Bb6 45. Nf3 Qe6 46. Nd2 Qd7 47. Nf1 Qe6 48. Ng3 Qd7 49. Kh1
+Qe6 50. Kg1 Qd7 51. Kg2 Qe6 52. Qd2 Nh7 $1 {Endelig skjer det noe!#} 53. f4 (
+53. Qd5 Qf6 54. f3 Qf4 55. Nf1 Qc1 56. Qd2 Qa1 57. Bd1 Ng5 58. Ng3 Ne6 59. Ne2
+Bd8 60. Qd5 Bf6 61. Qd6 Qa7 62. Qd5 Qe3 $19) 53... exf4 54. Qxf4 Qf6 55. Qd2 $2
+(55. Qxf6+ Kxf6 56. h4 Nf8 57. Ne2 Ne6 58. Kf3 Ke5 59. Bb1 $13) 55... Ng5 56.
+Qe2 Qxc3 57. h4 Ne6 0-1
+
+[Event "NMU:A"]
+[Site "?"]
+[Date "2001.11.25"]
+[Round "7"]
+[White "Haugsrud, Håkon "]
+[Black "Sørensen, Henrik"]
+[Result "1-0"]
+[ECO "B23"]
+[Annotator "Arild Haugen"]
+[PlyCount "37"]
+[EventDate "2001.11.24"]
+
+1. e4 c5 2. Nc3 Nc6 3. f4 g6 4. Nf3 e6 5. Bb5 Nge7 6. e5 d5 7. exd6 Qxd6 8. Ne4
+Qxf4 9. d3 Qc7 10. Nf6+ Kd8 11. Bg5 $2 (11. Ng5 Nf5 12. O-O Bg7 13. Nge4 $11)
+11... Qa5+ 12. Qd2 Qxb5 13. d4 Kc7 (13... c4 14. Ne5 Bg7 15. Nxf7+ Kc7 16. Nxh8
+Bxh8 17. c3 e5 18. Ne8+ Kb8 $17) 14. Bf4+ (14. dxc5 Qxc5 15. Ne8+ Kb6 16. Be3
+Nd5 17. Bxc5+ Bxc5 18. b4 Be3 19. Qe2 Rxe8 20. c4 Kc7 21. cxd5 exd5 $13) 14...
+Kb6 (14... e5 $1 15. Nxe5 Nxe5 16. Bxe5+ Kc6 17. c4 (17. d5+ Kb6 18. d6 Be6 19.
+dxe7 Bxe7 $15) 17... Qb4 18. d5+ Kb6 19. Qxb4+ cxb4 20. d6 Be6 21. Nd5+ Nxd5
+22. cxd5 Bxd5 $19) 15. dxc5+ Ka6 16. a4 $3 (16. Ne8 $5 Nd5 17. Qxd5 exd5 18.
+Nc7+ Ka5 19. Bd2+ Qb4 20. Nxa8 Bxc5 21. Nc7 Be3 22. Bxb4+ Nxb4 23. c3 Nc2+ 24.
+Ke2 Nxa1 25. Kxe3 $11) 16... Qxc5 17. Qd3+ Ka5 18. Bd6 (18. Bd2+ $1 Kb6 (18...
+Nb4 19. Bxb4+ Qxb4+ 20. c3 $18) 19. Be3 $18) 18... Qxd6 (18... Nb4 $5 19. Qe2
+Nxc2+ 20. Kf1 Ne3+ 21. Kg1 Qc4 22. b4+ $18) 19. Qb5# {Et fantastisk parti!} 1-0
+
