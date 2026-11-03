@@ -1,31 +1,143 @@
-
 <!DOCTYPE html>
 <html lang="no">
 <head>
 <meta charset="UTF-8">
-    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ramiras Sjakk</title>
+
+<style>
+body {
+    font-family: Verdana, Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f5f5f5;
+    color: #222;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    color: #1c355e;
+    font-size: 3em;
+}
+
+.intro {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.card h2 {
+    color: #1c355e;
+    margin-top: 0;
+}
+
+.card ul {
+    padding-left: 20px;
+}
+
+.card li {
+    margin: 8px 0;
+}
+
+a {
+    color: #204a87;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #666;
+}
+</style>
 </head>
 
 <body>
 
-<h1>Ramiras Sjakk</h1>
+<header>
+    <h1>♟ Ramiras Sjakk</h1>
 
-<p>Velkommen til sjakksidene.</p>
+    <p class="intro">
+        Sjakk har vært en viktig del av livet gjennom mange år,
+        med turneringer, vennskap, reiser og tusenvis av partier.
+    </p>
+</header>
 
-<h2>Meny</h2>
+<div class="grid">
 
-<ul>
-    <li><a href="Turneringer/">Turneringer</a></li>
-    <li><a href="Partier/">Partier</a></li>
-    <li><a href="Mimring/">Mimring</a></li>
-    <li><a href="Best/">Best</a></li>
-    <li><a href="Gammelt/">Gammelt</a></li>
-    <li><a href="sjakkhistorie.htm">Sjakkhistorie</a></li>
-    <li><a href="memorable_games.htm">Minneverdige partier</a></li>
-    <li><a href="Randaberg.htm">Randaberg sjakk</a></li>
-    <li><a href="PostChess.htm">Postsjakk</a></li>
-</ul>
+    <div class="card">
+        <h2>🏆 Turneringer</h2>
+
+        <p>
+            Resultater, tabeller, partier og bilder fra turneringer
+            gjennom flere tiår.
+        </p>
+
+        <ul>
+            <li><a href="Turneringer/index.html">Turneringsarkiv</a></li>
+            <li><a href="Turneringer/NMU2001/">NM for Ungdomslag 2001</a></li>
+            <li><a href="Turneringer/LagNM2001/">Lag-NM 2001</a></li>
+            <li><a href="Turneringer/EMClub2002/">EM for Klubblag 2002</a></li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>📖 Sjakkhistorie</h2>
+
+        <ul>
+            <li><a href="sjakkhistorie.htm">Min sjakkhistorie</a></li>
+            <li><a href="Randaberg.htm">Randaberg SK</a></li>
+            <li><a href="PostChess.htm">Postsjakk</a></li>
+            <li><a href="memorable_games.htm">Minneverdige partier</a></li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>♞ Partier</h2>
+
+        <ul>
+            <li><a href="Partier/">Partisamling</a></li>
+            <li><a href="Best/">Beste partier</a></li>
+            <li><a href="Mimring/">Mimring</a></li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>✈️ Gutteturer</h2>
+
+        <ul>
+            <li><a href="Guttetur/">Reiser og opplevelser</a></li>
+        </ul>
+    </div>
+
+</div>
+
+<footer>
+    <p>Ramiras Sjakkarkiv</p>
+</footer>
 
 </body>
 </html>
