@@ -4,15 +4,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Chess | Ramiras</title>
+<title>Min sjakkhistorie | Ramiras</title>
 
 <style>
 
 :root{
     --blue:#1f3b5b;
     --gold:#8b6f47;
-    --light:#f5f5f5;
+    --light:#f4f6f8;
     --white:#ffffff;
+    --dark:#152536;
 }
 
 *{
@@ -22,15 +23,13 @@
 body{
     margin:0;
     font-family:Georgia, serif;
+    line-height:1.8;
     background:var(--light);
     color:#222;
-    line-height:1.7;
 }
 
-/* MENY */
-
 nav{
-    background:var(--blue);
+    background:var(--dark);
     padding:15px;
     text-align:center;
 }
@@ -46,15 +45,13 @@ nav a:hover{
     color:#d8c29d;
 }
 
-/* HERO */
-
 .hero{
-    background:linear-gradient(rgba(0,0,0,.55),
-                               rgba(0,0,0,.55));
+    background:linear-gradient(rgba(21,37,54,.75),
+                               rgba(21,37,54,.75));
     background-color:#324d70;
     color:white;
     text-align:center;
-    padding:90px 25px;
+    padding:90px 20px;
 }
 
 .hero h1{
@@ -63,12 +60,10 @@ nav a:hover{
 }
 
 .hero p{
-    max-width:900px;
+    max-width:850px;
     margin:20px auto;
     font-size:1.2rem;
 }
-
-/* LAYOUT */
 
 .container{
     max-width:1100px;
@@ -86,9 +81,8 @@ nav a:hover{
 
 h2{
     color:var(--blue);
+    margin-top:0;
 }
-
-/* TIDSLINJE */
 
 .timeline{
     border-left:4px solid var(--gold);
@@ -96,16 +90,14 @@ h2{
 }
 
 .timeline-item{
-    margin-bottom:30px;
+    margin-bottom:35px;
 }
 
 .year{
-    color:var(--gold);
     font-size:1.2rem;
     font-weight:bold;
+    color:var(--gold);
 }
-
-/* STATISTIKK */
 
 .stats{
     display:grid;
@@ -115,9 +107,9 @@ h2{
 
 .stat{
     background:#eef3f8;
-    padding:25px;
     border-radius:10px;
     text-align:center;
+    padding:25px;
 }
 
 .stat h3{
@@ -126,8 +118,6 @@ h2{
     font-size:2rem;
 }
 
-/* LINKKORT */
-
 .links{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
@@ -135,30 +125,39 @@ h2{
 }
 
 .linkbox{
-    background:#f9f9f9;
+    background:#f8f8f8;
     border-left:5px solid var(--gold);
-    padding:20px;
     border-radius:10px;
+    padding:20px;
+}
+
+.linkbox h3{
+    margin-top:0;
 }
 
 .linkbox a{
-    text-decoration:none;
-    font-weight:bold;
     color:var(--blue);
+    font-weight:bold;
+    text-decoration:none;
 }
 
 .quote{
-    font-style:italic;
+    padding:25px;
     background:#eef3f8;
     border-left:5px solid var(--gold);
-    padding:20px;
+    font-style:italic;
 }
 
 footer{
-    background:var(--blue);
+    background:var(--dark);
     color:white;
     text-align:center;
     padding:30px;
+    margin-top:50px;
+}
+
+ul{
+    padding-left:22px;
 }
 
 </style>
@@ -174,113 +173,207 @@ footer{
     <a href="../Genealogy/index.html">Genealogy</a>
 </nav>
 
-<div class="hero">
-    <h1>Min sjakkhistorie</h1>
+<header class="hero">
 
-    <p>
-        Fra de første trekkene i Stavanger til
-        internasjonal postsjakk, landslagsspill,
-        europamesterskap og verdensmesterskap.
-    </p>
-</div>
+<h1>Min sjakkhistorie</h1>
+
+<p>
+Fra de første partiene mot faren min, Nils «Ramiras» Haugen,
+til internasjonal korrespondansesjakk, EM-finaler,
+VM-semifinaler og representasjon på norske landslag.
+</p>
+
+</header>
 
 <div class="container">
 
-<div class="section">
+<section class="section">
 
 <h2>Velkommen</h2>
 
 <p>
-Denne delen av Ramiras samler historier,
-partier, bilder og resultater fra mer enn et halvt århundre
-med sjakk. Reisen startet i barndommen og fortsatte gjennom
-klubbsjakk, turneringer, lagspill og internasjonal
-korrespondansesjakk.
+Sjakken har fulgt meg gjennom det meste av livet.
+Det som startet som en interesse hjemme ved kjøkkenbordet,
+utviklet seg til turneringssjakk, klubbspill, lagkamper,
+organisasjonsarbeid og mange tiår med internasjonal postsjakk.
 </p>
 
 <p>
-Målet er å bevare både partiene og minnene:
-sjakkvenner, turneringer, klubbarbeid og opplevelser
-som har satt spor gjennom et langt sjakkliv.
+Denne delen av Ramiras samler minner, resultater, bilder,
+historier og partier fra en lang sjakkreise.
 </p>
 
-</div>
+</section>
 
-<div class="section">
+<section class="section">
 
-<h2>Tidslinje</h2>
+<h2>Min sjakkreise</h2>
 
 <div class="timeline">
 
 <div class="timeline-item">
-<div class="year">1950-årene</div>
+
+<div class="year">1950-årene – Ramiras</div>
+
 <p>
-Lærte sjakk hjemme. De første trekkene og den første fascinasjonen
-for spillets logikk og skjønnhet.
+Jeg lærte spillet av min far, Nils Haugen,
+som var kjent under navnet «Ramiras».
+Mange av mine tidligste minner er knyttet til sjakken,
+og et parti på Bethania mot slutten av 1950-årene
+har aldri forlatt hukommelsen.
 </p>
+
+<p>
+Gjennom oppveksten spilte vi utallige partier.
+Han lærte meg å tenke selv og å se skjønnheten
+i spillets idéer.
+</p>
+
 </div>
 
 <div class="timeline-item">
-<div class="year">1960-årene</div>
+
+<div class="year">1960-årene – Tasta skole</div>
+
 <p>
-Skolesjakk på Tasta og de første organiserte turneringene.
-Interessen vokste raskt.
+På Tasta fikk skolesjakken en sentral plass.
+Her møtte jeg dyktige spillere som
+Jostein Høivik og Trond Melhus Hansen.
 </p>
+
+<p>
+Skolelaget spilte flere spennende kamper mot Ganddal,
+som stilte med sterke sjakkspillere og ga oss verdifull erfaring.
+</p>
+
 </div>
 
 <div class="timeline-item">
-<div class="year">1970-årene</div>
+
+<div class="year">1970-årene – Stavanger Sjakklubb</div>
+
 <p>
-Aktiv i Stavanger Sjakklubb.
-Klubbmesterskap, turneringer og møter med sterke spillere
-fra hele Rogaland.
+Stavanger Sjakklubb ble mitt naturlige sjakkhjem.
+Her fikk jeg møte mange av de sterkeste spillerne i Rogaland
+og utvikle meg gjennom klubbmesterskap,
+lagturneringer og lokale mesterskap.
 </p>
+
 </div>
 
 <div class="timeline-item">
-<div class="year">1976</div>
+
+<div class="year">1972 – Norgesmesterskapet</div>
+
 <p>
-Trondheim-perioden og sterke resultater i trøndersk sjakkliv.
+Deltakelsen i NM ga nyttig erfaring og motivasjon
+til videre utvikling som turneringsspiller.
 </p>
+
 </div>
 
 <div class="timeline-item">
-<div class="year">1979</div>
+
+<div class="year">1976 – Trondhjemsmester</div>
+
 <p>
-Medvirket ved opprettelsen av Randaberg Sjakklubb.
+Tiden i Trondheim ga nye utfordringer og nye sjakkvenner.
+Høydepunktet var seieren i Trondhjemsmesterskapet 1976,
+som fortsatt er ett av de viktigste resultatene
+i brettsjakk-karrieren.
 </p>
+
 </div>
 
 <div class="timeline-item">
-<div class="year">1980-årene</div>
+
+<div class="year">1979 – Randaberg Sjakklubb</div>
+
 <p>
-Økende satsing på korrespondansesjakk og ICCF-turneringer.
+Jeg var med på å etablere Randaberg Sjakklubb.
+Klubben ble etter hvert en viktig del av sjakklivet
+på Nord-Jæren og skapte mange gode minner.
 </p>
+
 </div>
 
 <div class="timeline-item">
-<div class="year">1990-årene og senere</div>
+
+<div class="year">1980-årene – Postsjakk</div>
+
 <p>
-Representasjon på internasjonalt nivå gjennom lagmesterskap,
-folkekamper, europamesterskap og verdensmesterskap.
+Gradvis tok korrespondansesjakken over som hovedarena.
+Muligheten til dyp analyse og langsiktig planlegging
+passet meg svært godt.
 </p>
+
 </div>
 
 <div class="timeline-item">
+
+<div class="year">Internasjonal ICCF-sjakk</div>
+
+<p>
+Gjennom ICCF representerte jeg Norge i landskamper,
+internasjonale turneringer, Europamesterskap
+og Verdensmesterskap.
+</p>
+
+<p>
+Jeg fikk spille mot sterke motstandere fra hele verden
+og oppleve postsjakk på høyt internasjonalt nivå.
+</p>
+
+</div>
+
+<div class="timeline-item">
+
+<div class="year">Viktige høydepunkter</div>
+
+<ul>
+<li>Trondhjemsmester 1976</li>
+<li>Medstifter av Randaberg Sjakklubb</li>
+<li>Norske landslag i korrespondansesjakk</li>
+<li>VM-semifinaler</li>
+<li>EM-finale</li>
+<li>Norgesmester for lag i postsjakk</li>
+<li>Deltakelse i en rekke ICCF-mesterskap</li>
+</ul>
+
+</div>
+
+<div class="timeline-item">
+
 <div class="year">I dag</div>
+
 <p>
-Historien fortsetter gjennom nye turneringer, analyser,
-digitale arkiver og bevaring av norsk postsjakkhistorie.
+Sjakkinteressen lever videre.
+Fra postkort og luftpost til moderne nettservere
+har verktøyene forandret seg,
+men fascinasjonen for spillet er den samme.
 </p>
-</div>
 
 </div>
 
 </div>
 
-<div class="section">
+</section>
 
-<h2>Høydepunkter</h2>
+<section class="section">
+
+<h2>Et liv med sjakk</h2>
+
+<div class="quote">
+«Sjakken har gitt langt mer enn resultater.
+Den har gitt vennskap, utfordringer, kunnskap og opplevelser
+som har fulgt meg gjennom hele livet.»
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>Noen tall</h2>
 
 <div class="stats">
 
@@ -296,69 +389,9 @@ digitale arkiver og bevaring av norsk postsjakkhistorie.
 
 <div class="stat">
 <h3>EM</h3>
-<p>internasjonale finaler</p>
+<p>finalespill</p>
 </div>
 
 <div class="stat">
 <h3>VM</h3>
-<p>deltakelse og kvalifisering</p>
-</div>
-
-</div>
-
-</div>
-
-<div class="section">
-
-<h2>Et liv med sjakk</h2>
-
-<div class="quote">
-"Sjakken har gitt langt mer enn resultater.
-Den har gitt vennskap, kunnskap, opplevelser og
-glede gjennom hele livet."
-</div>
-
-</div>
-
-<div class="section">
-
-<h2>Utforsk sjakkarkivet</h2>
-
-<div class="links">
-
-<div class="linkbox">
-<h3>Korrespondansesjakk</h3>
-<p>Pågående turneringer, ICCF og partier.</p>
-<a href="correspondence.html">Gå til siden →</a>
-</div>
-
-<div class="linkbox">
-<h3>Invitasjonsturneringer</h3>
-<p>Utvalgte invitationals og spesialturneringer.</p>
-<a href="invitationals.html">Gå til siden →</a>
-</div>
-
-<div class="linkbox">
-<h3>Resultater</h3>
-<p>Meritter, tabeller og historiske resultater.</p>
-<a href="results.html">Gå til siden →</a>
-</div>
-
-<div class="linkbox">
-<h3>Bildegalleri</h3>
-<p>Bilder fra klubber, turneringer og sjakkmiljøer.</p>
-<a href="gallery.html">Gå til siden →</a>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<footer>
-Ramiras • Chess, Music & Things
-</footer>
-
-</body>
-</html>
+<p>
