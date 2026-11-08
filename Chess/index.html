@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,148 +8,159 @@
 <style>
 body{
     margin:0;
-    font-family:'Segoe UI',sans-serif;
-    background:#f8fafc;
-    color:#1e293b;
+    font-family:Segoe UI, Arial, sans-serif;
+    background:#f4f6f8;
+    color:#333;
 }
 
-.hero{
-    background:linear-gradient(rgba(15,23,42,.85),rgba(15,23,42,.85)),
-    url('../images/chess-header.jpg');
-    background-size:cover;
-    background-position:center;
+header{
+    background:#0f172a;
     color:white;
     text-align:center;
-    padding:120px 20px;
+    padding:80px 20px;
 }
 
-.hero h1{
-    font-size:4rem;
-    margin-bottom:15px;
+header h1{
+    margin:0;
+    font-size:3.5rem;
 }
 
-.hero p{
-    font-size:1.3rem;
-    max-width:800px;
-    margin:auto;
+header p{
+    font-size:1.2rem;
+}
+
+nav{
+    background:#1e293b;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#38bdf8;
 }
 
 .container{
     max-width:1200px;
     margin:auto;
-    padding:60px 20px;
+    padding:40px 20px;
 }
 
-.grid{
+.cards{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    gap:30px;
+    gap:25px;
 }
 
 .card{
     background:white;
-    border-radius:16px;
-    padding:30px;
-    box-shadow:0 4px 15px rgba(0,0,0,.08);
+    border-radius:12px;
+    padding:25px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
 }
 
 .card h2{
     margin-top:0;
+    color:#0f172a;
 }
 
-.card a{
-    color:#0284c7;
+.button{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 18px;
+    background:#0284c7;
+    color:white;
     text-decoration:none;
-    font-weight:bold;
+    border-radius:8px;
+}
+
+.button:hover{
+    background:#0369a1;
 }
 
 footer{
-    text-align:center;
-    padding:30px;
+    margin-top:50px;
     background:#0f172a;
     color:white;
+    text-align:center;
+    padding:25px;
 }
 </style>
-
 </head>
+
 <body>
 
-<section class="hero">
-<h1>♟ Chess</h1>
-<p>
-Correspondence chess, ICCF tournaments, analyses and achievements.
-</p>
-</section>
+<header>
+    <h1>♟ Ramiras Chess</h1>
+    <p>Correspondence Chess, ICCF and Chess History</p>
+</header>
+
+<nav>
+    <a href="../index.html">Home</a>
+    <a href="../Family/">Family</a>
+</nav>
 
 <div class="container">
 
-<div class="grid">
+<div class="cards">
 
-<div class="card">
-<h2>ICCF Career</h2>
-<p>
-Overview of tournaments, titles, ratings and achievements.
-</p>
-<a href="career.html">Read More →</a>
-</div>
-
-<div class="card">
-<h2>My Games</h2>
-<p>
-Selected correspondence games with annotations.
-</p>
-<a href="games.html">View Games →</a>
-</div>
-
-<div class="card">
-<h2>Tournaments</h2>
-<p>
-World Cups, European events and national championships.
-</p>
-<a href="tournaments.html">Open Tournaments →</a>
-</div>
-
-<div class="card">
-<h2>Opening Studies</h2>
-<p>
-Interesting opening ideas and personal investigations.
-</p>
-<a href="openings.html">Explore Openings →</a>
-</div>
-
-<div class="card">
-<h2>Endgame Studies</h2>
-<p>
-Selected endgames and analytical work.
-</p>
-<a href="endgames.html">Study Endgames →</a>
-</div>
-
-<div class="card">
-<h2>Downloads</h2>
-<p>
-PGN collections and tournament archives.
-</p>
-<a href="downloads.html">Downloads →</a>
-</div>
 <div class="card">
     <h2>♞ Chess Archive</h2>
-
     <p>
-        Historical pages, older analyses, tournament reports and
-        classic content from the original Ramiras website.
+        Historical chess pages, tournament reports,
+        analyses and older material from the original website.
     </p>
 
-    <a href="chess-archive.html">
-        Open Archive →
+    <a class="button" href="../sjakk.html">
+        Open Chess Archive
     </a>
 </div>
+
+<div class="card">
+    <h2>🏆 ICCF Career</h2>
+    <p>
+        Titles, ratings, tournament participation and achievements.
+    </p>
+
+    <a class="button" href="#">
+        Coming Soon
+    </a>
+</div>
+
+<div class="card">
+    <h2>♟ Tournament Archive</h2>
+    <p>
+        World Cups, national championships and correspondence events.
+    </p>
+
+    <a class="button" href="#">
+        Coming Soon
+    </a>
+</div>
+
+<div class="card">
+    <h2>📖 Selected Games</h2>
+    <p>
+        Annotated games and personal chess analyses.
+    </p>
+
+    <a class="button" href="#">
+        Coming Soon
+    </a>
+</div>
+
 </div>
 
 </div>
 
 <footer>
-<p>Ramiras Chess</p>
+    © Ramiras Chess
 </footer>
 
 </body>
