@@ -1,211 +1,343 @@
 <!DOCTYPE html>
 <html lang="no">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>RAMIRAS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ramiras | Chess, Music & Family History</title>
 
 <style>
-body{
+:root{
+    --bg:#0f172a;
+    --bg2:#1e293b;
+    --accent:#38bdf8;
+    --text:#f8fafc;
+    --muted:#cbd5e1;
+    --card:#ffffff;
+    --cardtext:#1e293b;
+}
+
+*{
     margin:0;
-    font-family:Verdana, Arial, sans-serif;
-    background:#f5f5f5;
-    color:#222;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif;
+    line-height:1.6;
+    color:var(--text);
+    background:#f1f5f9;
 }
 
 header{
-    background:#1c355e;
-    color:white;
-    text-align:center;
-    padding:60px 20px;
-}
-
-header h1{
-    margin:0;
-    font-size:4em;
-    letter-spacing:4px;
-}
-
-header p{
-    margin-top:10px;
-    font-size:1.2em;
+    background:linear-gradient(135deg,var(--bg),var(--bg2));
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
 }
 
 nav{
-    background:#355f92;
-    text-align:center;
-    padding:15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
 }
 
-nav a{
+.logo{
+    font-size:1.8rem;
+    font-weight:700;
+    color:white;
+}
+
+.nav-links{
+    display:flex;
+    gap:30px;
+}
+
+.nav-links a{
     color:white;
     text-decoration:none;
-    margin:0 12px;
-    font-weight:bold;
+    font-weight:500;
+    transition:0.3s;
 }
 
-nav a:hover{
-    text-decoration:underline;
+.nav-links a:hover{
+    color:var(--accent);
 }
 
-main{
-    max-width:1100px;
-    margin:auto;
-    padding:30px;
+.hero{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px;
 }
 
-.intro{
-    background:white;
-    padding:25px;
+.hero-content{
+    max-width:900px;
+}
+
+.hero h1{
+    font-size:4rem;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:1.3rem;
+    color:var(--muted);
+    margin-bottom:35px;
+}
+
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.btn{
+    padding:14px 28px;
     border-radius:8px;
-    margin-bottom:25px;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn-primary{
+    background:var(--accent);
+    color:white;
+}
+
+.btn-primary:hover{
+    background:#0ea5e9;
+}
+
+.btn-secondary{
+    border:2px solid white;
+    color:white;
+}
+
+.btn-secondary:hover{
+    background:white;
+    color:#0f172a;
+}
+
+.section{
+    padding:80px 8%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+    color:#0f172a;
+    font-size:2.2rem;
 }
 
 .cards{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:20px;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
 }
 
 .card{
     background:white;
-    border-radius:8px;
-    padding:20px;
-    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+    padding:35px;
+    border-radius:16px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    transition:.3s;
 }
 
-.card h2{
-    color:#1c355e;
-    margin-top:0;
+.card:hover{
+    transform:translateY(-6px);
+}
+
+.card h3{
+    color:#0f172a;
+    margin-bottom:15px;
+    font-size:1.4rem;
+}
+
+.card p{
+    color:#475569;
 }
 
 .card a{
-    color:#355f92;
+    display:inline-block;
+    margin-top:15px;
     text-decoration:none;
-    font-weight:bold;
+    color:#0284c7;
+    font-weight:600;
+}
+
+.about{
+    background:#e2e8f0;
+}
+
+.about-box{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+}
+
+.about-box h2{
+    color:#0f172a;
+    margin-bottom:20px;
+}
+
+.about-box p{
+    color:#334155;
+    font-size:1.1rem;
 }
 
 footer{
-    background:#1c355e;
+    background:#0f172a;
     color:white;
     text-align:center;
-    padding:20px;
-    margin-top:40px;
+    padding:30px;
+}
+
+footer a{
+    color:#38bdf8;
 }
 </style>
+
 </head>
 
 <body>
 
 <header>
-    <h1>RAMIRAS</h1>
-    <p>Chess • Music • Travels • Family History</p>
-    <p>Arild Haugens personlige nettsted</p>
-</header>
 
 <nav>
-    <a href="chess.html">Sjakk</a>
-    <a href="music.html">Musikk</a>
-    <a href="travels.html">Reiser</a>
-    <a href="genealogi.html">Slekt</a>
-    <a href="Ramiras.html">Ramiras</a>
-    <a href="../index.html">Ramiras Classic</a>
+<div class="logo">Ramiras</div>
+
+<div class="nav-links">
+<a href="index.html">Home</a>
+<a href="chess/index.html">Chess</a>
+<a href="music/index.html">Music</a>
+<a href="family-tree.html">Family</a>
+<a href="about.html">About</a>
+</div>
 </nav>
 
-<main>
+<div class="hero">
 
-<div class="intro">
-    <h2>Velkommen til Ramiras</h2>
+<div class="hero-content">
 
-    <p>
-    Den opprinnelige Ramiras-siden ble startet tidlig på 2000-tallet
-    og samlet sjakk, postsjakk, musikk, reiser og personlige historier.
-    Denne nye versjonen viderefører innholdet i et moderne format.
-    </p>
+<h1>Ramiras</h1>
 
-    <p>
-    Navnet Ramiras stammer fra tryllekunstneren Ramiras,
-    artistnavnet til Nils Haugen.
-    </p>
+<p>
+Chess, Music & Family History
+</p>
+
+<p>
+A personal website dedicated to correspondence chess,
+genealogy, family stories, music, travels and lifelong learning.
+</p>
+
+<div class="hero-buttons">
+<a class="btn btn-primary" href="family-tree.html">Explore Family Tree</a>
+<a class="btn btn-secondary" href="chess/index.html">View Chess Section</a>
 </div>
+
+</div>
+
+</div>
+
+</header>
+
+<section class="section">
+
+<h2 class="section-title">Main Sections</h2>
 
 <div class="cards">
 
 <div class="card">
-<h2>♟ Sjakk</h2>
+<h3>♟ Correspondence Chess</h3>
 <p>
-
-Turneringsarkiv, partier, postsjakk, Randaberg SK og sjakkhistorie gjennom mange år.
+ICCF tournaments, games, achievements,
+analysis and chess history.
 </p>
-    <a href="Chess/index.html">Åpne sjakkarkiv og turneringer ➜</a>
-
+<a href="chess/index.html">Enter Chess Section →</a>
 </div>
 
 <div class="card">
-<h2>🎵 Musikk</h2>
+<h3>👨‍👩‍👧 Family Chronicle</h3>
 <p>
-Favorittartister, coverversjoner, Bob Dylan og Music & Chess.
+Generations of family history,
+biographies and ancestral research.
 </p>
-<a href="music.html">Åpne musikkseksjonen →</a>
+<a href="family-tree.html">View Family Tree →</a>
 </div>
 
 <div class="card">
-<h2>✈ Reiser</h2>
+<h3>📜 Genealogy Research</h3>
 <p>
-Langkawi, Praha, London, Hellas, Hurtigruten og Gutta på Tur.
+Sources, historical records,
+court books and local history studies.
 </p>
-<a href="travels.html">Åpne reisesidene →</a>
+<a href="research/index.html">Open Research →</a>
 </div>
 
 <div class="card">
-<h2>🌳 Slekt</h2>
+<h3>🎵 Music</h3>
 <p>
-Familiene Haugen, Hiim og Henriksen.
+Favourite recordings,
+musical discoveries and personal interests.
 </p>
-<a href="genealogi.html">Åpne slektssidene →</a>
+<a href="music/index.html">Visit Music Section →</a>
 </div>
 
 <div class="card">
-<h2>🎩 Historien om Ramiras</h2>
+<h3>🌍 Travel</h3>
 <p>
-Historien om tryllekunstneren Ramiras og Nils Haugen.
+Travel experiences,
+places visited and photographic memories.
 </p>
-<a href="Ramiras.html">Les mer →</a>
+<a href="travel/index.html">See Travels →</a>
 </div>
 
 <div class="card">
-<h2>🕰 Ramiras Classic</h2>
+<h3>📖 About Ramiras</h3>
 <p>
-Den opprinnelige hjemmesiden fra 2001–2009.
+Background, interests,
+projects and ongoing work.
+</p>
+<a href="about.html">Learn More →</a>
+</div>
+
+</div>
+
+</section>
+
+<section class="section about">
+
+<div class="about-box">
+
+<h2>Welcome</h2>
+
+<p>
+This site brings together three lifelong interests:
+correspondence chess, music and family history.
+The goal is to preserve knowledge, share discoveries
+and document family connections for future generations.
 </p>
 
 </div>
 
-</main>
+</section>
 
 <footer>
-RAMIRAS • Stavanger • Norge • Siden 2001
+
+<p>
+© 2026 Ramiras | Chess, Music & Family History
+</p>
+
+<p>
+Hosted with GitHub Pages
+</p>
+
 </footer>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="no">
-<head>
-<meta charset="UTF-8">
-<title>Ramiras</title>
-</head>
-
-<body>
-
-<h1>Ramiras</h1>
-
-<ul>
-    <li><a href="Ramiras.html">Hovedside</a></li>
-    <li><a href="Chess/index.html">Sjakk</a></li>
-    <li><a href="genealogi.html">Genealogi</a></li>
-    <li><a href="arild-haugen.html">Arild Haugen</a></li>
-</ul>
 
 </body>
 </html>
