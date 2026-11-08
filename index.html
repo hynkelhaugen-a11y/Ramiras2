@@ -1,21 +1,11 @@
 <!DOCTYPE html>
-<html lang="no">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ramiras | Chess, Music & Family History</title>
 
 <style>
-:root{
-    --bg:#0f172a;
-    --bg2:#1e293b;
-    --accent:#38bdf8;
-    --text:#f8fafc;
-    --muted:#cbd5e1;
-    --card:#ffffff;
-    --cardtext:#1e293b;
-}
-
 *{
     margin:0;
     padding:0;
@@ -23,115 +13,49 @@
 }
 
 body{
-    font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif;
-    line-height:1.6;
-    color:var(--text);
-    background:#f1f5f9;
+    font-family:Segoe UI, Arial, sans-serif;
+    background:#f5f7fa;
+    color:#333;
 }
 
 header{
-    background:linear-gradient(135deg,var(--bg),var(--bg2));
-    min-height:100vh;
-    display:flex;
-    flex-direction:column;
+    background:linear-gradient(135deg,#0f172a,#1e3a5f);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:4rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.3rem;
 }
 
 nav{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:20px 8%;
-}
-
-.logo{
-    font-size:1.8rem;
-    font-weight:700;
-    color:white;
-}
-
-.nav-links{
-    display:flex;
-    gap:30px;
-}
-
-.nav-links a{
-    color:white;
-    text-decoration:none;
-    font-weight:500;
-    transition:0.3s;
-}
-
-.nav-links a:hover{
-    color:var(--accent);
-}
-
-.hero{
-    flex:1;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    background:#ffffff;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+    padding:15px;
     text-align:center;
-    padding:40px;
 }
 
-.hero-content{
-    max-width:900px;
-}
-
-.hero h1{
-    font-size:4rem;
-    margin-bottom:20px;
-}
-
-.hero p{
-    font-size:1.3rem;
-    color:var(--muted);
-    margin-bottom:35px;
-}
-
-.hero-buttons{
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    flex-wrap:wrap;
-}
-
-.btn{
-    padding:14px 28px;
-    border-radius:8px;
+nav a{
+    color:#0f172a;
     text-decoration:none;
-    font-weight:600;
-    transition:.3s;
+    margin:0 15px;
+    font-weight:bold;
 }
 
-.btn-primary{
-    background:var(--accent);
-    color:white;
+nav a:hover{
+    color:#0284c7;
 }
 
-.btn-primary:hover{
-    background:#0ea5e9;
-}
-
-.btn-secondary{
-    border:2px solid white;
-    color:white;
-}
-
-.btn-secondary:hover{
-    background:white;
-    color:#0f172a;
-}
-
-.section{
-    padding:80px 8%;
-}
-
-.section-title{
-    text-align:center;
-    margin-bottom:50px;
-    color:#0f172a;
-    font-size:2.2rem;
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:50px 20px;
 }
 
 .cards{
@@ -142,201 +66,106 @@ nav{
 
 .card{
     background:white;
-    padding:35px;
-    border-radius:16px;
-    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    border-radius:15px;
+    padding:30px;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
     transition:.3s;
 }
 
 .card:hover{
-    transform:translateY(-6px);
+    transform:translateY(-5px);
 }
 
-.card h3{
-    color:#0f172a;
+.card h2{
     margin-bottom:15px;
-    font-size:1.4rem;
+    color:#0f172a;
 }
 
 .card p{
-    color:#475569;
-}
-
-.card a{
-    display:inline-block;
-    margin-top:15px;
-    text-decoration:none;
-    color:#0284c7;
-    font-weight:600;
-}
-
-.about{
-    background:#e2e8f0;
-}
-
-.about-box{
-    max-width:900px;
-    margin:auto;
-    text-align:center;
-}
-
-.about-box h2{
-    color:#0f172a;
     margin-bottom:20px;
+    line-height:1.6;
 }
 
-.about-box p{
-    color:#334155;
-    font-size:1.1rem;
+.button{
+    display:inline-block;
+    padding:12px 20px;
+    background:#0284c7;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+.button:hover{
+    background:#0369a1;
 }
 
 footer{
-    background:#0f172a;
-    color:white;
     text-align:center;
     padding:30px;
-}
-
-footer a{
-    color:#38bdf8;
+    background:#0f172a;
+    color:white;
+    margin-top:50px;
 }
 </style>
 
 </head>
-
 <body>
 
 <header>
-
-<nav>
-<div class="logo">Ramiras</div>
-
-<div class="nav-links">
-<a href="index.html">Home</a>
-<a href="Chess/index.html">Chess</a>
-<a href="music/index.html">Music</a>
-<a href="Family.html">Family</a>
-<a href="about.html">About</a>
-</div>
-</nav>
-
-<div class="hero">
-
-<div class="hero-content">
-
-<h1>Ramiras</h1>
-
-<p>
-Chess, Music & Family History
-</p>
-
-<p>
-A personal website dedicated to correspondence chess,
-genealogy, family stories, music, travels and lifelong learning.
-</p>
-
-<div class="hero-buttons">
-<a class="btn btn-primary" href="family-tree.html">Explore Family Tree</a>
-<a class="btn btn-secondary" href="chess/index.html">View Chess Section</a>
-</div>
-
-</div>
-
-</div>
-
+    <h1>Ramiras</h1>
+    <p>Chess • Music • Family History</p>
 </header>
 
-<section class="section">
+<nav>
+    <a href="./">Home</a>
+    <a href="Chess/">Chess</a>
+    <a href="Family/">Family</a>
+    <a href="music.html">Music</a>
+    <a href="genealogi.html">Genealogy</a>
+</nav>
 
-<h2 class="section-title">Main Sections</h2>
+<div class="container">
 
 <div class="cards">
 
 <div class="card">
-<h3>♟ Correspondence Chess</h3>
-<p>
-ICCF tournaments, games, achievements,
-analysis and chess history.
-</p>
-<a href="chess/index.html">Enter Chess Section →</a>
+    <h2>♟ Correspondence Chess</h2>
+    <p>
+        ICCF tournaments, games, analyses, achievements and chess history.
+    </p>
+    <a class="button" href="Chess/">Enter Chess Section</a>
 </div>
 
 <div class="card">
-<h3>👨‍👩‍👧 Family Chronicle</h3>
-<p>
-Generations of family history,
-biographies and ancestral research.
-</p>
-<a href="family-tree.html">View Family Tree →</a>
+    <h2>👨‍👩‍👧 Family History</h2>
+    <p>
+        Family chronicle, biographies, family tree and ancestral research.
+    </p>
+    <a class="button" href="Family/">Enter Family Section</a>
 </div>
 
 <div class="card">
-<h3>📜 Genealogy Research</h3>
-<p>
-Sources, historical records,
-court books and local history studies.
-</p>
-<a href="research/index.html">Open Research →</a>
+    <h2>🎵 Music</h2>
+    <p>
+        Music collections, favourite recordings and musical interests.
+    </p>
+    <a class="button" href="music.html">Open Music</a>
 </div>
 
 <div class="card">
-<h3>🎵 Music</h3>
-<p>
-Favourite recordings,
-musical discoveries and personal interests.
-</p>
-<a href="music/index.html">Visit Music Section →</a>
-</div>
-
-<div class="card">
-<h3>🌍 Travel</h3>
-<p>
-Travel experiences,
-places visited and photographic memories.
-</p>
-<a href="travel/index.html">See Travels →</a>
-</div>
-
-<div class="card">
-<h3>📖 About Ramiras</h3>
-<p>
-Background, interests,
-projects and ongoing work.
-</p>
-<a href="about.html">Learn More →</a>
+    <h2>📜 Genealogy</h2>
+    <p>
+        Sources, court records, church books and local history research.
+    </p>
+    <a class="button" href="genealogi.html">Open Genealogy</a>
 </div>
 
 </div>
 
-</section>
-
-<section class="section about">
-
-<div class="about-box">
-
-<h2>Welcome</h2>
-
-<p>
-This site brings together three lifelong interests:
-correspondence chess, music and family history.
-The goal is to preserve knowledge, share discoveries
-and document family connections for future generations.
-</p>
-
 </div>
-
-</section>
 
 <footer>
-
-<p>
-© 2026 Ramiras | Chess, Music & Family History
-</p>
-
-<p>
-Hosted with GitHub Pages
-</p>
-
+    <p>© Ramiras - Chess, Music & Family History</p>
 </footer>
 
 </body>
