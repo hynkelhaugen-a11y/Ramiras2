@@ -1,58 +1,89 @@
-<!-- TURNERINGER -->
-<div class="card gold">
-<h3>🏆 Turneringer</h3>
-<p>Turneringsrapporter, resultater, partier og analyser.</p>
-<a href="Turneringer/index.html">Åpne turneringer →</a>
-</div>
+<!DOCTYPE html>
+<html lang="no">
 
-<!-- POSTSJAKK -->
-<div class="card purple">
-<h3>✉️ Correspondence Chess</h3>
-<p>Postsjakk, ICCF-turneringer og internasjonale mesterskap.</p>
-<a href="Correspondence%20Chess/index.html">Åpne Correspondence Chess →</a>
-</div>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- RANDABERG -->
-<div class="card green">
-<h3>♜ Randaberg SK</h3>
-<p>Historie, profiler og sjakkaktivitet i Randaberg Sjakklubb.</p>
-<a href="Randaberg.htm">Åpne Randaberg SK →</a>
-</div>
+<title>Chess - Ramiras2</title>
 
-<!-- PARTIER -->
-<div class="card red">
-<h3>♞ Partier</h3>
-<p>Et utvalg partier, analyser og sjakkopplevelser.</p>
-<a href="games.html">Se partiene →</a>
-</div>
+<style>
 
-<!-- GALLERI -->
-<div class="card blue">
-<h3>🖼️ Galleri</h3>
-<p>Bilder fra turneringer og sjakklivet gjennom årene.</p>
-<a href="gallery.html">Åpne galleri →</a>
-</div>
+body{
+    margin:0;
+    padding:30px;
+    background:#f3f3f3;
+    font-family:Georgia, serif;
+    color:#222;
+}
 
-<!-- HISTORISK ARKIV -->
-<div class="card archive">
-<h3>📂 Historisk arkiv</h3>
-<p>
-Det opprinnelige Ramiras Sjakkarkiv med eldre artikler,
-historiske turneringer og klassiske partier.
-</p>
-<a href="chess-archive.html">Åpne historisk arkiv →</a>
-</div>
+.container{
+    max-width:1200px;
+    margin:auto;
+}
 
-<!-- INTERNASJONAL -->
-<div class="card teal">
-<h3>🌍 Internasjonal karriere</h3>
-<p>Internasjonale turneringer, ICCF og sjakk gjennom flere tiår.</p>
-<a href="colin-mcnab.html">Les mer →</a>
-</div>
+h1{
+    text-align:center;
+    color:#1d3f7a;
+    margin-bottom:10px;
+}
 
-<!-- LENKER -->
-<div class="card gray">
-<h3>🔗 Sjakklenker</h3>
-<p>Nyttige ressurser for sjakkspillere.</p>
-<a href="https://www.sjakk.no/" target="_blank">Norges Sjakkforbund →</a>
-</div>
+.intro{
+    text-align:center;
+    color:#555;
+    margin-bottom:30px;
+    font-size:1.1em;
+}
+
+.hero{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+    margin-bottom:30px;
+}
+
+.hero h2{
+    color:#1d3f7a;
+    margin-top:0;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    box-shadow:0 2px 8px rgba(0,0,0,.10);
+    padding:24px;
+}
+
+.card h3{
+    margin-top:0;
+}
+
+.card a{
+    color:#1d3f7a;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.card a:hover{
+    text-decoration:underline;
+}
+
+/* Fargestriper */
+
+.turneringer{
+    border-top:6px solid #d4a017;
+}
+
+.correspondence{
+    border-top:6px solid #8b5cf6;
+}
+
+.randaberg{
+    border-top:6px solid
