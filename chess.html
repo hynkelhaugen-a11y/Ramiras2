@@ -1,223 +1,110 @@
 <!DOCTYPE html>
 <html lang="no">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ramiras Sjakk</title>
+    <meta charset="UTF-8">
+    <title>Chess | Ramiras2</title>
 
-<style>
-body {
-    font-family: Verdana, Arial, sans-serif;
-    background: #f5f5f5;
-    color: #222;
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-}
+    <style>
+        body {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            font-family: Georgia, serif;
+            line-height: 1.7;
+            color: #222;
+            background-color: #fff;
+        }
 
-header {
-    text-align: center;
-    margin-bottom: 40px;
-}
+        h1 {
+            border-bottom: 3px solid #444;
+            padding-bottom: 10px;
+        }
 
-h1 {
-    color: #1c355e;
-    font-size: 3em;
-}
+        h2 {
+            margin-top: 35px;
+            color: #444;
+        }
 
-.subtitle {
-    font-size: 1.1em;
-    color: #666;
-}
+        a {
+            color: #003399;
+            text-decoration: none;
+        }
 
-.timeline {
-    background: white;
-    border-radius: 12px;
-    padding: 20px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-    margin-bottom: 25px;
-}
+        a:hover {
+            text-decoration: underline;
+        }
 
-.timeline h2 {
-    margin-top: 0;
-    color: #1c355e;
-}
+        .intro {
+            background: #f4f4f4;
+            border-left: 5px solid #666;
+            padding: 15px;
+            margin-bottom: 30px;
+        }
 
-.timeline ul {
-    line-height: 1.8;
-    padding-left: 20px;
-}
+        ul {
+            line-height: 2;
+        }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 20px;
-}
+        footer {
+            margin-top: 50px;
+            padding-top: 15px;
+            border-top: 1px solid #ccc;
+            color: #777;
+            font-size: 0.9em;
+        }
+    </style>
 
-.card {
-    background: white;
-    border-radius: 12px;
-    padding: 20px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-}
-
-.card h2 {
-    margin-top: 0;
-    color: #1c355e;
-}
-
-.card p {
-    line-height: 1.5;
-}
-
-a {
-    color: #204a87;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-footer {
-    text-align: center;
-    margin-top: 40px;
-    color: #666;
-}
-</style>
 </head>
 
 <body>
 
-<header>
+<h1>♟ Chess</h1>
 
-<h1>♟ Ramiras Sjakk</h1>
+<div class="intro">
+    Velkommen til sjakkseksjonen på Ramiras2. Her finner du turneringer,
+    partier, analyser, korrespondansesjakk og historisk materiale samlet
+    gjennom mange år.
+</div>
 
-<p class="subtitle">
-Turneringer, postsjakk, klubbhistorie, partier og minner gjennom mange år.
-</p>
-
-</header>
-
-<section class="timeline">
-
-<h2>⏳ Min sjakktidslinje</h2>
+<h2>Turneringer</h2>
 
 <ul>
-    <li><strong>1950-årene</strong> – De første trekkene hjemme og den første interessen for sjakk.</li>
-
-    <li><strong>1960-årene</strong> – Skolesjakk, ungdomssjakk og Stavanger Sjakklubb.</li>
-
-    <li><strong>1970-årene</strong> – Militærtjeneste, Trondheim og starten på postsjakkarrieren.</li>
-
-    <li><strong>1980-årene</strong> – Randaberg Sjakklubb og aktiv turneringsvirksomhet.</li>
-
-    <li><strong>1990-årene</strong> – Norske og internasjonale mesterskap.</li>
-
-    <li><strong>2000-årene</strong> – Veien mot internasjonale titler og stormestertittel.</li>
-
-    <li><strong>2010-årene og senere</strong> – Internasjonalt lagspill, skribentvirksomhet og sjakkhistoriske prosjekter.</li>
+    <li>
+        <a href="Chess/Turneringer/NMU2001/NMU2001.htm">
+            Norgesmesterskapet for Ungdom 2001
+        </a>
+    </li>
 </ul>
 
-<p>
-<a href="Chess/sjakkhistorie.htm">
-Les hele sjakkhistorien →
-</a>
-</p>
+<h2>Sjakkhistorie</h2>
 
-</section>
+<ul>
+    <li>
+        <a href="Chess/sjakkhistorie.htm">
+            Sjakkhistorie
+        </a>
+    </li>
+</ul>
 
-<div class="grid">
+<h2>Korrespondansesjakk</h2>
 
-<div class="card">
-<h2>🏆 Turneringsarkiv</h2>
+<ul>
+    <li>
+        <a href="PostChess/correspondence_chess.htm">
+            Korrespondansesjakk
+        </a>
+    </li>
+</ul>
 
-<p>
-Resultater, tabeller, bilder og rapporter fra turneringer.
-</p>
+<h2>Arkiv</h2>
 
-<p>
-<a href="Chess/Turneringer/index.html">
-Åpne turneringsarkivet →
-</a>
-</p>
-</div>
-
-<div class="card">
-<h2>✉️ Correspondence Chess</h2>
-
-<p>
-ICCF-turneringer, nordiske mesterskap, landskamper og postsjakkpartier.
-</p>
-
-<p>
-<a href="CorrespondenceChess/index.html">
-Åpne Correspondence Chess →
-</a>
-</p>
-</div>
-
-<div class="card">
-<h2>📖 Sjakkhistorie</h2>
-
-<p>
-Historier, minner og personlige opplevelser fra et langt sjakkliv.
-</p>
-
-<p>
-<a href="Chess/sjakkhistorie.htm">
-Les mer →
-</a>
-</p>
-</div>
-
-<div class="card">
-<h2>♜ Randaberg Sjakklubb</h2>
-
-<p>
-Klubbhistorie, turneringer og aktiviteter fra Randaberg SK.
-</p>
-
-<p>
-<a href="Chess/Randaberg.htm">
-Åpne klubbhistorien →
-</a>
-</p>
-</div>
-
-<div class="card">
-<h2>♞ Minneverdige partier</h2>
-
-<p>
-Et utvalg spennende, lærerike og historiske partier.
-</p>
-
-<p>
-<a href="Chess/memorable_games.htm">
-Se partiene →
-</a>
-</p>
-</div>
-
-<div class="card">
-<h2>📂 Historisk arkiv</h2>
-
-<p>
-Den opprinnelige Chess-strukturen med eldre sider og arkivmateriale.
-</p>
-
-<p>
-<a href="Chess/index.html">
-Åpne historisk arkiv →
-</a>
-</p>
-</div>
-
-</div>
+<ul>
+    <li><a href="Chess/">Chess-katalogen</a></li>
+</ul>
 
 <footer>
-<p>Ramiras Sjakkarkiv</p>
+    Ramiras2 • Chess Archive • Arild Haugen
 </footer>
 
 </body>
