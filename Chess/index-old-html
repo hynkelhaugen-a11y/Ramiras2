@@ -1,1 +1,325 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ramiras Chess</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Segoe UI, Arial, sans-serif;
+    background:#f5f7fa;
+    color:#333;
+}
+
+header{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    margin:0;
+    font-size:3rem;
+}
+
+header p{
+    font-size:1.2rem;
+}
+
+nav{
+    background:#1e293b;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 3px 12px rgba(0,0,0,0.1);
+}
+
+.card h2{
+    color:#0f172a;
+    margin-top:0;
+}
+
+.card p{
+    line-height:1.6;
+}
+
+.button{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 18px;
+    background:#0284c7;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+.button:hover{
+    background:#0369a1;
+}
+
+footer{
+    margin-top:40px;
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>♟ Ramiras Chess</h1>
+    <p>Correspondence Chess • ICCF • Tournaments • Chess History</p>
+</header>
+
+<nav>
+    <a href="../index.html">Home</a>
+    <a href="../Family/">Family</a>
+</nav>
+
+<div class="container">
+
+<div class="cards">
+
+<div class="card">
+    <h2>♞ Chess Archive</h2>
+    <p>
+        The original Ramiras chess pages with historical tournament reports,
+        analyses, correspondence games and older chess material.
+    </p>
+
+    <a class="button" href="../chess.html">
+        Open Chess Archive
+    </a>
+</div>
+
+<div class="card">
+    <h2>🏆 ICCF Career</h2>
+    <p>
+        Ratings, tournaments, titles and achievements in correspondence chess.
+    </p>
+
+    <a class="button" href="#">
+        Coming Soon
+    </a>
+</div>
+
+<div class="card">
+    <h2>♟ Tournament Archive</h2>
+    <p>
+        World Cups, Norwegian events and other correspondence tournaments.
+    </p>
+
+    <a class="button" href="#">
+        Coming Soon
+    </a>
+</div>
+
+<div class="card">
+    <h2>📖 Selected Games</h2>
+    <p>
+        Annotated games, opening ideas and endgame studies.
+    </p>
+
+    <a class="button" href="#">
+        Coming Soon
+    </a>
+</div>
+
+</div>
+
+</div>
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min sjakkhistorie</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Min sjakkhistorie</h1>
+    <p>
+        Fra de første sjakkbrikkene i barndommen til internasjonal
+        postsjakk og stormestertittel.
+    </p>
+</header>
+
+<nav>
+    <a href="../index.html">Hjem</a> |
+    <a href="../music/index.html">Music</a> |
+    <a href="../family/index.html">Family</a> |
+    <a href="../things/index.html">Things</a>
+</nav>
+
+<main>
+
+<section>
+    <h2>Velkommen</h2>
+
+    <p>
+        Denne delen av nettstedet forteller historien om mitt liv i sjakken.
+        Historien begynner i barndommens Stavanger, fortsetter gjennom
+        skolesjakk, klubbspill, postsjakk og internasjonale turneringer,
+        og ender foreløpig med stormestertittel og mange års aktivitet
+        som spiller, lagkaptein og skribent.
+    </p>
+
+    <p>
+        Materialet er organisert kronologisk slik at leseren kan følge
+        utviklingen gjennom ulike perioder av livet.
+    </p>
+</section>
+
+<section>
+    <h2>Sjakkreisen</h2>
+
+    <ul>
+        <li>
+            <a href="sjakk-barndom.html">
+                Barndom og de første trekkene
+            </a>
+        </li>
+
+        <li>
+            <a href="sjakk-skolesjakk.html">
+                Skolesjakk og ungdomsår
+            </a>
+        </li>
+
+        <li>
+            <a href="stavanger-sjakklubb.html">
+                Stavanger Sjakklubb
+            </a>
+        </li>
+
+        <li>
+            <a href="postsjakk-starten.html">
+                Møtet med postsjakken
+            </a>
+        </li>
+
+        <li>
+            <a href="trondheim.html">
+                Trondheim-årene
+            </a>
+        </li>
+
+        <li>
+            <a href="randaberg.html">
+                Randaberg Sjakklubb
+            </a>
+        </li>
+
+        <li>
+            <a href="titteljakten.html">
+                Veien mot titlene
+            </a>
+        </li>
+
+        <li>
+            <a href="internasjonal-karriere.html">
+                Internasjonal karriere
+            </a>
+        </li>
+    </ul>
+</section>
+
+<section>
+    <h2>Partier og analyser</h2>
+
+    <ul>
+        <li>
+            <a href="partier.html">
+                Utvalgte partier
+            </a>
+        </li>
+
+        <li>
+            <a href="colin-mcnab.html">
+                Partiet mot Colin McNab
+            </a>
+        </li>
+    </ul>
+</section>
+
+<section>
+    <h2>Postsjakk</h2>
+
+    <ul>
+        <li>
+            <a href="postsjakkforum.html">
+                Postsjakkforum og Internett-perioden
+            </a>
+        </li>
+
+        <li>
+            <a href="meritter.html">
+                Meritter og statistikk
+            </a>
+        </li>
+    </ul>
+</section>
+
+<section>
+    <h2>Favorittsitat</h2>
+
+    <blockquote>
+        "Sjakk er både sport, kunst og vitenskap."
+    </blockquote>
+</section>
+
+</main>
+
+<footer>
+    <hr>
+    <p>
+        Ramiras – Chess, Music & Things
+    </p>
+</footer>
+
+</body>
+</html>
+<footer>
+    © Ramiras Chess
+</footer>
+
+</body>
+</html>
 
