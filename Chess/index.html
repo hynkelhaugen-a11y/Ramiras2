@@ -2,120 +2,249 @@
 <html lang="no">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Chess - Ramiras2</title>
+<meta charset="UTF-8">
+<title>Chess - Ramiras2</title>
 
-    <style>
-        body {
-            max-width: 1000px;
-            margin: 40px auto;
-            padding: 0 20px;
-            font-family: Georgia, serif;
-            line-height: 1.7;
-            color: #222;
-            background: #fff;
-        }
+<style>
 
-        h1 {
-            border-bottom: 3px solid #444;
-            padding-bottom: 10px;
-        }
+body {
+    margin: 0;
+    padding: 30px;
+    background: #f3f3f3;
+    font-family: Georgia, serif;
+    color: #222;
+}
 
-        h2 {
-            margin-top: 40px;
-            color: #333;
-        }
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
 
-        a {
-            color: #003399;
-            text-decoration: none;
-        }
+h1 {
+    text-align: center;
+    color: #1d3f7a;
+    margin-bottom: 5px;
+}
 
-        a:hover {
-            text-decoration: underline;
-        }
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #555;
+}
 
-        .box {
-            background: #f8f8f8;
-            padding: 15px;
-            border-left: 5px solid #666;
-            margin: 20px 0;
-        }
+.hero {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    margin-bottom: 25px;
+}
 
-        ul {
-            line-height: 2;
-        }
+.hero h2 {
+    color: #1d3f7a;
+    margin-top: 0;
+}
 
-        footer {
-            margin-top: 50px;
-            border-top: 1px solid #ccc;
-            padding-top: 15px;
-            font-size: 0.9em;
-            color: #666;
-        }
-    </style>
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    padding: 24px;
+}
+
+.card h3 {
+    color: #1d3f7a;
+    margin-top: 0;
+    font-size: 1.8rem;
+}
+
+.card p {
+    min-height: 80px;
+}
+
+.card a {
+    color: #1d3f7a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #666;
+}
+
+</style>
 </head>
 
 <body>
 
+<div class="container">
+
 <h1>♟ Chess</h1>
 
-<div class="box">
-    Velkommen til sjakkarkivet på Ramiras2.
-    Her finner du turneringsrapporter, partier, analyser,
-    korrespondansesjakk og diverse sjakkhistoriske minner
-    samlet gjennom mange år.
+<p class="intro">
+Turneringer, postsjakk, klubbhistorie, partier og minner gjennom mange år.
+</p>
+
+<div class="hero">
+
+<h2>⌛ Min sjakktidslinje</h2>
+
+<ul>
+<li><b>1970-årene</b> – Starten på postsjakk og aktiv turneringssjakk.</li>
+<li><b>1980-årene</b> – Randaberg Sjakklubb og lokal sjakkaktivitet.</li>
+<li><b>1990-årene</b> – Norske og internasjonale mesterskap.</li>
+<li><b>2000-årene</b> – Internasjonale turneringer og titteljakt.</li>
+<li><b>2010-årene og senere</b> – Sjakkhistoriske prosjekter og arkivarbeid.</li>
+</ul>
+
+<p>
+<a href="Chess/sjakkhistorie.htm">
+Les hele sjakkhistorien →
+</a>
+</p>
+
 </div>
 
-<h2>Turneringer</h2>
+<div class="grid">
 
-<ul>
-    <li>
-        <a href="Turneringer/NMU2001/NMU2001.htm">
-            Norgesmesterskapet for Ungdom 2001
-        </a>
-    </li>
-</ul>
+<div class="card">
+<h3>🏆 Turneringsarkiv</h3>
 
-<h2>Partier og analyser</h2>
+<p>
+Resultater, partier, tabeller og rapporter fra turneringer gjennom årene.
+</p>
 
-<ul>
-    <li><a href="#">Utvalgte partier</a></li>
-    <li><a href="#">Partianalyser</a></li>
-    <li><a href="#">Taktiske kombinasjoner</a></li>
-</ul>
+<a href="Chess/Turneringer/">
+Åpne turneringsarkivet →
+</a>
 
-<h2>Korrespondansesjakk</h2>
+</div>
 
-<ul>
-    <li>
-        <a href="../PostChess/correspondence_chess.htm">
-            Korrespondansesjakk
-        </a>
-    </li>
-</ul>
+<div class="card">
+<h3>✉️ Correspondence Chess</h3>
 
-<h2>Sjakkhistorie</h2>
+<p>
+ICCF-turneringer, landskamper, nordiske mesterskap og postsjakkpartier.
+</p>
 
-<ul>
-    <li>
-        <a href="sjakkhistorie.htm">
-            Sjakkhistorie
-        </a>
-    </li>
-</ul>
+<a href="PostChess/correspondence_chess.htm">
+Åpne Correspondence Chess →
+</a>
 
-<h2>Profiler og minner</h2>
+</div>
 
-<ul>
-    <li><a href="#">Spillere</a></li>
-    <li><a href="#">Klubber</a></li>
-    <li><a href="#">Historiske artikler</a></li>
-</ul>
+<div class="card">
+<h3>📖 Sjakkhistorie</h3>
+
+<p>
+Historier, minner og personlige opplevelser fra et langt sjakkliv.
+</p>
+
+<a href="Chess/sjakkhistorie.htm">
+Les mer →
+</a>
+
+</div>
+
+<div class="card">
+<h3>♜ Randaberg Sjakklubb</h3>
+
+<p>
+Klubbhistorie, turneringer, spillere og aktivitet i Randaberg SK.
+</p>
+
+<a href="#">
+Åpne klubbhistorien →
+</a>
+
+</div>
+
+<div class="card">
+<h3>♞ Minneverdige partier</h3>
+
+<p>
+Et utvalg spennende, lærerike og historiske partier.
+</p>
+
+<a href="#">
+Se partiene →
+</a>
+
+</div>
+
+<div class="card">
+<h3>📂 Historisk arkiv</h3>
+
+<p>
+Den opprinnelige Chess-strukturen med eldre sider og arkivmateriale.
+</p>
+
+<a href="Chess/">
+Åpne historisk arkiv →
+</a>
+
+</div>
+
+<div class="card">
+<h3>⭐ Høydepunkter</h3>
+
+<p>
+Blandede perler fra arkivet, inkludert NMU 2001 og klassiske partier.
+</p>
+
+<a href="Chess/Turneringer/NMU2001/NMU2001.htm">
+Se høydepunktene →
+</a>
+
+</div>
+
+<div class="card">
+<h3>🔗 Sjakklenker</h3>
+
+<p>
+Utvalgte nettsteder, databaser og ressurser for sjakkspillere.
+</p>
+
+<a href="https://www.sjakk.no/">
+Åpne lenkesamlingen →
+</a>
+
+</div>
+
+<div class="card">
+<h3>🗄 Arkivrommet</h3>
+
+<p>
+Eldre sider som gradvis flyttes over til den nye strukturen.
+</p>
+
+<a href="Chess/">
+Utforsk →
+</a>
+
+</div>
+
+</div>
 
 <footer>
-    Ramiras2 · Chess Archive · Arild Haugen
+
+Ramiras2 · Chess Archive · Arild Haugen
+
 </footer>
+
+</div>
 
 </body>
 </html>
