@@ -1,32 +1,296 @@
-<h1>Randaberg Sjakklubb</h1>
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Randaberg Sjakklubb | Ramiras</title>
+
+<style>
+
+:root{
+    --dark:#0f172a;
+    --card:#1e293b;
+    --accent:#f59e0b;
+    --text:#f8fafc;
+    --muted:#cbd5e1;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Segoe UI,Arial,sans-serif;
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+    color:var(--text);
+    line-height:1.6;
+}
+
+header{
+    text-align:center;
+    padding:80px 20px;
+    background:
+      linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+      url("images/chess-banner.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+header h1{
+    font-size:3.5rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.3rem;
+    color:#ddd;
+}
+
+nav{
+    background:#111827;
+    padding:15px;
+    text-align:center;
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 12px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:var(--accent);
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.intro{
+    background:rgba(255,255,255,.05);
+    padding:30px;
+    border-radius:15px;
+    margin-bottom:40px;
+}
+
+.intro h2{
+    color:var(--accent);
+    margin-bottom:15px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    display:block;
+    text-decoration:none;
+    color:white;
+    background:var(--card);
+    padding:25px;
+    border-radius:18px;
+    transition:.3s;
+    border:1px solid rgba(255,255,255,.1);
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    border-color:var(--accent);
+    box-shadow:0 10px 25px rgba(0,0,0,.4);
+}
+
+.card h3{
+    margin-bottom:12px;
+    color:var(--accent);
+}
+
+.history{
+    margin-top:60px;
+    background:rgba(255,255,255,.05);
+    padding:30px;
+    border-radius:15px;
+}
+
+.history h2{
+    margin-bottom:20px;
+    color:var(--accent);
+}
+
+.timeline{
+    list-style:none;
+}
+
+.timeline li{
+    margin-bottom:15px;
+    border-left:4px solid var(--accent);
+    padding-left:15px;
+}
+
+.quote{
+    margin-top:50px;
+    text-align:center;
+    font-size:1.3rem;
+    font-style:italic;
+    color:#ddd;
+}
+
+footer{
+    margin-top:60px;
+    text-align:center;
+    padding:30px;
+    background:#111827;
+    color:#94a3b8;
+}
+
+@media(max-width:768px){
+
+    header h1{
+        font-size:2.4rem;
+    }
+
+    nav a{
+        display:inline-block;
+        margin:5px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>♟ Randaberg Sjakklubb</h1>
+    <p>Minner, partier, turneringer og sjakkhistorie</p>
+</header>
+
+<nav>
+    <a href="../index.html">Hjem</a>
+    <a href="randaberg-partier.html">Partier</a>
+    <a href="hinna.html">Hinna</a>
+    <a href="gausdal.html">Gausdal</a>
+    <a href="fister-grand-prix.html">Fister GP</a>
+    <a href="lokale-stjerner.html">Spillere</a>
+</nav>
+
+<div class="container">
+
+<section class="intro">
+
+<h2>Om Randaberg-sjakken</h2>
 
 <p>
-I 1979 var jeg med på å starte Randaberg Sjakklubb.
-Klubben ble raskt et naturlig samlingspunkt for mange av regionens
-sterkeste spillere.
+Randaberg Sjakklubb har vært en viktig del av mitt sjakkliv siden
+slutten av 1970-årene. Her finner du historier, turneringer,
+partier, klubbmatcher, bilder og minner knyttet til mennesker som
+har bidratt til det lokale sjakkmiljøet gjennom flere tiår.
 </p>
 
+</section>
+
+<section class="cards">
+
+<a class="card" href="randaberg-historie.html">
+<h3>🏛 Klubbhistorie</h3>
 <p>
-Gjennom årene ble det utallige lagkamper, klubbturneringer,
-kretsmesterskap og Grand Prix-turneringer. Mange av de hardeste
-duellene ble spilt mot Leif Kåre Johansen, men også mot Hinna,
-Stavanger og Karmøy.
+Historien om etableringen av Randaberg Sjakklubb og dens utvikling.
 </p>
+</a>
 
+<a class="card" href="randaberg-partier.html">
+<h3>♟ Utvalgte partier</h3>
 <p>
-Randaberg utviklet seg etter hvert til å bli en betydelig kraft både
-i norsk brettsjakk og norsk postsjakk. Klubbens høydepunkter inkluderer
-laggull og internasjonale prestasjoner.
+Partier fra klubbkvelder, turneringer og lagkamper.
 </p>
+</a>
 
-<h2>Partier og historier</h2>
+<a class="card" href="hinna.html">
+<h3>⚔ Oppgjør mot Hinna</h3>
+<p>
+Gamle rivaloppgjør og interessante klubbmatcher.
+</p>
+</a>
 
-<ul>
-<li><a href="Gammelt/randaberg.htm">Randaberg-partier</a></li>
-<li><a href="Gammelt/hinna.htm">Oppgjør mot Hinna</a></li>
-<li><a href="Gammelt/krets.htm">Kretspartier</a></li>
-<li><a href="Gammelt/rogoslo.htm">Rogaland mot Oslo</a></li>
-<li><a href="Turneringer/Fister/FisterGrandPrix.htm">Fister Grand Prix</a></li>
-<li><a href="Gammelt/gausdal.htm">Gausdal</a></li>
-<li><a href="Gammelt/tgh.htm">Møter med lokale stjerner</a></li>
+<a class="card" href="gausdal.html">
+<h3>🏔 Gausdal</h3>
+<p>
+Opplevelser, resultater og partier fra Norges sjakkmekka.
+</p>
+</a>
+
+<a class="card" href="fister-grand-prix.html">
+<h3>🏆 Fister Grand Prix</h3>
+<p>
+Minner og resultater fra turneringene på Fister.
+</p>
+</a>
+
+<a class="card" href="rogaland-oslo.html">
+<h3>🚆 Rogaland mot Oslo</h3>
+<p>
+Lagmøter og oppgjør mellom landsdelene.
+</p>
+</a>
+
+<a class="card" href="lokale-stjerner.html">
+<h3>⭐ Lokale stjerner</h3>
+<p>
+Profiler som satte sitt preg på sjakken i Rogaland.
+</p>
+</a>
+
+<a class="card" href="bildegalleri.html">
+<h3>📸 Bildegalleri</h3>
+<p>
+Bilder fra turneringer, klubbkvelder og sjakkvenner.
+</p>
+</a>
+
+</section>
+
+<section class="history">
+
+<h2>Historiske høydepunkter</h2>
+
+<ul class="timeline">
+
+<li><strong>1979</strong> – Oppstart av Randaberg Sjakklubb.</li>
+
+<li><strong>1980-årene</strong> – Aktiv klubb med deltakelse i krets- og lagturneringer.</li>
+
+<li><strong>Postsjakk</strong> – Flere medlemmer oppnådde gode resultater innen postsjakk.</li>
+
+<li><strong>Klubbmatcher</strong> – Møter med Hinna, Stavanger og andre rogalandsklubber.</li>
+
+<li><strong>Turneringer</strong> – Deltakelse i blant annet Gausdal og Fister Grand Prix.</li>
+
+<li><strong>I dag</strong> – Historien bevares gjennom Ramiras-prosjektet.</li>
+
 </ul>
+
+</section>
+
+<div class="quote">
+"Ikke alle partier blir husket for trekkene. Mange huskes for menneskene rundt brettet."
+</div>
+
+</div>
+
+<footer>
+© Ramiras – Chess, Music & Things
+<br>
+Randaberg Sjakklubb gjennom flere tiår
+</footer>
+
+</body>
+</html>
