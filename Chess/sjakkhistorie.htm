@@ -1,54 +1,236 @@
-<section class="history-portal">
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Sjakkhistorie | Ramiras</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Georgia, serif;
+    background:#f4f0e8;
+    color:#222;
+    line-height:1.7;
+}
+
+header{
+    background:#3a2918;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    margin:0;
+    font-size:3.2em;
+}
+
+header p{
+    font-size:1.2em;
+    color:#ddd;
+}
+
+nav{
+    background:#5d4022;
+    text-align:center;
+    padding:12px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#e0c89f;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:30px;
+}
+
+.intro{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.10);
+    margin-bottom:40px;
+}
+
+.intro h2{
+    color:#6d4b2a;
+}
+
+.archive-section{
+    margin-top:20px;
+}
+
+.archive-section h2{
+    text-align:center;
+    color:#603913;
+    font-size:2.2em;
+    margin-bottom:35px;
+}
+
+.archive-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:25px;
+}
+
+.archive-card{
+    background:white;
+    border-radius:14px;
+    border-top:6px solid #8b5c23;
+    padding:25px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+}
+
+.archive-card:hover{
+    transform:translateY(-3px);
+    transition:.2s;
+}
+
+.piece{
+    font-size:2.8em;
+    text-align:center;
+    color:#8b5c23;
+    margin-bottom:10px;
+}
+
+.archive-card h3{
+    text-align:center;
+    color:#6d4b2a;
+    margin-top:0;
+}
+
+.archive-card p{
+    text-align:center;
+    min-height:90px;
+}
+
+.archive-card a{
+    display:block;
+    width:220px;
+    margin:15px auto 0 auto;
+    text-align:center;
+    background:#8b5c23;
+    color:white;
+    text-decoration:none;
+    padding:12px;
+    border-radius:6px;
+    font-weight:bold;
+}
+
+.archive-card a:hover{
+    background:#6c4315;
+}
+
+.timeline{
+    background:white;
+    margin-top:40px;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.10);
+}
+
+.timeline h2{
+    color:#6d4b2a;
+}
+
+.timeline-item{
+    border-left:4px solid #8b5c23;
+    padding-left:20px;
+    margin-bottom:25px;
+}
+
+footer{
+    background:#3a2918;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:50px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>♟ Sjakkhistorie</h1>
+
+<p>
+Historiske partier, klubbminner og korrespondansesjakk fra Ramiras-arkivet
+</p>
+
+</header>
+
+<nav>
+
+<a href="../index.html">Forside</a>
+<a href="Randaberg.htm">Randaberg</a>
+<a href="pgn/PostChess.htm">Postsjakk</a>
+
+</nav>
+
+<div class="container">
+
+<div class="intro">
+
+<h2>Velkommen til sjakkarkivet</h2>
+
+<p>
+Denne delen av Ramiras samler historisk materiale fra flere tiår
+med sjakkaktivitet. Her finner du partier, klubbhistorie,
+korrespondansesjakk og minner fra miljøer som har hatt betydning
+for sjakken på Nord-Jæren.
+</p>
+
+<p>
+Målet er å bevare både resultatene og historiene bak dem.
+Mange av partiene er kanskje ikke kjent utenfor lokalmiljøet,
+men de er en viktig del av den levende sjakkhistorien.
+</p>
+
+</div>
+
+<section class="archive-section">
 
 <h2>Historiske arkiver</h2>
 
 <div class="archive-grid">
 
-    <div class="archive-card">
-        <div class="piece">♜</div>
+<div class="archive-card">
 
-        <h3>Randaberg Sjakklubb</h3>
+<div class="piece">♜</div>
 
-        <p>
-        Klubbhistorie, pionertiden 1969–1970, historiske partier,
-        turneringer og minner fra Randaberg Sjakklubb.
-        </p>
+<h3>Randaberg Sjakklubb</h3>
 
-        <a href="Randaberg.htm">
-        Åpne Randaberg-arkivet
-        </a>
-    </div>
+<p>
+Klubbhistorie, pionertiden 1969–1970, historiske partier,
+turneringer og minner fra Randaberg Sjakklubb.
+</p>
 
-    <div class="archive-card">
-        <div class="piece">♝</div>
-
-        <h3>Stavanger Sjakklubb</h3>
-
-        <p>
-        Partier fra lavere klasser, stikkamper og gamle klubboppgjør
-        fra Stavanger Sjakklubb.
-        </p>
-
-        <a href="pgn/gamle-stavanger.html">
-        Åpne Stavanger-arkivet
-        </a>
-    </div>
-
-    <div class="archive-card">
-        <div class="piece">♛</div>
-
-        <h3>Postsjakk</h3>
-
-        <p>
-        Korrespondansesjakk, analyser, ICCF-partier og historiske
-        postsjakkopplevelser.
-        </p>
-
-        <a href="pgn/PostChess.htm">
-        Åpne postsjakkarkivet
-        </a>
-    </div>
+<a href="Randaberg.htm">
+Åpne Randaberg-arkivet
+</a>
 
 </div>
 
-</section>
+<div class="archive-card">
+
+<div class="piece">♝</div>
+
+<h3>Stavanger Sjakklubb</h3>
+
+<p>
+Part
