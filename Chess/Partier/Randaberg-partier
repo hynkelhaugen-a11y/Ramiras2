@@ -1,1 +1,107 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Partier - Randaberg Sjakklubb</title>
 
+<link rel="stylesheet" href="../style.css">
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #1f3b5c;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background: #f8f8f8;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #1f3b5c;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    background: #1f3b5c;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.card a:hover {
+    background: #345a85;
+}
+</style>
+</head>
+
+<body>
+
+<h1>♟️ Partier fra Randaberg Sjakklubb</h1>
+
+<div class="intro">
+    <p>
+        Et utvalg partier fra klubbturneringer, hurtigsjakk,
+        kretskamper og andre begivenheter gjennom klubbens historie.
+    </p>
+</div>
+
+<div class="grid">
+
+    <div class="card">
+        <h2>🏆 Klubbturneringer</h2>
+        <p>
+            Utvalgte partier fra klubbmesterskap og interne turneringer.
+        </p>
+        <a href="klubbturneringer.html">Se partier →</a>
+    </div>
+
+    <div class="card">
+        <h2>⚡ Hurtigsjakk</h2>
+        <p>
+            Spennende og lærerike partier fra hurtigsjakkturneringer.
+        </p>
+        <a href="hurtigsjakk.html">Se partier →</a>
+    </div>
+
+    <div class="card">
+        <h2>♜ Kretskamper</h2>
+        <p>
+            Partier fra lagkamper og kretsoppgjør mot andre klubber.
+        </p>
+        <a href="kretskamper.html">Se partier →</a>
+    </div>
+
+</div>
+
+<p style="text-align:center;margin-top:40px;">
+    <a href="../chess.html">← Tilbake til Chess</a>
+</p>
+
+</body>
+</html>
