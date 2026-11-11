@@ -1,118 +1,165 @@
 <!DOCTYPE html>
 <html lang="no">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ramiras - Chess, Music & Things</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ramiras | Chess, Music & Family History</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Segoe UI, Arial, sans-serif;
+    background:#f5f7fa;
+    color:#333;
+}
+
+header{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    margin:0;
+    font-size:4rem;
+}
+
+header p{
+    font-size:1.3rem;
+}
+
+nav{
+    background:#1e293b;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:50px 20px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    padding:30px;
+    box-shadow:0 3px 12px rgba(0,0,0,0.1);
+}
+
+.card h2{
+    margin-top:0;
+    color:#0f172a;
+}
+
+.button{
+    display:inline-block;
+    background:#0284c7;
+    color:white;
+    text-decoration:none;
+    padding:12px 20px;
+    border-radius:8px;
+    margin-top:15px;
+}
+
+.button:hover{
+    background:#0369a1;
+}
+
+footer{
+    margin-top:50px;
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+</style>
+
 </head>
+
 <body>
 
-<header class="hero">
-    <div class="hero-content">
-        <h1>♜ RAMIRAS</h1>
-        <p>Chess, Music & Things</p>
-
-        <div class="hero-buttons">
-            <a href="chess-archive.html" class="btn">Sjakkarkiv</a>
-            <a href="family.html" class="btn">Familiehistorie</a>
-        </div>
-    </div>
+<header>
+    <h1>Ramiras</h1>
+    <p>Chess • Music • Family History</p>
 </header>
 
-<section class="intro">
-    <h2>Velkommen</h2>
+<nav>
+    <a href="/">Home</a>
+    <a href="chess.html">Chess</a>
+    <a href="Family/">Family</a>
+</nav>
+
+<div class="container">
+
+<div class="cards">
+
+<div class="card">
+    <h2>♟ Chess</h2>
 
     <p>
-        En personlig samling av sjakkhistorie, familiekrønike,
-        musikkinteresser og andre prosjekter gjennom et langt liv.
+        Correspondence chess, ICCF tournaments,
+        analysis, ratings and achievements.
     </p>
-</section>
 
-<section class="cards">
-
-    <a href="chess-archive.html" class="card">
-        <div class="icon">♟</div>
-        <h3>Chess</h3>
-        <p>Partier, artikler, turneringer og minner.</p>
+    <a class="button" href="chess.html">
+        Enter Chess
     </a>
+</div>
 
-    <a href="music.html" class="card">
-        <div class="icon">🎵</div>
-        <h3>Music</h3>
-        <p>Favorittartister, konserter og musikkminner.</p>
+<div class="card">
+    <h2>👨‍👩‍👧 Family History</h2>
+
+    <p>
+        Family tree, biographies,
+        genealogy and local history.
+    </p>
+
+    <a class="button" href="Family/">
+        Enter Family
     </a>
+</div>
 
-    <a href="family.html" class="card">
-        <div class="icon">👥</div>
-        <h3>Family</h3>
-        <p>Slekten Ramiras og familiehistorie.</p>
+<div class="card">
+    <h2>🎵 Music</h2>
+
+    <p>
+        Music collections, favourite recordings
+        and musical interests.
+    </p>
+
+    <a class="button" href="music.html">
+        Music
     </a>
+</div>
 
-    <a href="things.html" class="card">
-        <div class="icon">📚</div>
-        <h3>Things</h3>
-        <p>Prosjekter, artikler og annet arkivmateriale.</p>
-    </a>
+</div>
 
-</section>
-
-<section class="timeline">
-
-    <h2>Sjakkreisen</h2>
-
-    <div class="timeline-item">
-        <span>1970</span>
-        <p>Tasta og de første sjakkopplevelsene.</p>
-    </div>
-
-    <div class="timeline-item">
-        <span>1980</span>
-        <p>Stavanger Sjakklubb.</p>
-    </div>
-
-    <div class="timeline-item">
-        <span>1990</span>
-        <p>Postsjakk og analyser.</p>
-    </div>
-
-    <div class="timeline-item">
-        <span>2000+</span>
-        <p>Randaberg Sjakklubb og historisk arbeid.</p>
-    </div>
-
-</section>
-
-<section class="persons">
-
-    <h2>Utvalgte personer</h2>
-
-    <div class="person-grid">
-
-        <div class="person-card">
-            <img src="images/arild.jpg" alt="Arild">
-            <h3>Arild Haugen</h3>
-            <p>Grunnlegger av arkivet og sjakkentusiast.</p>
-        </div>
-
-        <div class="person-card">
-            <img src="images/person2.jpg" alt="">
-            <h3>Navn</h3>
-            <p>Kort biografi.</p>
-        </div>
-
-        <div class="person-card">
-            <img src="images/person3.jpg" alt="">
-            <h3>Navn</h3>
-            <p>Kort biografi.</p>
-        </div>
-
-    </div>
-
-</section>
+</div>
 
 <footer>
-    <p>© 2026 Ramiras · Chess, Music & Things</p>
+    © Ramiras
 </footer>
 
 </body>
