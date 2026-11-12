@@ -3,48 +3,132 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Correspondence Chess</title>
+
+<title>Correspondence Chess | Ramiras</title>
 
 <style>
-body {
-    font-family: Verdana, Arial, sans-serif;
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-    background: #f5f5f5;
+
+body{
+    margin:0;
+    font-family:Georgia, serif;
+    background:#f5f7fa;
+    color:#333;
+    line-height:1.7;
 }
 
-header {
-    text-align: center;
-    margin-bottom: 30px;
+header{
+    background:#16213e;
+    color:white;
+    text-align:center;
+    padding:70px 20px;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-    gap: 20px;
+header h1{
+    margin:0;
+    font-size:3rem;
 }
 
-.card {
-    background: white;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+header p{
+    font-size:1.2rem;
 }
 
-h1,h2 {
-    color: #1c355e;
+nav{
+    background:#1e293b;
+    text-align:center;
+    padding:15px;
 }
 
-a {
-    color: #204a87;
-    text-decoration: none;
-    font-weight: bold;
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-weight:bold;
 }
 
-a:hover {
-    text-decoration: underline;
+nav a:hover{
+    color:#38bdf8;
 }
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.intro{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 3px 12px rgba(0,0,0,0.10);
+    margin-bottom:40px;
+}
+
+.profile{
+    display:flex;
+    gap:30px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.profile img{
+    width:250px;
+    border-radius:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
+}
+
+.profile-text{
+    flex:1;
+    min-width:300px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 3px 12px rgba(0,0,0,0.10);
+}
+
+.card h2{
+    margin-top:0;
+    color:#16213e;
+}
+
+.button{
+    display:inline-block;
+    margin-top:15px;
+    background:#0284c7;
+    color:white;
+    text-decoration:none;
+    padding:10px 18px;
+    border-radius:8px;
+}
+
+.button:hover{
+    background:#0369a1;
+}
+
+.quote{
+    border-left:5px solid #0284c7;
+    padding-left:15px;
+    margin:25px 0;
+    font-style:italic;
+}
+
+footer{
+    margin-top:50px;
+    background:#16213e;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
 </style>
 
 </head>
@@ -53,86 +137,86 @@ a:hover {
 
 <header>
 
-<h1>✉️ Correspondence Chess Archive</h1>
+<h1>Correspondence Chess</h1>
 
 <p>
-Correspondence chess tournaments, games, reports and historical records.
+A lifetime of analytical chess, ICCF tournaments and international competition
 </p>
 
 </header>
 
-<div class="grid">
+<nav>
+    <a href="../index.html">Home</a>
+    <a href="../Sjakk/">Sjakk</a>
+    <a href="../music.html">Music</a>
+    <a href="../Family/">Family</a>
+</nav>
 
-<div class="card">
-<h2>🌍 ICCF Events</h2>
+<div class="container">
 
-<p>
-International Correspondence Chess Federation tournaments.
-</p>
+<div class="intro">
 
-<a href="ICCF/index.html">
-Open ICCF Archive →
-</a>
-
-</div>
-
-<div class="card">
-<h2 Norwegian Championships</h2>
+<h2>What is Correspondence Chess?</h2>
 
 <p>
-Norwegian Correspondence Chess Championships.
+Correspondence chess is chess played over distance.
+Historically, moves were exchanged by post and games often
+lasted for months or even years. Today most correspondence
+chess is played on dedicated internet servers while preserving
+the tradition of deep analysis and careful strategic planning.
 </p>
-
-<a href="NorwegianChampionship/index.html">
-Open Archive →
-</a>
-
-</div>
-
-<div class="card">
-<h2>Ivitationals</h2>
 
 <p>
-Invitational correspondence chess tournaments.
+Unlike ordinary tournament chess, correspondence players may
+spend days analysing a single move. This creates an environment
+where opening preparation, strategic understanding and endgame
+technique can be explored in extraordinary depth.
 </p>
 
-<a href="Invit/index.html">
-Open Archive →
-</a>
+<div class="quote">
+"From stamps and postcards to modern internet servers,
+the fascination remains the same: finding the best move."
+</div>
 
 </div>
 
-<div class="card">
-<h2>👥 Team Events</h2>
+<div class="intro">
+
+<div class="profile">
+
+<img src="../images/arild-haugen.jpg"
+     alt="Arild Haugen">
+
+<div class="profile-text">
+
+<h2>About Arild Haugen</h2>
 
 <p>
-National and international team competitions.
+My interest in chess began in the 1950s when my father,
+the Norwegian magician Ramiras, introduced me to the game.
+What started as a childhood hobby evolved into a lifelong
+interest in chess, analysis and correspondence play.
 </p>
-
-<a href="TeamEvents/index.html">
-Open Archive →
-</a>
-
-</div>
-
-<div class="card">
-<h2>♞ PGN Files</h2>
 
 <p>
-ChessBase exports and complete tournament databases.
+Over several decades I have participated in Norwegian and
+international correspondence chess events, represented Norway
+in ICCF competitions and contributed to documenting the history
+of Norwegian correspondence chess.
 </p>
 
-<a href="PGN/index.html">
-Open PGN Archive →
-</a>
+<p>
+Together with Reidar Gramstad and Thor Geir Harestad,
+I co-authored the book
+<em>Chess Without Borders</em>,
+which chronicles 75 years of the Norwegian Correspondence
+Chess Federation.
+</p>
 
 </div>
 
 </div>
 
-<p style="margin-top:40px;">
-<a href="../index.html">⬅ Back to Ramiras Chess Archive</a>
-</p>
+</div>
 
-</body>
-</html>
+<h2>Explore
