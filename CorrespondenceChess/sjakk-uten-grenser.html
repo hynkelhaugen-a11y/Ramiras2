@@ -1,211 +1,414 @@
 <!DOCTYPE html>
-<html lang="no">
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Sjakk uten grenser</title>
+<title>Chess Without Borders | Ramiras</title>
 
 <style>
+
 body{
-    font-family: Georgia, serif;
-    max-width:1000px;
-    margin:auto;
-    padding:20px;
+    margin:0;
+    font-family:Georgia, serif;
+    background:#f5f7fa;
+    color:#333;
     line-height:1.7;
-    background:#fafafa;
+}
+
+header{
+    background:#16213e;
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+}
+
+header h1{
+    margin:0;
+    font-size:3rem;
+}
+
+nav{
+    background:#1e293b;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-weight:bold;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.section{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 3px 12px rgba(0,0,0,.10);
+    margin-bottom:40px;
+}
+
+.profile{
+    display:flex;
+    gap:30px;
+    flex-wrap:wrap;
 }
 
 .book-cover{
-    display:block;
-    max-width:500px;
-    width:100%;
-    margin:0 auto 30px auto;
-    box-shadow:0 4px 16px rgba(0,0,0,0.2);
-}
-
-.intro{
-    background:white;
-    padding:25px;
+    width:220px;
+    height:auto;
     border-radius:10px;
-    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    box-shadow:0 4px 12px rgba(0,0,0,.15);
 }
 
-h1{
-    color:#1f3b5b;
-    text-align:center;
+.text{
+    flex:1;
+    min-width:300px;
 }
 
-.author-grid{
+.authors{
     display:flex;
     flex-wrap:wrap;
-    gap:20px;
     justify-content:center;
-    margin-top:30px;
+    gap:30px;
+    margin-top:20px;
 }
 
-.author{
-    width:250px;
-    background:white;
-    padding:15px;
-    border-radius:10px;
+.author-card{
+    width:260px;
+    min-height:300px;
+    background:#f8fafc;
+    padding:20px;
+    border-radius:12px;
     text-align:center;
-    box-shadow:0 2px 8px rgba(0,0,0,0.08);
+    box-shadow:0 3px 12px rgba(0,0,0,.08);
 }
+
+.author-card img{
+    width:140px;
+    height:140px;
+    object-fit:cover;
+    border-radius:50%;
+    display:block;
+    margin:0 auto 15px auto;
+}
+
+.author-card h3{
+    margin:10px 0;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 3px 12px rgba(0,0,0,.10);
+}
+
+.card:hover{
+    transform:translateY(-4px);
+    transition:0.2s;
+}
+
+.button{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 18px;
+    background:#0284c7;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+.button:hover{
+    background:#0369a1;
+}
+
+footer{
+    background:#16213e;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:50px;
+}
+
 </style>
 </head>
 
 <body>
 
-<img src="../images/sjakk-uten-grenser-cover.jpg"
-     alt="Forside Sjakk uten grenser"
+<header>
+
+<h1>Chess Without Borders</h1>
+
+<p>
+75 Years of the Norwegian Correspondence Chess Federation
+</p>
+
+</header>
+
+<nav>
+    <a href="../index.html">Home</a>
+    <a href="index.html">Correspondence Chess</a>
+    <a href="../Chess/">Sjakk</a>
+    <a href="../Family/">Family</a>
+</nav>
+
+<div class="container">
+
+<div class="section">
+
+<div class="profile">
+
+<img src="../images/sjakk-uten-grenser.jpg"
+     alt="Chess Without Borders"
      class="book-cover">
 
-<div class="intro">
+<div class="text">
 
-<h1>Sjakk uten grenser</h1>
-
-<h2>Norges Fjernsjakkforbund 75 år (1945–2020)</h2>
+<h2>About the Book</h2>
 
 <p>
-Denne boka dokumenterer historien til Norges Fjernsjakkforbund
-gjennom 75 år. Den følger utviklingen fra de første
-postsjakkturneringene til moderne serversjakk og forteller historien
-om spillerne, turneringene og de internasjonale prestasjonene som har
-formet norsk fjernsjakk.
+<i>Chess Without Borders</i> documents the history of
+Norwegian correspondence chess and the Norwegian
+Correspondence Chess Federation during its first seventy-five
+years.
 </p>
 
 <p>
-Boka inneholder 123 utvalgte og minneverdige partier samt artikler om
-sentrale personer og begivenheter i norsk korrespondansesjakk.
+Written by Reidar Gramstad, Thor Geir Harestad and
+Arild Haugen, the book combines historical articles,
+player portraits and 123 memorable games.
+</p>
+
+<p>
+The book follows the development of correspondence chess
+from the era of postcards and letters through the age
+of computers and modern online servers.
 </p>
 
 </div>
 
-<h2>Forfattere</h2>
+</div>
 
-<div class="author-grid">
+</div>
 
-<div class="author">
+<div class="section">
+
+<h2 style="text-align:center;">
+The Authors
+</h2>
+
+<div class="authors">
+
+<div class="author-card">
+<img src="../images/Reidar-Gramstad.jpg"
+     alt="Reidar Gramstad">
+
 <h3>Reidar Gramstad</h3>
-<p>Medforfatter og mangeårig leder i Norges Fjernsjakkforbund.</p>
+
+<p>
+Former president of the Norwegian Correspondence
+Chess Federation and one of the leading historians
+of Norwegian correspondence chess.
+</p>
+
 </div>
 
-<div class="author">
+<div class="author-card">
+<img src="../images/Thor-Geir-Harestad.jpg"
+     alt="Thor Geir Harestad">
+
 <h3>Thor Geir Harestad</h3>
-<p>Medforfatter, journalist og sjakkhistoriker.</p>
+
+<p>
+Author, journalist and chess historian with numerous
+publications on chess and local history.
+</p>
+
 </div>
 
-<div class="author">
+<div class="author-card">
+<img src="../images/arild-haugen.jpg"
+     alt="Arild Haugen">
+
 <h3>Arild Haugen</h3>
-<p>Medforfatter, internasjonal postsjakkspiller og bidragsyter til norsk fjernsjakkhistorie.</p>
+
+<p>
+Correspondence chess player, researcher and
+co-author of Chess Without Borders.
+</p>
+
 </div>
 
 </div>
 
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="no">
-<head>
-<meta charset="utf-8">
-<title>Sjakk uten grenser</title>
-<style>
-body {
-    font-family: Georgia, serif;
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
-    line-height: 1.6;
-}
-
-h1, h2 {
-    color: #2c3e50;
-}
-
-.bookbox {
-    background: #f5f5f5;
-    border-left: 5px solid #336699;
-    padding: 15px;
-    margin: 20px 0;
-}
-
-.author {
-    margin-top: 20px;
-}
-</style>
-</head>
-<body>
-
-<h1>Sjakk uten grenser</h1>
-
-<h2>Norges Fjernsjakkforbund 75 år (1945–2020)</h2>
-
-<div class="bookbox">
-<p><strong>Med 123 minneverdige partier</strong></p>
-
-<p>
-Forfattere: Reidar Gramstad, Thor Geir Harestad og Arild Haugen.
-</p>
 </div>
 
-<p>
-«Sjakk uten grenser» forteller historien om norsk fjernsjakk og
-Norges Fjernsjakkforbund gjennom 75 år. Boka beskriver utviklingen
-fra de tidlige postsjakkturneringene til dagens serverbaserte spill,
-og dokumenterer en viktig del av norsk sjakkhistorie.
-</p>
+<div class="section">
+
+<h2>Selected Chapters</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>📜 From Stamps to the Internet</h3>
 
 <p>
-Leseren får møte spillerne, organisatorene og ildsjelene som bygde
-opp norsk fjernsjakk. Boka omtaler blant annet norske verdensmestere,
-internasjonale mesterskap og Norges sterke tradisjoner innen
-korrespondansesjakk.
+The evolution of correspondence chess from postal mail
+to modern servers.
 </p>
 
-<p>
-Et sentralt innslag er de 123 utvalgte partiene som viser utviklingen
-i fjernsjakk gjennom flere generasjoner. Mange av partiene er kommentert
-av spillerne selv, mens andre er oppdatert med moderne analyser.
-</p>
+<a class="button"
+href="from-stamps-to-the-internet.html">
+Read Chapter
+</a>
 
-<h2>Forfatterne</h2>
-
-<div class="author">
-<h3>Reidar Gramstad</h3>
-<p>
-Tidligere leder i Norges Fjernsjakkforbund og mangeårig bidragsyter
-til medlemsbladet «Fjernsjakk». Har bakgrunn fra reiselivsbransjen
-og universitetsstudier innen sosialantropologi, historie og spansk.
-</p>
 </div>
 
-<div class="author">
-<h3>Thor Geir Harestad</h3>
+<div class="card">
+
+<h3>🏛 History of the NCCF</h3>
+
 <p>
-Pensjonert lektor og sosiolog med erfaring som journalist.
-Forfatter av flere bøker og artikler om sjakk, samt publikasjoner
-innen lokalhistorie og politikk.
+The history of the Norwegian Correspondence Chess Federation.
 </p>
+
+<a class="button"
+href="nccf-history.html">
+Read Chapter
+</a>
+
 </div>
 
-<div class="author">
-<h3>Arild Haugen</h3>
+<div class="card">
+
+<h3>🏆 Norwegian World Champions</h3>
+
 <p>
-Pensjonert geofysiker og aktiv postsjakkspiller.
-Har gjennom mange år deltatt i internasjonale turneringer og
-hatt ulike verv innen norsk fjernsjakk.
+Profiles of players who reached the highest levels
+of correspondence chess.
 </p>
+
+<a class="button"
+href="world-champions.html">
+Read Chapter
+</a>
+
 </div>
 
-<hr>
+<div class="card">
+
+<h3>♟ Sverre Halvorsen</h3>
 
 <p>
-Denne boka er et viktig historisk dokument over norsk fjernsjakk og
-en hyllest til generasjonene av spillere som har bidratt til å holde
-sjakk uten grenser levende.
+One of the pioneers and great personalities of
+Norwegian correspondence chess.
 </p>
+
+<a class="button"
+href="sverre-halvorsen.html">
+Read Chapter
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Selected Games</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>⚔ Haugen – McNab</h3>
+
+<p>
+One of the best known games from Norwegian
+correspondence chess.
+</p>
+
+<a class="button"
+href="../Chess/Partier/haugen-mcnab.html">
+View Game
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>♔ Best Games Collection</h3>
+
+<p>
+Selected correspondence games with analysis
+and commentary.
+</p>
+
+<a class="button"
+href="../Chess/Best/">
+Explore
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>📚 Games from the Book</h3>
+
+<p>
+Memorable encounters featured in
+Chess Without Borders.
+</p>
+
+<a class="button"
+href="games-from-the-book.html">
+View Games
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="section" style="text-align:center;">
+
+<a class="button"
+href="index.html">
+Back to Correspondence Chess
+</a>
+
+<a class="button"
+href="../Chess/">
+Go to Chess
+</a>
+
+</div>
+
+</div>
+
+<footer>
+
+Ramiras | Correspondence Chess • Chess • Music • Family History
+
+</footer>
 
 </body>
 </html>
