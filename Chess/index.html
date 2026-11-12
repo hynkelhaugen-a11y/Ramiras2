@@ -1,303 +1,320 @@
 <!DOCTYPE html>
 <html lang="no">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Chess - Ramiras2</title>
+<title>Sjakk | Ramiras</title>
 
 <style>
 
 body{
     margin:0;
-    padding:30px;
-    background:#f3f3f3;
     font-family:Georgia, serif;
-    color:#222;
+    background:#f5f7fa;
+    color:#333;
+    line-height:1.7;
+}
+
+header{
+    background:#1f2937;
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+}
+
+header h1{
+    margin:0;
+    font-size:3rem;
+}
+
+header p{
+    font-size:1.2rem;
+}
+
+nav{
+    background:#374151;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#60a5fa;
 }
 
 .container{
     max-width:1200px;
     margin:auto;
-}
-
-h1{
-    text-align:center;
-    color:#1d3f7a;
-    margin-bottom:10px;
+    padding:40px 20px;
 }
 
 .intro{
-    text-align:center;
-    color:#555;
-    margin-bottom:30px;
-    font-size:1.1em;
-}
-
-.hero{
     background:white;
     padding:30px;
-    border-radius:15px;
-    box-shadow:0 2px 8px rgba(0,0,0,.1);
-    margin-bottom:30px;
+    border-radius:12px;
+    box-shadow:0 3px 12px rgba(0,0,0,0.10);
+    margin-bottom:40px;
 }
 
-.hero h2{
-    color:#1d3f7a;
-    margin-top:0;
-}
-
-.hero hr{
-    margin:30px 0;
-    border:none;
-    border-top:1px solid #ddd;
-}
-
-.hero-links{
-    margin-top:20px;
-}
-
-.hero-links a{
-    display:block;
-    margin:10px 0;
-    color:#1d3f7a;
-    text-decoration:none;
-    font-weight:bold;
-}
-
-.hero-links a:hover{
-    text-decoration:underline;
-}
-
-.grid{
+.cards{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    gap:20px;
+    gap:25px;
 }
 
 .card{
     background:white;
-    border-radius:15px;
-    box-shadow:0 2px 8px rgba(0,0,0,.10);
-    padding:24px;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 3px 12px rgba(0,0,0,0.10);
 }
 
-.card h3{
+.card h2{
     margin-top:0;
+    color:#1f2937;
 }
 
-.card a{
-    color:#1d3f7a;
+.button{
+    display:inline-block;
+    margin-top:15px;
+    background:#2563eb;
+    color:white;
     text-decoration:none;
-    font-weight:bold;
+    padding:10px 18px;
+    border-radius:8px;
 }
 
-.card a:hover{
-    text-decoration:underline;
+.button:hover{
+    background:#1d4ed8;
 }
 
-/* Fargestriper */
-
-.turneringer{
-    border-top:6px solid #d4a017;
-}
-
-.correspondence{
-    border-top:6px solid #8b5cf6;
-}
-
-.randaberg{
-    border-top:6px solid #16a34a;
-}
-
-.partier{
-    border-top:6px solid #dc2626;
-}
-
-.galleri{
-    border-top:6px solid #2563eb;
-}
-
-.internasjonal{
-    border-top:6px solid #0f766e;
-}
-
-.lenker{
-    border-top:6px solid #6b7280;
-}
-
-.arkiv{
-    border-top:6px solid #8b5e3c;
-    grid-column:span 2;
-}
-
-@media (max-width:900px){
-
-    .arkiv{
-        grid-column:span 1;
-    }
-
+.quote{
+    margin:25px 0;
+    padding-left:15px;
+    border-left:4px solid #2563eb;
+    font-style:italic;
 }
 
 footer{
-    margin-top:40px;
+    margin-top:50px;
+    background:#1f2937;
+    color:white;
     text-align:center;
-    color:#666;
-    font-size:0.95em;
+    padding:25px;
 }
 
 </style>
-
 </head>
 
 <body>
 
+<header>
+
+<h1>♟ Sjakk</h1>
+
+<p>
+Partier, turneringer, minner og norsk sjakkhistorie
+</p>
+
+</header>
+
+<nav>
+    <a href="../index.html">Hjem</a>
+    <a href="../CorrespondenceChess/">Correspondence Chess</a>
+    <a href="../music.html">Musikk</a>
+    <a href="../Family/">Slekt</a>
+</nav>
+
 <div class="container">
 
-<h1>♟ Chess</h1>
+<div class="intro">
 
-<p class="intro">
-Turneringer, postsjakk, partier, sjakkhistorie og minner gjennom mange år.
-</p>
-
-<div class="hero">
-
-<h2>⌛ Min sjakktidslinje</h2>
-
-<ul>
-<li><strong>1970-årene</strong> – Starten på postsjakk og turneringssjakk.</li>
-<li><strong>1980-årene</strong> – Randaberg Sjakklubb og lokal aktivitet.</li>
-<li><strong>1990-årene</strong> – Norske og internasjonale turneringer.</li>
-<li><strong>2000-årene</strong> – ICCF og internasjonale mesterskap.</li>
-<li><strong>2010-årene og senere</strong> – Arkivarbeid og sjakkhistoriske prosjekter.</li>
-</ul>
-
-<hr>
-
-<h2>📖 Min historie</h2>
+<h2>Velkommen til sjakksidene</h2>
 
 <p>
-Sjakken har fulgt meg gjennom store deler av livet – fra de første
-turneringene på 1970-tallet via Randaberg Sjakklubb,
-postsjakk og internasjonale ICCF-mesterskap til dagens arbeid med
-sjakkhistorie og digitalisering av gamle arkiver.
+Sjakk har vært en del av livet mitt siden barndommen i Stavanger.
+Gjennom mer enn seks tiår har spillet gitt opplevelser, vennskap,
+konkurranser og mange minner.
 </p>
 
 <p>
-Denne seksjonen samler både egne opplevelser, partier,
-turneringsrapporter, fotografier og historiske dokumenter fra mer enn
-femti år i sjakkmiljøet.
+På disse sidene har jeg samlet partier, turneringer, artikler,
+historisk stoff, fotografier og personlige erfaringer fra norsk
+sjakkliv.
 </p>
 
-<div class="hero-links">
+<div class="quote">
+"Sjakk er ikke bare et spill. Det er historie, kultur,
+vennskap og livslang læring."
+</div>
 
-<a href="sjakkhistorie.htm">
-📖 Les min detaljerte sjakkhistorie →
+<p>
+For internasjonal korrespondansesjakk og ICCF-materiale,
+besøk den egne seksjonen
+<strong>Correspondence Chess</strong>.
+</p>
+
+<p>
+<a class="button"
+href="../CorrespondenceChess/">
+Gå til Correspondence Chess
 </a>
+</p>
 
-<a href="chess-archive.html">
-⌛ Se tidslinje, kronologi og historisk arkiv →
+</div>
+
+<h2>Sjakkarkiv</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h2>♔ Correspondence Chess</h2>
+
+<p>
+Internasjonale turneringer, ICCF,
+analytiske partier, bokprosjekter
+og korrespondansesjakk gjennom flere tiår.
+</p>
+
+<a class="button"
+href="../CorrespondenceChess/">
+Åpne seksjonen
 </a>
 
 </div>
 
-</div>
+<div class="card">
 
-<div class="grid">
-
-<div class="card turneringer">
-<h3>🏆 Turneringer</h3>
-<p>
-Turneringsrapporter, resultater, partier og analyser.
-</p>
-<a href="Turneringer/index.html">
-Åpne turneringer →
-</a>
-</div>
-
-<div class="card correspondence">
-<h3>✉️ Correspondence Chess</h3>
-<p>
-Postsjakk, ICCF-turneringer og internasjonale mesterskap.
-</p>
-<a href="Correspondence%20Chess/index.html">
-Åpne Correspondence Chess →
-</a>
-</div>
-
-<div class="card randaberg">
-<h3>♜ Randaberg Sjakklubb</h3>
-<p>
-Historie, profiler og aktivitet i Randaberg Sjakklubb.
-</p>
-<a href="Randaberg.htm">
-Åpne Randaberg SK →
-</a>
-</div>
-
-<div class="card partier">
-<h3>♞ Partier</h3>
-<p>
-Utvalgte partier, analyser og minner fra sjakkbrettet.
-</p>
-<a href="games.html">
-Se partiene →
-</a>
-</div>
-
-<div class="card galleri">
-<h3>🖼️ Galleri</h3>
-<p>
-Bilder fra turneringer, reiser og sjakkmiljø.
-</p>
-<a href="gallery.html">
-Åpne galleri →
-</a>
-</div>
-
-<div class="card internasjonal">
-<h3>🌍 Internasjonal karriere</h3>
-<p>
-Internasjonale turneringer og ICCF-aktivitet gjennom flere tiår.
-</p>
-<a href="colin-mcnab.html">
-Les mer →
-</a>
-</div>
-
-<div class="card lenker">
-<h3>🔗 Sjakklenker</h3>
-<p>
-Nyttige nettsteder og ressurser for sjakkspillere.
-</p>
-<a href="https://www.sjakk.no/" target="_blank" rel="noopener noreferrer">
-Norges Sjakkforbund →
-</a>
-</div>
-
-<div class="card arkiv">
-
-<h3>📂 Historisk arkiv</h3>
+<h2>🏆 Turneringer</h2>
 
 <p>
-Artikler, turneringsrapporter, partier, klubbhistorie og historiske
-dokumenter samlet gjennom mange år.
+Resultater, minner, rapporter og
+historisk materiale fra turneringer.
 </p>
 
-<a href="chess-archive.html">
-Åpne historisk arkiv →
+<a class="button"
+href="Turneringer/">
+Turneringer
 </a>
+
+</div>
+
+<div class="card">
+
+<h2>♟ Partier</h2>
+
+<p>
+Utvalgte partier med kommentarer,
+analyser og bakgrunnshistorier.
+</p>
+
+<a class="button"
+href="Partier/">
+Partisamling
+</a>
+
+</div>
+
+<div class="card">
+
+<h2>📖 Best Games</h2>
+
+<p>
+Noen av de mest interessante partiene
+fra en lang sjakkarriere.
+</p>
+
+<a class="button"
+href="Best/">
+Best Games
+</a>
+
+</div>
+
+<div class="card">
+
+<h2>🕰 Mimring</h2>
+
+<p>
+Historier, fotografier og minner
+fra tidligere tider.
+</p>
+
+<a class="button"
+href="Mimring/">
+Mimring
+</a>
+
+</div>
+
+<div class="card">
+
+<h2>📜 Gammelt</h2>
+
+<p>
+Eldre dokumenter, artikler og
+historiske sjakkressurser.
+</p>
+
+<a class="button"
+href="Gammelt/">
+Gammelt stoff
+</a>
+
+</div>
+
+<div class="card">
+
+<h2>📚 Min sjakkhistorie</h2>
+
+<p>
+Personlige erfaringer fra de første
+sjakkårene til dagens aktiviteter.
+</p>
+
+<a class="button"
+href="../Min-Sjakkhistorie.html">
+Les mer
+</a>
+
+</div>
+
+<div class="card">
+
+<h2>🇳🇴 Norsk sjakkhistorie</h2>
+
+<p>
+Et tilbakeblikk på norsk sjakk,
+spillere, klubber og utviklingen
+gjennom generasjoner.
+</p>
+
+<a class="button"
+href="../Min-Sjakkhistorie-old.html">
+Historikk
+</a>
+
+</div>
 
 </div>
 
 </div>
 
 <footer>
-Ramiras2 · Chess Archive · Arild Haugen
-</footer>
 
-</div>
+<p>
+Ramiras | Sjakk • Correspondence Chess • Musikk • Slektshistorie
+</p>
+
+</footer>
 
 </body>
 </html>
