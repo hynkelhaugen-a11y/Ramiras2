@@ -86,32 +86,39 @@ nav a:hover{
     flex:1;
     min-width:300px;
 }
-
 .authors{
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
-    gap:25px;
-    margin-top:25px;
+    align-items:flex-start;
+    gap:30px;
+    margin-top:20px;
 }
 
 .author-card{
-    width:220px;
+    width:260px;
+    min-height:320px;
     background:#f8fafc;
-    padding:15px;
-    border-radius:10px;
+    padding:20px;
+    border-radius:12px;
     text-align:center;
-    box-shadow:0 2px 8px rgba(0,0,0,.08);
+    box-shadow:0 3px 12px rgba(0,0,0,.08);
 }
 
 .author-card img{
-    width:120px;
-    height:120px;
+    width:140px;
+    height:140px;
     object-fit:cover;
     border-radius:50%;
     display:block;
-    margin:0 auto 10px auto;
+    margin:0 auto 15px auto;
 }
+
+.author-card h3{
+    margin:10px 0;
+}
+}
+
 
 .cards{
     display:grid;
@@ -279,10 +286,12 @@ correspondence chess history.
 </div>
 
 </div>
-
-<h3 style="margin-top:30px;text-align:center;">
+    
+<h2 style="text-align:center;margin-top:40px;">
     The Authors
-</h3>
+</h2>
+
+
 
 <div class="authors">
 
