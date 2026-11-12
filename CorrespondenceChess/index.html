@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Correspondence Chess | Ramiras</title>
 
 <style>
@@ -24,7 +25,11 @@ header{
 
 header h1{
     margin:0;
-    font-size:3rem;
+    font-size:3.2rem;
+}
+
+header p{
+    font-size:1.2rem;
 }
 
 nav{
@@ -54,8 +59,8 @@ nav a:hover{
     background:white;
     padding:30px;
     border-radius:12px;
-    margin-bottom:40px;
     box-shadow:0 3px 12px rgba(0,0,0,.1);
+    margin-bottom:40px;
 }
 
 .profile{
@@ -70,8 +75,9 @@ nav a:hover{
     box-shadow:0 4px 12px rgba(0,0,0,.15);
 }
 
-.book img{
-    width:220px;
+.book-cover{
+    width:180px;
+    height:auto;
     border-radius:10px;
     box-shadow:0 4px 12px rgba(0,0,0,.15);
 }
@@ -84,7 +90,8 @@ nav a:hover{
 .authors{
     display:flex;
     flex-wrap:wrap;
-    gap:20px;
+    justify-content:center;
+    gap:25px;
     margin-top:25px;
 }
 
@@ -97,23 +104,18 @@ nav a:hover{
     box-shadow:0 2px 8px rgba(0,0,0,.08);
 }
 
-.author-card h3{
-    margin-top:10px;
-    margin-bottom:8px;
-}
-
 .author-card img{
     width:120px;
     height:120px;
     object-fit:cover;
     border-radius:50%;
-    margin-top:10px;
-    margin-bottom:10px;
+    display:block;
+    margin:0 auto 10px auto;
 }
 
 .cards{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
     gap:25px;
 }
 
@@ -122,6 +124,10 @@ nav a:hover{
     padding:25px;
     border-radius:12px;
     box-shadow:0 3px 12px rgba(0,0,0,.1);
+}
+
+.card h3{
+    margin-top:0;
 }
 
 .button{
@@ -147,13 +153,18 @@ footer{
 }
 
 </style>
-</head>
 
+</head>
 <body>
 
 <header>
+
 <h1>Correspondence Chess</h1>
-<p>A lifetime of analytical chess, ICCF tournaments and international competition</p>
+
+<p>
+A lifetime of analytical chess, ICCF tournaments and international competition
+</p>
+
 </header>
 
 <nav>
@@ -171,23 +182,22 @@ footer{
 
 <p>
 Correspondence chess is chess played over distance.
-Historically, moves were exchanged by postcard and letter,
-often resulting in games lasting many months or even years.
-Today most correspondence chess is played on dedicated
-internet servers while preserving the same spirit of deep
-analysis and careful planning.
+Historically, moves were exchanged through postcards and letters,
+often resulting in games lasting months or years.
+Today correspondence chess is primarily played on dedicated
+internet servers while preserving the tradition of deep analysis
+and careful preparation.
 </p>
 
 <p>
-Unlike ordinary tournament chess, players may spend several
-days analysing a single position. This makes correspondence
-chess a unique blend of practical play, research and chess
-history.
+Unlike over-the-board chess, players may spend several days on a
+single move. This creates a unique blend of practical play,
+research and chess history.
 </p>
 
 <p>
-Norway has a proud tradition in correspondence chess through
-the Norwegian Correspondence Chess Federation founded in 1945.
+Norway has a proud correspondence chess tradition through the
+Norwegian Correspondence Chess Federation founded in 1945.
 </p>
 
 </div>
@@ -210,17 +220,15 @@ the game.
 </p>
 
 <p>
-What started as a childhood hobby developed into decades of
-tournament chess, correspondence chess, analysis and chess
-history. Through the years I have represented Norway in
-international correspondence events and participated in
-numerous ICCF competitions.
+Over the decades I have participated in national and
+international correspondence chess tournaments, represented
+Norway in ICCF events and contributed to preserving the history
+of Norwegian correspondence chess.
 </p>
 
 <p>
-These pages contain selected games, articles, photographs,
-historical material and memories collected throughout a
-lifetime in chess.
+These pages contain selected games, articles, photographs and
+historical material collected during a lifetime in chess.
 </p>
 
 <a class="button" href="../about.html">
@@ -228,19 +236,22 @@ Read Full Biography
 </a>
 
 </div>
+
 </div>
+
 </div>
 
 <div class="section">
 
-<div class="profile book">
+<h2>Chess Without Borders</h2>
+
+<div class="profile">
 
 <img src="../images/sjakk-uten-grenser.jpg"
-     alt="Sjakk uten grenser">
+     alt="Chess Without Borders"
+     class="book-cover">
 
 <div class="text">
-
-<h2>Chess Without Borders</h2>
 
 <p>
 Together with Reidar Gramstad and Thor Geir Harestad,
@@ -249,66 +260,91 @@ documenting 75 years of Norwegian correspondence chess.
 </p>
 
 <p>
-The book contains historical articles, player portraits
-and 123 memorable correspondence games.
+The book contains historical articles, player portraits and
+123 memorable correspondence games.
 </p>
 
 <p>
-Published to celebrate the 75th anniversary of the Norwegian
-Correspondence Chess Federation, the book documents players,
+Published for the 75th anniversary of the Norwegian
+Correspondence Chess Federation, it documents players,
 tournaments and important milestones in Norwegian
 correspondence chess history.
 </p>
 
-<h3 style="margin-top:30px;">The Authors</h3>
-
-<div class="authors">
-
-<div class="author-card">
-<img src="../images/reidar-gramstad.jpg" alt="Reidar Gramstad">
-<h3>Reidar Gramstad</h3>
-<p>
-Former president of the Norwegian Correspondence Chess Federation
-and long-time editor and historian.
-</p>
-</div>
-
-<div class="author-card">
-<img src="../images/thor-geir-harestad.jpg" alt="Thor Geir Harestad">
-<h3>Thor Geir Harestad</h3>
-<p>
-Author, journalist and chess historian with numerous
-publications on chess and local history.
-</p>
-</div>
-
-<div class="author-card">
-<img src="../images/arild-haugen.jpg" alt="Arild Haugen">
-<h3>Arild Haugen</h3>
-<p>
-Correspondence chess player, co-author and contributor
-to the history of Norwegian correspondence chess.
-</p>
-</div>
-
-</div>
-
-<p>
 <a class="button"
    href="sjakk-uten-grenser.html">
    Read About the Book
 </a>
-</p>
 
 </div>
+
 </div>
+
+<h3 style="margin-top:40px;">The Authors</h3>
+
+<div class="authors">
+
+<div class="author-card">
+    <img src="../images/reidar-gramstad.jpg" alt="Reidar Gramstad">
+    <h3>Reidar Gramstad</h3>
+    <p>Former president of the Norwegian Correspondence Chess Federation and long-time editor and historian.</p>
+</div>
+
+<div class="author-card">
+    <img src="../images/thor-geir-harestad.jpg" alt="Thor Geir Harestad">
+    <h3>Thor Geir Harestad</h3>
+    <p>Author, journalist and chess historian with numerous publications on chess and local history.</p>
+</div>
+
+<div class="author-card">
+    <img src="../images/arild-haugen.jpg" alt="Arild Haugen">
+    <h3>Arild Haugen</h3>
+    <p>Correspondence chess player, co-author and contributor to the history of Norwegian correspondence chess.</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Explore</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>📖 Chess Without Borders</h3>
+<p>Read more about the history of Norwegian correspondence chess.</p>
+<a class="button" href="sjakk-uten-grenser.html">The Book</a>
+</div>
+
+<div class="card">
+<h3>♔ Best Games</h3>
+<p>Selected correspondence games with analysis and notes.</p>
+<a class="button" href="../Chess/Best/">Best Games</a>
+</div>
+
+<div class="card">
+<h3>🏆 Tournaments</h3>
+<p>National and international correspondence tournaments.</p>
+<a class="button" href="../Chess/Turneringer/">Tournaments</a>
+</div>
+
+<div class="card">
+<h3>♟ Norwegian Chess</h3>
+<p>Visit the Norwegian-language chess section.</p>
+<a class="button" href="../Chess/">Go to Chess</a>
+</div>
+
+</div>
+
+</div>
+
 </div>
 
 <footer>
 Ramiras | Correspondence Chess • Chess • Music • Family History
 </footer>
-
-</div>
 
 </body>
 </html>
