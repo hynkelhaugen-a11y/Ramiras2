@@ -1,1 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Correspondence Chess | Ramiras</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Georgia, serif;
+    background:#f5f7fa;
+    color:#333;
+    line-height:1.7;
+}
+
+header{
+    background:#16213e;
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+}
+
+header h1{
+    margin:0;
+    font-size:3.2rem;
+}
+
+header p{
+    font-size:1.2rem;
+}
+
+nav{
+    background:#1e293b;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.section{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 3px 12px rgba(0,0,0,.1);
+    margin-bottom:40px;
+}
+
+.profile{
+    display:flex;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.profile img{
+    width:250px;
+    border-radius:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,.15);
+}
+
+.book-cover{
+    width:180px;
+    height:auto;
+    border-radius:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,.15);
+}
+
+.text{
+    flex:1;
+    min-width:300px;
+}
+.authors{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:flex-start;
+    gap:30px;
+    margin-top:20px;
+}
+
+.author-card{
+    width:260px;
+    min-height:280px;
+    background:#f8fafc;
+    padding:20px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 3px 12px rgba(0,0,0,.08);
+}
+
+.author-card img{
+    width:140px;
+    height:140px;
+    object-fit:cover;
+    border-radius:50%;
+    display:block;
+    margin:0 auto 15px auto;
+}
+
+.author-card h3{
+    margin:10px 0;
+}
+
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 3px 12px rgba(0,0,0,.1);
+}
+
+.card h3{
+    margin-top:0;
+}
+
+.button{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 18px;
+    background:#0284c7;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+.button:hover{
+    background:#0369a1;
+}
+
+footer{
+    background:#16213e;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:50px;
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+
+<h1>Correspondence Chess</h1>
+
+<p>
+A lifetime of analytical chess, ICCF tournaments and international competition
+</p>
+
+</header>
+
+<nav>
+    <a href="../index.html">Home</a>
+    <a href="../Chess/">Sjakk</a>
+    <a href="../music.html">Music</a>
+    <a href="../Family/">Family</a>
+</nav>
+
+<div class="container">
+
+<div class="section">
+
+<h2>What is Correspondence Chess?</h2>
+
+<p>
+Correspondence chess is chess played over distance.
+Historically, moves were exchanged through postcards and letters,
+often resulting in games lasting months or years.
+Today correspondence chess is primarily played on dedicated
+internet servers while preserving the tradition of deep analysis
+and careful preparation.
+</p>
+
+<p>
+Unlike over-the-board chess, players may spend several days on a
+single move. This creates a unique blend of practical play,
+research and chess history.
+</p>
+
+<p>
+Norway has a proud correspondence chess tradition through the
+Norwegian Correspondence Chess Federation founded in 1945.
+</p>
+
+</div>
+
+<div class="section">
+
+<div class="profile">
+
+<img src="../images/arild-haugen.jpg"
+     alt="Arild Haugen">
+
+<div class="text">
+
+<h2>About Arild Haugen</h2>
+
+<p>
+My interest in chess began in Stavanger during the 1950s when
+my father, the Norwegian magician Ramiras, introduced me to
+the game.
+</p>
+
+<p>
+Over the decades I have participated in national and
+international correspondence chess tournaments, represented
+Norway in ICCF events and contributed to preserving the history
+of Norwegian correspondence chess.
+</p>
+
+<p>
+These pages contain selected games, articles, photographs and
+historical material collected during a lifetime in chess.
+</p>
+
+<a class="button" href="../about.html">
+Read Full Biography
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Chess Without Borders</h2>
+
+<div class="profile">
+
+<img src="../images/sjakk-uten-grenser.jpg"
+     alt="Chess Without Borders"
+     class="book-cover">
+
+<div class="text">
+
+<p>
+Together with Reidar Gramstad and Thor Geir Harestad,
+I co-authored the book <em>Chess Without Borders</em>,
+documenting 75 years of Norwegian correspondence chess.
+</p>
+
+<p>
+The book contains historical articles, player portraits and
+123 memorable correspondence games.
+</p>
+
+<p>
+Published for the 75th anniversary of the Norwegian
+Correspondence Chess Federation, it documents players,
+tournaments and important milestones in Norwegian
+correspondence chess history.
+</p>
+
+<a class="button"
+   href="sjakk-uten-grenser.html">
+   Read About the Book
+</a>
+
+</div>
+
+</div>
+    
+<h2 style="text-align:center;margin-top:50px;margin-bottom:20px;">
+    The Authors
+</h2>
+
+
+
+<div class="authors">
+
+<div class="author-card">
+    <img src="../images/Reidar-Gramstad.jpg" alt="Reidar Gramstad">
+    <h3>Reidar Gramstad</h3>
+    <p>Former president of the Norwegian Correspondence Chess Federation and long-time editor and historian.</p>
+</div>
+
+<div class="author-card">
+    <img src="../images/Thor-Geir-Harestad.jpg" alt="Thor Geir Harestad">
+    <h3>Thor Geir Harestad</h3>
+    <p>Author, journalist and chess historian with numerous publications on chess and local history.</p>
+</div>
+
+<div class="author-card">
+    <img src="../images/arild-haugen.jpg" alt="Arild Haugen">
+    <h3>Arild Haugen</h3>
+    <p>Correspondence chess player, co-author and contributor to the history of Norwegian correspondence chess.</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Explore</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>📖 Chess Without Borders</h3>
+<p>Read more about the history of Norwegian correspondence chess.</p>
+<a class="button" href="sjakk-uten-grenser.html">The Book</a>
+</div>
+
+<div class="card">
+<h3>♔ Best Games</h3>
+<p>Selected correspondence games with analysis and notes.</p>
+<a class="button" href="../Chess/Best/">Best Games</a>
+</div>
+
+<div class="card">
+<h3>🏆 Tournaments</h3>
+<p>National and international correspondence tournaments.</p>
+<a class="button" href="../Chess/Turneringer/">Tournaments</a>
+</div>
+
+<div class="card">
+<h3>♟ Norwegian Chess</h3>
+<p>Visit the Norwegian-language chess section.</p>
+<a class="button" href="../Chess/">Go to Chess</a>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+Ramiras | Correspondence Chess • Chess • Music • Family History
+</footer>
+
+</body>
+</html>
 
