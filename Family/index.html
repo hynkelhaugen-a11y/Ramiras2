@@ -1,157 +1,206 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ramiras Family History</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Min slektshistorie</title>
+  <style>
+    :root {
+      --bakgrunn: #f7f4ed;
+      --papir: #fffdf8;
+      --tekst: #292820;
+      --dempet: #6b695e;
+      --gronn: #435c49;
+      --linje: #ded8c9;
+    }
 
-<style>
-body{
-    margin:0;
-    font-family:'Segoe UI',sans-serif;
-    background:#f1f5f9;
-    color:#1e293b;
-}
+    * { box-sizing: border-box; }
 
-.hero{
-    background:linear-gradient(rgba(30,41,59,.85),rgba(30,41,59,.85)),
-    url('../images/family-header.jpg');
-    background-size:cover;
-    background-position:center;
-    color:white;
-    text-align:center;
-    padding:120px 20px;
-}
+    body {
+      margin: 0;
+      color: var(--tekst);
+      background: var(--bakgrunn);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.6;
+    }
 
-.hero h1{
-    font-size:4rem;
-    margin-bottom:15px;
-}
+    header {
+      padding: 4rem 1.5rem;
+      text-align: center;
+      background: var(--gronn);
+      color: white;
+    }
 
-.hero p{
-    max-width:900px;
-    margin:auto;
-    font-size:1.25rem;
-}
+    header p {
+      margin: 0 0 .5rem;
+      color: #e4e9e2;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      font: 0.8rem Arial, sans-serif;
+    }
 
-.container{
-    max-width:1200px;
-    margin:auto;
-    padding:60px 20px;
-}
+    h1 {
+      margin: 0;
+      font-size: clamp(2.3rem, 6vw, 4rem);
+      font-weight: normal;
+    }
 
-.cards{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    gap:30px;
-}
+    header .intro {
+      max-width: 620px;
+      margin: 1rem auto 0;
+      color: #f0f1ed;
+      font-size: 1.1rem;
+    }
 
-.card{
-    background:white;
-    border-radius:16px;
-    padding:35px;
-    box-shadow:0 5px 20px rgba(0,0,0,.08);
-}
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      padding: 1rem;
+      background: var(--papir);
+      border-bottom: 1px solid var(--linje);
+      font: 0.95rem Arial, sans-serif;
+    }
 
-.card h2{
-    margin-top:0;
-}
+    nav a {
+      color: var(--gronn);
+      text-decoration: none;
+    }
 
-.card a{
-    text-decoration:none;
-    font-weight:bold;
-    color:#0284c7;
-}
+    nav a:hover { text-decoration: underline; }
 
-.timeline{
-    margin-top:70px;
-    text-align:center;
-}
+    main {
+      width: min(100% - 2rem, 980px);
+      margin: 3rem auto;
+    }
 
-.timeline h2{
-    margin-bottom:25px;
-}
-</style>
+    section { margin-bottom: 3.5rem; }
 
+    h2 {
+      margin-bottom: .5rem;
+      color: var(--gronn);
+      font-size: 1.8rem;
+      font-weight: normal;
+    }
+
+    .lead { color: var(--dempet); }
+
+    .tree {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .person, .note {
+      padding: 1.25rem;
+      background: var(--papir);
+      border: 1px solid var(--linje);
+      border-radius: 8px;
+    }
+
+    .person h3 {
+      margin: 0 0 .5rem;
+      color: var(--gronn);
+      font-size: 1.2rem;
+    }
+
+    .person p {
+      margin: .25rem 0;
+      color: var(--dempet);
+      font: .95rem Arial, sans-serif;
+    }
+
+    .note {
+      border-left: 4px solid var(--gronn);
+    }
+
+    footer {
+      padding: 1.5rem;
+      text-align: center;
+      color: var(--dempet);
+      border-top: 1px solid var(--linje);
+      font: .85rem Arial, sans-serif;
+    }
+  </style>
 </head>
 <body>
+  <header>
+    <p>En samling historier og minner</p>
+    <h1>Min slektshistorie</h1>
+    <div class="intro">
+      Her utforsker jeg familens røtter, steder og fortellinger
+      som har gått i arv gjennom generasjoner.
+    </div>
+  </header>
 
-<section class="hero">
+  <nav aria-label="Hovedmeny">
+    <a href="#om">Om prosjektet</a>
+    <a href="#slektstre">Slektstre</a>
+    <a href="#historier">Historier</a>
+    <a href="#kilder">Kilder</a>
+  </nav>
 
-<h1>👨‍👩‍👧‍👦 Family History</h1>
+  <main>
+    <section id="om">
+      <h2>Om prosjektet</h2>
+      <p class="lead">
+        Skriv litt om hva du undersøker, hvilke familier eller steder du følger,
+        og hvorfor slektshistorien betyr noe for deg.
+      </p>
+    </section>
 
-<p>
-The story of families from Karmøy, Tysvær, Nedstrand,
-Hjelmeland, Erfjord and surrounding districts.
-</p>
+    <section id="slektstre">
+      <h2>Slektstre</h2>
+      <p class="lead">Start med noen personer, og bygg videre etter hvert.</p>
 
-</section>
+      <div class="tree">
+        <article class="person">
+          <h3>[Navn på person]</h3>
+          <p>Født: [år og sted]</p>
+          <p>Død: [år og sted, hvis kjent]</p>
+          <p>Foreldre: [navn]</p>
+        </article>
 
-<div class="container">
+        <article class="person">
+          <h3>[Navn på person]</h3>
+          <p>Født: [år og sted]</p>
+          <p>Død: [år og sted, hvis kjent]</p>
+          <p>Foreldre: [navn]</p>
+        </article>
 
-<div class="cards">
+        <article class="person">
+          <h3>[Navn på person]</h3>
+          <p>Født: [år og sted]</p>
+          <p>Død: [år og sted, hvis kjent]</p>
+          <p>Foreldre: [navn]</p>
+        </article>
+      </div>
+    </section>
 
-<div class="card">
-<h2>Family Tree</h2>
-<p>
-Interactive family tree linking generations and branches.
-</p>
-<a href="../family-tree.html">Open Tree →</a>
-</div>
+    <section id="historier">
+      <h2>Historier og minner</h2>
+      <div class="note">
+        <strong>[Tittel på historie]</strong>
+        <p>
+          Skriv inn en fortelling, et minne eller en familiehistorie her.
+          Ta gjerne med hvem som fortalte den, og når den fant sted.
+        </p>
+      </div>
+    </section>
 
-<div class="card">
-<h2>People</h2>
-<p>
-Biographies and stories of family members.
-</p>
-<a href="../people/index.html">Browse People →</a>
-</div>
+    <section id="kilder">
+      <h2>Kilder</h2>
+      <p class="lead">
+        Noter hvor opplysningene kommer fra, for eksempel kirkebøker,
+        folketellinger, brev, fotografier eller samtaler med slektninger.
+      </p>
+    </section>
+  </main>
 
-<div class="card">
-<h2>Sources</h2>
-<p>
-Church records, census records, probate and court material.
-</p>
-<a href="sources.html">View Sources →</a>
-</div>
-
-<div class="card">
-<h2>Locations</h2>
-<p>
-Farms, villages and historical places connected to the family.
-</p>
-<a href="places.html">Visit Places →</a>
-</div>
-
-<div class="card">
-<h2>Chronicle</h2>
-<p>
-Historical narrative from the seventeenth century to today.
-</p>
-<a href="chronicle.html">Read Chronicle →</a>
-</div>
-
-<div class="card">
-<h2>Photographs</h2>
-<p>
-Family photographs and historical illustrations.
-</p>
-<a href="gallery.html">Open Gallery →</a>
-</div>
-
-</div>
-
-<div class="timeline">
-
-<h2>Family Areas</h2>
-
-<p>
-Karmøy • Avaldsnes • Sørvåg • Tysvær • Nedstrand • Fister • Erfjord • Hjelmeland
-</p>
-
-</div>
-
-</div>
-
+  <footer>
+    Slektsopplysninger samlet av [ditt navn eller familienavn]
+  </footer>
 </body>
 </html>
