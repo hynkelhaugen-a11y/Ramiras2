@@ -1,6 +1,254 @@
-Games
-├── Best Games
-├── Correspondence Games
-├── Norwegian Chess
-├── Randaberg Chess Club
-└── Search Database
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Partidatabase | Ramiras</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Georgia,serif;
+    background:#f5f7fa;
+    color:#333;
+}
+
+header{
+    background:#1f2937;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    margin:0;
+    font-size:3rem;
+}
+
+nav{
+    background:#374151;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#60a5fa;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.intro{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+    margin-bottom:30px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    padding:25px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+
+.card h2{
+    margin-top:0;
+    color:#1f2937;
+}
+
+.button{
+    display:inline-block;
+    padding:10px 18px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    margin-top:10px;
+}
+
+.button:hover{
+    background:#1d4ed8;
+}
+
+.stats{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+    margin-top:40px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th,td{
+    border-bottom:1px solid #ddd;
+    padding:10px;
+    text-align:left;
+}
+
+th{
+    background:#f3f4f6;
+}
+
+footer{
+    margin-top:50px;
+    background:#1f2937;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>♟ Partidatabase</h1>
+<p>Utvalgte partier, turneringer og sjakkhistorie</p>
+</header>
+
+<nav>
+<a href="index.html">Sjakk</a>
+<a href="../index.html">Hjem</a>
+<a href="../CorrespondenceChess/">Correspondence Chess</a>
+</nav>
+
+<div class="container">
+
+<div class="intro">
+<h2>Velkommen til partidatabasen</h2>
+
+<p>
+Denne samlingen inneholder partier fra klubbspill,
+norgesmesterskap, internasjonale turneringer,
+korrespondansesjakk og historiske prosjekter.
+</p>
+
+<p>
+Databasen vil etter hvert inneholde komplette PGN-filer,
+kommentarer, analyser og søkefunksjoner.
+</p>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<h2>🏆 Turneringspartier</h2>
+<p>
+Partier fra norske og internasjonale turneringer.
+</p>
+<a class="button" href="Turneringer/">Åpne</a>
+</div>
+
+<div class="card">
+<h2>♔ Korrespondansesjakk</h2>
+<p>
+ICCF-turneringer, analyser og internasjonale partier.
+</p>
+<a class="button" href="../CorrespondenceChess/">Åpne</a>
+</div>
+
+<div class="card">
+<h2>⭐ Best Games</h2>
+<p>
+Et utvalg av de mest interessante partiene.
+</p>
+<a class="button" href="Best/">Åpne</a>
+</div>
+
+<div class="card">
+<h2>♟ Partisamling</h2>
+<p>
+Kommenterte partier og sjakkhistoriske notater.
+</p>
+<a class="button" href="Partier/">Åpne</a>
+</div>
+
+<div class="card">
+<h2>📜 Sjakkarkiv</h2>
+<p>
+Historisk materiale, dokumenter og artikler.
+</p>
+<a class="button" href="chess-archive.html">Åpne</a>
+</div>
+
+<div class="card">
+<h2>🕰 Mimring</h2>
+<p>
+Bilder, historier og minner fra sjakklivet.
+</p>
+<a class="button" href="Mimring/">Åpne</a>
+</div>
+
+</div>
+
+<div class="stats">
+
+<h2>Databasen</h2>
+
+<table>
+<tr>
+<th>Kategori</th>
+<th>Innhold</th>
+</tr>
+
+<tr>
+<td>Korrespondansesjakk</td>
+<td>ICCF-turneringer og analyser</td>
+</tr>
+
+<tr>
+<td>Nasjonale turneringer</td>
+<td>Norgesmesterskap og åpne turneringer</td>
+</tr>
+
+<tr>
+<td>Klubbpartier</td>
+<td>Randaberg, Stavanger og andre klubber</td>
+</tr>
+
+<tr>
+<td>Historiske partier</td>
+<td>Eldre sjakkhistorisk materiale</td>
+</tr>
+
+<tr>
+<td>PGN-arkiv</td>
+<td>Planlagt komplett database</td>
+</tr>
+
+</table>
+
+</div>
+
+</div>
+
+<footer>
+<p>
+Ramiras | Chess • Correspondence Chess • Music • Family History
+</p>
+</footer>
+
+</body>
+</html>
