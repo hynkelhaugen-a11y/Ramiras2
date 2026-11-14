@@ -2,124 +2,59 @@
 <html lang="no">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Ramiras PGN Viewer</title>
 
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/chessboard.js/1.0.0/chessboard-1.0.0.min.css">
+
 <style>
-
 body{
-    margin:0;
     font-family:Georgia,serif;
+    margin:20px;
     background:#f5f7fa;
-    color:#333;
 }
 
-header{
-    background:#1f2937;
-    color:white;
-    text-align:center;
-    padding:30px;
+#board{
+    width:500px;
+    max-width:100%;
 }
 
-.container{
-    max-width:1200px;
-    margin:auto;
-    padding:20px;
+button{
+    padding:8px 16px;
+    margin:5px;
 }
 
-.viewer{
+#moves{
+    margin-top:15px;
     background:white;
-    padding:20px;
-    border-radius:10px;
-    box-shadow:0 2px 8px rgba(0,0,0,0.15);
-    white-space:pre-wrap;
-    font-family:Consolas, monospace;
-    overflow-x:auto;
-}
-
-.back{
-    margin-bottom:20px;
-}
-
-.info{
-    margin-bottom:20px;
-    padding:10px;
-    background:#e5eefc;
+    padding:15px;
     border-radius:8px;
 }
-
 </style>
-
 </head>
 
 <body>
 
-<header>
 <h1>♟ Ramiras PGN Viewer</h1>
-</header>
 
-<div class="container">
+<div id="board"></div>
 
-<div class="back">
-<a href="indeks.html">← Tilbake til Sjakkolympiader</a>
-</div>
+<p>
+<button onclick="prevMove()">← Tilbake</button>
+<button onclick="nextMove()">Neste →</button>
+</p>
 
-<div class="info">
-<strong>Fil:</strong>
-<span id="filename"></span>
-</div>
+<div id="moves"></div>
 
-<div class="viewer" id="content">
-Laster...
-</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
 
-</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chessboard.js/1.0.0/chessboard-1.0.0.min.js"></script>
 
 <script>
 
-const params = new URLSearchParams(window.location.search);
-const pgnFile = params.get("pgn");
-
-document.getElementById("filename").textContent =
-    pgnFile || "Ingen fil valgt";
-
-if (pgnFile) {
-
-    fetch(pgnFile)
-        .then(response => {
-
-            if (!response.ok) {
-                throw new Error("Fant ikke filen");
-            }
-
-            return response.text();
-
-        })
-
-        .then(text => {
-
-            document.getElementById("content")
-                .textContent = text;
-
-        })
-
-        .catch(error => {
-
-            document.getElementById("content")
-                .textContent =
-                "Kunne ikke åpne PGN-filen.";
-
-        });
-
-}
-else {
-
-    document.getElementById("content")
-        .textContent =
-        "Ingen PGN-fil valgt.";
-
-}
+var board = Chessboard('board','start');
 
 </script>
 
