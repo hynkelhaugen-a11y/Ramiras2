@@ -1,1 +1,127 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Ramiras PGN Viewer</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Georgia,serif;
+    background:#f5f7fa;
+    color:#333;
+}
+
+header{
+    background:#1f2937;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:20px;
+}
+
+.viewer{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.15);
+    white-space:pre-wrap;
+    font-family:Consolas, monospace;
+    overflow-x:auto;
+}
+
+.back{
+    margin-bottom:20px;
+}
+
+.info{
+    margin-bottom:20px;
+    padding:10px;
+    background:#e5eefc;
+    border-radius:8px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>♟ Ramiras PGN Viewer</h1>
+</header>
+
+<div class="container">
+
+<div class="back">
+<a href="indeks.html">← Tilbake til Sjakkolympiader</a>
+</div>
+
+<div class="info">
+<strong>Fil:</strong>
+<span id="filename"></span>
+</div>
+
+<div class="viewer" id="content">
+Laster...
+</div>
+
+</div>
+
+<script>
+
+const params = new URLSearchParams(window.location.search);
+const pgnFile = params.get("pgn");
+
+document.getElementById("filename").textContent =
+    pgnFile || "Ingen fil valgt";
+
+if (pgnFile) {
+
+    fetch(pgnFile)
+        .then(response => {
+
+            if (!response.ok) {
+                throw new Error("Fant ikke filen");
+            }
+
+            return response.text();
+
+        })
+
+        .then(text => {
+
+            document.getElementById("content")
+                .textContent = text;
+
+        })
+
+        .catch(error => {
+
+            document.getElementById("content")
+                .textContent =
+                "Kunne ikke åpne PGN-filen.";
+
+        });
+
+}
+else {
+
+    document.getElementById("content")
+        .textContent =
+        "Ingen PGN-fil valgt.";
+
+}
+
+</script>
+
+</body>
+</html>
