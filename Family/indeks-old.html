@@ -1,1 +1,207 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Min slektshistorie</title>
+  <style>
+    :root {
+      --bakgrunn: #f7f4ed;
+      --papir: #fffdf8;
+      --tekst: #292820;
+      --dempet: #6b695e;
+      --gronn: #435c49;
+      --linje: #ded8c9;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--tekst);
+      background: var(--bakgrunn);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 4rem 1.5rem;
+      text-align: center;
+      background: var(--gronn);
+      color: white;
+    }
+
+    header p {
+      margin: 0 0 .5rem;
+      color: #e4e9e2;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      font: 0.8rem Arial, sans-serif;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.3rem, 6vw, 4rem);
+      font-weight: normal;
+    }
+
+    header .intro {
+      max-width: 620px;
+      margin: 1rem auto 0;
+      color: #f0f1ed;
+      font-size: 1.1rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      padding: 1rem;
+      background: var(--papir);
+      border-bottom: 1px solid var(--linje);
+      font: 0.95rem Arial, sans-serif;
+    }
+
+    nav a {
+      color: var(--gronn);
+      text-decoration: none;
+    }
+
+    nav a:hover { text-decoration: underline; }
+
+    main {
+      width: min(100% - 2rem, 980px);
+      margin: 3rem auto;
+    }
+
+    section { margin-bottom: 3.5rem; }
+
+    h2 {
+      margin-bottom: .5rem;
+      color: var(--gronn);
+      font-size: 1.8rem;
+      font-weight: normal;
+    }
+
+    .lead { color: var(--dempet); }
+
+    .tree {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .person, .note {
+      padding: 1.25rem;
+      background: var(--papir);
+      border: 1px solid var(--linje);
+      border-radius: 8px;
+    }
+
+    .person h3 {
+      margin: 0 0 .5rem;
+      color: var(--gronn);
+      font-size: 1.2rem;
+    }
+
+    .person p {
+      margin: .25rem 0;
+      color: var(--dempet);
+      font: .95rem Arial, sans-serif;
+    }
+
+    .note {
+      border-left: 4px solid var(--gronn);
+    }
+
+    footer {
+      padding: 1.5rem;
+      text-align: center;
+      color: var(--dempet);
+      border-top: 1px solid var(--linje);
+      font: .85rem Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <p>En samling historier og minner</p>
+    <h1>Min slektshistorie</h1>
+    <div class="intro">
+      Her utforsker jeg familens røtter, steder og fortellinger
+      som har gått i arv gjennom generasjoner.
+    </div>
+  </header>
+
+  <nav aria-label="Hovedmeny">
+    <a href="#om">Om prosjektet</a>
+    <a href="#slektstre">Slektstre</a>
+    <a href="#historier">Historier</a>
+    <a href="#kilder">Kilder</a>
+  </nav>
+
+  <main>
+    <section id="om">
+      <h2>Om prosjektet</h2>
+      <p class="lead">
+        Skriv litt om hva du undersøker, hvilke familier eller steder du følger,
+        og hvorfor slektshistorien betyr noe for deg.
+      </p>
+    </section>
+
+    <section id="slektstre">
+      <h2>Slektstre</h2>
+      <p class="lead">Start med noen personer, og bygg videre etter hvert.</p>
+
+      <div class="tree">
+        <article class="person">
+          <h3>[Navn på person]</h3>
+          <p>Født: [år og sted]</p>
+          <p>Død: [år og sted, hvis kjent]</p>
+          <p>Foreldre: [navn]</p>
+        </article>
+
+        <article class="person">
+          <h3>[Navn på person]</h3>
+          <p>Født: [år og sted]</p>
+          <p>Død: [år og sted, hvis kjent]</p>
+          <p>Foreldre: [navn]</p>
+        </article>
+
+        <article class="person">
+          <h3>[Navn på person]</h3>
+          <p>Født: [år og sted]</p>
+          <p>Død: [år og sted, hvis kjent]</p>
+          <p>Foreldre: [navn]</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="historier">
+      <h2>Historier og minner</h2>
+      <div class="note">
+        <strong>[Tittel på historie]</strong>
+        <p>
+          Skriv inn en fortelling, et minne eller en familiehistorie her.
+          Ta gjerne med hvem som fortalte den, og når den fant sted.
+        </p>
+      </div>
+    </section>
+
+    <section id="kilder">
+      <h2>Kilder</h2>
+      <p class="lead">
+        Noter hvor opplysningene kommer fra, for eksempel kirkebøker,
+        folketellinger, brev, fotografier eller samtaler med slektninger.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    Slektsopplysninger samlet av [ditt navn eller familienavn]
+  </footer>
+</body>
+</html>
 
