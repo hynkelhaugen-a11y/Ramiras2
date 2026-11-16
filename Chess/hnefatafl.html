@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hnefatafl - Vikingsjakk</title>
+<title>Hnefatafl - Vikingenes Kongespill</title>
 
 <style>
 
@@ -11,9 +11,9 @@ body{
     margin:0;
     padding:20px;
     font-family:Georgia, serif;
+    background:#f3eee2;
+    color:#2c241b;
     line-height:1.7;
-    background:#f4efe3;
-    color:#2b2118;
 }
 
 .container{
@@ -22,103 +22,189 @@ body{
 }
 
 h1,h2{
+    color:#4a2f18;
     text-align:center;
-    color:#4a2d17;
 }
 
-.intro{
+.panel{
     background:white;
-    padding:25px;
+    padding:30px;
     border-radius:12px;
-    box-shadow:0 2px 10px rgba(0,0,0,.15);
+    box-shadow:0 2px 12px rgba(0,0,0,.15);
     margin-bottom:30px;
 }
 
+.quote{
+    margin:20px 0;
+    padding:15px;
+    background:#f7f0e2;
+    border-left:5px solid #8b5a2b;
+    font-style:italic;
+}
+
 .board{
+
     display:grid;
-    grid-template-columns:repeat(11,50px);
+    grid-template-columns:repeat(11,56px);
     gap:2px;
+
     width:max-content;
     margin:30px auto;
-    padding:10px;
+
+    padding:12px;
 
     background:
     linear-gradient(
-        135deg,
-        #5c3920,
-        #7a4b29,
-        #5c3920
+    135deg,
+    #5a381d,
+    #7c5231,
+    #5a381d
     );
 
-    border:6px solid #2f1d0f;
+    border:6px solid #2d1c0f;
     border-radius:12px;
 
-    box-shadow:0 4px 20px rgba(0,0,0,.3);
+    box-shadow:0 0 25px rgba(0,0,0,.35);
 }
 
 .cell{
-    width:50px;
-    height:50px;
+
+    width:56px;
+    height:56px;
+
     display:flex;
     justify-content:center;
     align-items:center;
 
     background:#d9bc91;
-    font-size:26px;
-    border:1px solid rgba(0,0,0,.15);
-}
+    border:1px solid rgba(0,0,0,.1);
 
-.cell:nth-child(odd){
-    background:#d4b180;
 }
 
 .corner{
-    background:#76934f !important;
+
+    background:#77964c !important;
     color:white;
+    font-size:28px;
     font-weight:bold;
+
 }
 
 .throne{
     background:#d4af37 !important;
 }
 
+.attacker{
+
+    width:40px;
+    height:40px;
+
+    border-radius:50%;
+
+    background:
+    radial-gradient(circle,#8c5c33,#4f2f17);
+
+    color:white;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:20px;
+    font-weight:bold;
+}
+
+.defender{
+
+    width:40px;
+    height:40px;
+
+    border-radius:50%;
+
+    background:
+    radial-gradient(circle,#dfdfdf,#6a6a6a);
+
+    color:white;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:20px;
+    font-weight:bold;
+}
+
+.king{
+
+    width:44px;
+    height:44px;
+
+    border-radius:50%;
+
+    background:
+    radial-gradient(circle,#ffe27a,#c89500);
+
+    border:2px solid #fff8c4;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    color:#402400;
+    font-weight:bold;
+    font-size:24px;
+}
+
 .legend{
-    background:white;
-    padding:20px;
-    border-radius:12px;
-    margin-top:20px;
-    box-shadow:0 2px 10px rgba(0,0,0,.15);
+    columns:2;
 }
 
 .button{
+
     display:inline-block;
-    margin-top:20px;
-    padding:10px 18px;
-    background:#2e5fa7;
+
+    background:#2c5aa0;
     color:white;
+
     text-decoration:none;
+
+    padding:12px 20px;
+
     border-radius:8px;
+
+    margin-top:20px;
 }
 
 .button:hover{
-    background:#1f4b86;
+    background:#1f4377;
 }
 
-footer{
+.center{
     text-align:center;
-    margin-top:40px;
 }
 
 @media(max-width:700px){
 
 .board{
-    grid-template-columns:repeat(11,32px);
+grid-template-columns:repeat(11,32px);
 }
 
 .cell{
-    width:32px;
-    height:32px;
-    font-size:18px;
+width:32px;
+height:32px;
+}
+
+.attacker,
+.defender{
+width:24px;
+height:24px;
+font-size:12px;
+}
+
+.king{
+width:28px;
+height:28px;
+font-size:16px;
 }
 
 }
@@ -132,51 +218,64 @@ footer{
 
 <h1>⚔️ Hnefatafl</h1>
 
-<div class="intro">
+<div class="panel">
 
 <p>
-Hnefatafl, også kjent som vikingsjakk, var et av de viktigste
-strategispillene i Norden før sjakken ble kjent i Europa.
-Spillet ble spilt i Norge, Sverige, Danmark, Island og på de
-britiske øyer i vikingtiden.
+Hnefatafl var vikingenes store strategispill lenge før sjakken nådde Norden.
+Spillet ble brukt i Norge, Danmark, Sverige, Island og på de britiske øyer
+gjennom store deler av vikingtiden.
 </p>
 
-<p>
-Én spiller forsøker å føre kongen til sikkerhet i et hjørne,
-mens den andre prøver å stanse flukten og fange kongen.
-</p>
+<div class="quote">
+«Kongen står omgitt av sine forsvarere. Angriperne nærmer seg fra alle kanter.
+Kan kongen nå et av hjørnene før han blir fanget?»
+</div>
 
 </div>
 
-<h2>Startstilling</h2>
+<div class="panel">
+
+<h2>Klassisk startstilling</h2>
 
 <div class="board" id="board"></div>
 
-<div class="legend">
+</div>
+
+<div class="panel">
 
 <h2>Forklaring</h2>
 
-<p>
-👑 = Kongen<br>
-🛡 = Forsvarere<br>
-⚔ = Angripere<br>
-ᚠ = Fluktfelt i hjørnene<br>
-🏰 = Kongens trone
-</p>
+<div class="legend">
+
+<p><strong>♔</strong> Kongen</p>
+<p><strong>ᛏ</strong> Forsvarere</p>
+<p><strong>ᚦ</strong> Angripere</p>
+<p><strong>ᚠ</strong> Fluktfelt i hjørnene</p>
+<p><strong>Gullrute</strong> Kongens trone</p>
 
 </div>
 
-<div class="intro">
+</div>
+
+<div class="panel">
 
 <h2>Regler i korte trekk</h2>
 
 <ul>
 <li>Alle brikker flyttes vannrett eller loddrett.</li>
-<li>Brikkene kan bevege seg så langt feltet er ledig.</li>
+<li>Brikkene kan flyttes så langt feltet er fritt.</li>
 <li>Brikker tas ved å bli fanget mellom to fiendtlige brikker.</li>
 <li>Kongen vinner ved å nå et av de fire hjørnene.</li>
 <li>Angriperne vinner dersom kongen blir fanget.</li>
 </ul>
+
+<div class="center">
+
+<a href="hnefatafl-game.html" class="button">
+⚔ Spill Hnefatafl
+</a>
+
+<br><br>
 
 <a href="index.html" class="button">
 ← Tilbake til Sjakk
@@ -184,67 +283,60 @@ mens den andre prøver å stanse flukten og fange kongen.
 
 </div>
 
-<footer>
-<p>Ramiras • Chess • Music & Things</p>
-</footer>
+</div>
 
 </div>
 
 <script>
 
-const board = [
+const setup = [
 
 ['C','','','A','A','A','A','A','','','C'],
 ['','','','','','A','','','','',''],
-['','','','','','D','','','','',''],
+['','','','','','A','','','','',''],
 ['A','','','','','D','','','','','A'],
 ['A','','','','D','D','D','','','','A'],
 ['A','A','D','D','D','K','D','D','D','A','A'],
 ['A','','','','D','D','D','','','','A'],
 ['A','','','','','D','','','','','A'],
-['','','','','','D','','','','',''],
+['','','','','','A','','','','',''],
 ['','','','','','A','','','','',''],
 ['C','','','A','A','A','A','A','','','C']
 
 ];
 
-const boardDiv=document.getElementById("board");
+const board=document.getElementById('board');
 
 for(let r=0;r<11;r++){
 
-    for(let c=0;c<11;c++){
+for(let c=0;c<11;c++){
 
-        const cell=document.createElement("div");
-        cell.className="cell";
+const cell=document.createElement('div');
+cell.className='cell';
 
-        const piece=board[r][c];
+const p=setup[r][c];
 
-        if(piece==="C"){
-            cell.classList.add("corner");
-            cell.textContent="ᚠ";
-        }
+if(p==='C'){
+cell.classList.add('corner');
+cell.textContent='ᚠ';
+}
 
-        else if(piece==="A"){
-            cell.textContent="⚔";
-        }
+else if(p==='A'){
+cell.innerHTML='<div class="attacker">ᚦ</div>';
+}
 
-        else if(piece==="D"){
-            cell.textContent="🛡";
-        }
+else if(p==='D'){
+cell.innerHTML='<div class="defender">ᛏ</div>';
+}
 
-        else if(piece==="K"){
-            cell.classList.add("throne");
-            cell.textContent="👑";
-        }
+else if(p==='K'){
+cell.classList.add('throne');
+cell.innerHTML='<div class="king">♔</div>';
+}
 
-        else if(r===5 && c===5){
-            cell.classList.add("throne");
-            cell.textContent="🏰";
-        }
+board.appendChild(cell);
 
-        boardDiv.appendChild(cell);
-
-    }
+}
 
 }
 
