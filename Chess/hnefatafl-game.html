@@ -1,1 +1,254 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hnefatafl - Vikingsjakk</title>
 
+<style>
+
+body{
+    margin:0;
+    padding:20px;
+    font-family:Georgia, serif;
+    line-height:1.7;
+    background:#f4efe3;
+    color:#2b2118;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+}
+
+h1,h2{
+    text-align:center;
+    color:#4a2d17;
+}
+
+.intro{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 2px 10px rgba(0,0,0,.15);
+    margin-bottom:30px;
+}
+
+.board{
+    display:grid;
+    grid-template-columns:repeat(11,50px);
+    gap:2px;
+    width:max-content;
+    margin:30px auto;
+    padding:10px;
+
+    background:
+    linear-gradient(
+        135deg,
+        #5c3920,
+        #7a4b29,
+        #5c3920
+    );
+
+    border:6px solid #2f1d0f;
+    border-radius:12px;
+
+    box-shadow:0 4px 20px rgba(0,0,0,.3);
+}
+
+.cell{
+    width:50px;
+    height:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#d9bc91;
+    font-size:26px;
+    border:1px solid rgba(0,0,0,.15);
+}
+
+.cell:nth-child(odd){
+    background:#d4b180;
+}
+
+.corner{
+    background:#76934f !important;
+    color:white;
+    font-weight:bold;
+}
+
+.throne{
+    background:#d4af37 !important;
+}
+
+.legend{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    margin-top:20px;
+    box-shadow:0 2px 10px rgba(0,0,0,.15);
+}
+
+.button{
+    display:inline-block;
+    margin-top:20px;
+    padding:10px 18px;
+    background:#2e5fa7;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+.button:hover{
+    background:#1f4b86;
+}
+
+footer{
+    text-align:center;
+    margin-top:40px;
+}
+
+@media(max-width:700px){
+
+.board{
+    grid-template-columns:repeat(11,32px);
+}
+
+.cell{
+    width:32px;
+    height:32px;
+    font-size:18px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>⚔️ Hnefatafl</h1>
+
+<div class="intro">
+
+<p>
+Hnefatafl, også kjent som vikingsjakk, var et av de viktigste
+strategispillene i Norden før sjakken ble kjent i Europa.
+Spillet ble spilt i Norge, Sverige, Danmark, Island og på de
+britiske øyer i vikingtiden.
+</p>
+
+<p>
+Én spiller forsøker å føre kongen til sikkerhet i et hjørne,
+mens den andre prøver å stanse flukten og fange kongen.
+</p>
+
+</div>
+
+<h2>Startstilling</h2>
+
+<div class="board" id="board"></div>
+
+<div class="legend">
+
+<h2>Forklaring</h2>
+
+<p>
+👑 = Kongen<br>
+🛡 = Forsvarere<br>
+⚔ = Angripere<br>
+ᚠ = Fluktfelt i hjørnene<br>
+🏰 = Kongens trone
+</p>
+
+</div>
+
+<div class="intro">
+
+<h2>Regler i korte trekk</h2>
+
+<ul>
+<li>Alle brikker flyttes vannrett eller loddrett.</li>
+<li>Brikkene kan bevege seg så langt feltet er ledig.</li>
+<li>Brikker tas ved å bli fanget mellom to fiendtlige brikker.</li>
+<li>Kongen vinner ved å nå et av de fire hjørnene.</li>
+<li>Angriperne vinner dersom kongen blir fanget.</li>
+</ul>
+
+<a href="index.html" class="button">
+← Tilbake til Sjakk
+</a>
+
+</div>
+
+<footer>
+<p>Ramiras • Chess • Music & Things</p>
+</footer>
+
+</div>
+
+<script>
+
+const board = [
+
+['C','','','A','A','A','A','A','','','C'],
+['','','','','','A','','','','',''],
+['','','','','','D','','','','',''],
+['A','','','','','D','','','','','A'],
+['A','','','','D','D','D','','','','A'],
+['A','A','D','D','D','K','D','D','D','A','A'],
+['A','','','','D','D','D','','','','A'],
+['A','','','','','D','','','','','A'],
+['','','','','','D','','','','',''],
+['','','','','','A','','','','',''],
+['C','','','A','A','A','A','A','','','C']
+
+];
+
+const boardDiv=document.getElementById("board");
+
+for(let r=0;r<11;r++){
+
+    for(let c=0;c<11;c++){
+
+        const cell=document.createElement("div");
+        cell.className="cell";
+
+        const piece=board[r][c];
+
+        if(piece==="C"){
+            cell.classList.add("corner");
+            cell.textContent="ᚠ";
+        }
+
+        else if(piece==="A"){
+            cell.textContent="⚔";
+        }
+
+        else if(piece==="D"){
+            cell.textContent="🛡";
+        }
+
+        else if(piece==="K"){
+            cell.classList.add("throne");
+            cell.textContent="👑";
+        }
+
+        else if(r===5 && c===5){
+            cell.classList.add("throne");
+            cell.textContent="🏰";
+        }
+
+        boardDiv.appendChild(cell);
+
+    }
+
+}
+
+</script>
+
+</body>
+</html>
