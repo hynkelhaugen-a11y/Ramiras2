@@ -1,1 +1,110 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hnefatafl - Vikingsjakk</title>
 
+<style>
+body{
+    font-family:Arial,sans-serif;
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+    line-height:1.6;
+}
+
+h1,h2{
+    color:#2c3e50;
+}
+
+.board{
+    display:grid;
+    grid-template-columns:repeat(11,40px);
+    gap:2px;
+    margin:20px 0;
+}
+
+.cell{
+    width:40px;
+    height:40px;
+    background:#d8c6a0;
+    border:1px solid #888;
+}
+
+.corner{
+    background:#a8d5a2;
+}
+
+.throne{
+    background:#f4d03f;
+}
+</style>
+</head>
+
+<body>
+
+<h1>⚔️ Hnefatafl</h1>
+
+<p>
+Hnefatafl var et av vikingtidens mest kjente brettspill.
+Den ene spilleren styrer kongen og forsvarerne, mens den andre
+styrer angriperne.
+</p>
+
+<h2>Mål</h2>
+
+<ul>
+<li>Kongen vinner ved å nå et av hjørnene.</li>
+<li>Angriperne vinner ved å omringe og fange kongen.</li>
+</ul>
+
+<h2>Spillbrett</h2>
+
+<div class="board">
+<script>
+for(let r=0;r<11;r++){
+    for(let c=0;c<11;c++){
+        const d=document.createElement('div');
+        d.className='cell';
+
+        if(
+            (r===0&&c===0) ||
+            (r===0&&c===10) ||
+            (r===10&&c===0) ||
+            (r===10&&c===10)
+        ){
+            d.classList.add('corner');
+        }
+
+        if(r===5&&c===5){
+            d.classList.add('throne');
+        }
+
+        document.currentScript.parentElement.appendChild(d);
+    }
+}
+</script>
+</div>
+
+<p>
+🟨 = Kongens trone<br>
+🟩 = Fluktfelt (hjørner)
+</p>
+
+<h2>Regler i korte trekk</h2>
+
+<ul>
+<li>Alle brikker beveger seg vannrett eller loddrett.</li>
+<li>Brikker kan flyttes så langt feltet er fritt.</li>
+<li>En brikke tas ved å bli fanget mellom to fiendtlige brikker.</li>
+<li>Kongen er sterkere og krever spesielle fangstregler.</li>
+<li>Kongen vinner ved å nå et hjørne.</li>
+</ul>
+
+<p>
+<a href="index.html">← Tilbake til Chess, Music & Things</a>
+</p>
+
+</body>
+</html>
