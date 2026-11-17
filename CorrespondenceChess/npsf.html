@@ -7,28 +7,18 @@
 
 <style>
 body{
-    font-family:Segoe UI,Arial,sans-serif;
     margin:0;
-    line-height:1.7;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f5f5;
     color:#222;
-    background:#f4f6f8;
+    line-height:1.6;
 }
 
 header{
-    background:linear-gradient(135deg,#0b3d91,#1f6feb);
+    background:#0b3d91;
     color:white;
     text-align:center;
-    padding:80px 20px;
-}
-
-header h1{
-    margin:0;
-    font-size:2.8rem;
-}
-
-header h2{
-    margin-top:10px;
-    font-weight:400;
+    padding:60px 20px;
 }
 
 .container{
@@ -37,80 +27,41 @@ header h2{
     padding:20px;
 }
 
-.hero{
+section{
     background:white;
-    padding:30px;
+    margin:25px 0;
+    padding:25px;
     border-radius:12px;
-    box-shadow:0 2px 8px rgba(0,0,0,.1);
-    margin-top:-40px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.08);
 }
 
-.timeline{
-    position:relative;
-    margin:40px 0;
-}
-
-.timeline::before{
-    content:"";
-    position:absolute;
-    left:30px;
-    top:0;
-    bottom:0;
-    width:4px;
-    background:#1f6feb;
-}
-
-.item{
-    position:relative;
-    margin:30px 0 30px 70px;
-    background:white;
-    padding:20px;
-    border-radius:10px;
-    box-shadow:0 2px 6px rgba(0,0,0,.08);
-}
-
-.item::before{
-    content:"";
-    position:absolute;
-    left:-52px;
-    top:24px;
-    width:18px;
-    height:18px;
-    border-radius:50%;
-    background:#1f6feb;
-    border:4px solid white;
-}
-
-.year{
-    font-size:1.2rem;
-    font-weight:bold;
+h1,h2,h3{
     color:#0b3d91;
 }
 
 .gallery{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
     gap:20px;
 }
 
 .card{
-    background:white;
-    padding:15px;
+    border:1px solid #ddd;
     border-radius:10px;
-    box-shadow:0 2px 6px rgba(0,0,0,.08);
+    overflow:hidden;
+    background:white;
 }
 
 .card img{
     width:100%;
-    height:260px;
-    object-fit:cover;
-    border-radius:8px;
-    margin-bottom:12px;
+    height:300px;
+    object-fit:contain;
+    background:#fafafa;
+    display:block;
 }
 
-.card h3{
-    margin-top:0;
-    color:#0b3d91;
+.card-content{
+    padding:15px;
 }
 
 footer{
@@ -119,104 +70,52 @@ footer{
     color:#666;
 }
 </style>
-</head>
 
+</head>
 <body>
 
 <header>
-    <h1>The Early History of the Norwegian Postal Chess Federation</h1>
-    <h2>1945–1956</h2>
-    <p>From a small correspondence chess club to a nationwide organization</p>
+    <h1>Norwegian Postal Chess Federation</h1>
+    <h2>History 1945–1956</h2>
 </header>
 
 <div class="container">
 
-<section class="hero">
+<section>
     <h2>Introduction</h2>
 
     <p>
-    The Norwegian Postal Chess Federation (Norges Postsjakkforbund, NPSF)
-    was founded on 1 September 1945. During its first decade the federation
-    experienced rapid growth, established international connections,
-    organized national and international tournaments, and created a strong
-    community of correspondence chess enthusiasts throughout Norway.
+    The Norwegian Postal Chess Federation (NPSF) was founded in 1945 and quickly
+    developed into one of Scandinavia's most active correspondence chess organizations.
+    During its first decade the federation expanded rapidly and established both
+    national and international activities.
     </p>
 </section>
 
 <section>
-    <h2>Historical Timeline</h2>
+    <h2>Timeline</h2>
 
-    <div class="timeline">
+    <h3>1945 – Foundation</h3>
+    <p>NPSF was established and began publishing postal chess material.</p>
 
-        <div class="item">
-            <div class="year">1945 – Foundation</div>
-            <p>
-            NPSF was established in Oslo under the leadership of Sverre Madsen.
-            The federation grew out of the Norwegian Correspondence Chess Club
-            and began publishing the magazine <em>Postsjakk</em>.
-            </p>
-        </div>
+    <h3>1946 – John S. Syversen elected president</h3>
+    <p>New leadership from Sarpsborg helped strengthen the federation.</p>
 
-        <div class="item">
-            <div class="year">1946 – New Leadership</div>
-            <p>
-            John S. Syversen of Sarpsborg became president, beginning a long
-            and influential period of leadership.
-            </p>
-        </div>
+    <h3>1947 – Reorganization</h3>
+    <p>Administrative reforms improved operations and tournament management.</p>
 
-        <div class="item">
-            <div class="year">1947 – Organizational Reform</div>
-            <p>
-            A week-long board meeting resulted in new regulations and a more
-            modern administrative structure.
-            </p>
-        </div>
+    <h3>1951 – Membership Growth</h3>
+    <p>The federation reached new membership levels and increased its activities.</p>
 
-        <div class="item">
-            <div class="year">1948–1949 – Expansion</div>
-            <p>
-            Membership increased steadily and tournament activity expanded
-            across the country.
-            </p>
-        </div>
+    <h3>1954 – Sarpsborg Era</h3>
+    <p>A largely Sarpsborg-based leadership assumed responsibility for the federation.</p>
 
-        <div class="item">
-            <div class="year">1950 – International Activity</div>
-            <p>
-            International matches strengthened NPSF's links with the global
-            correspondence chess community.
-            </p>
-        </div>
-
-        <div class="item">
-            <div class="year">1951 – Membership Milestone</div>
-            <p>
-            The federation passed 700 registered members and became one of the
-            leading correspondence chess organizations in Scandinavia.
-            </p>
-        </div>
-
-        <div class="item">
-            <div class="year">1954 – The Sarpsborg Era</div>
-            <p>
-            A largely Sarpsborg-based board assumed leadership and streamlined
-            many administrative routines.
-            </p>
-        </div>
-
-        <div class="item">
-            <div class="year">1956 – Consolidation</div>
-            <p>
-            NPSF had developed into a mature national federation with
-            established traditions and international recognition.
-            </p>
-        </div>
-
-    </div>
+    <h3>1956 – Consolidation</h3>
+    <p>NPSF emerged as a mature national organization.</p>
 </section>
 
 <section>
+
     <h2>Image Gallery</h2>
 
     <div class="gallery">
@@ -224,13 +123,58 @@ footer{
         <div class="card">
             <img src="../images/npsf-logo.jpg" alt="NPSF Logo">
 
-            <h3>NPSF Logo</h3>
+            <div class="card-content">
+                <h3>NPSF Logo</h3>
 
-            <p>
-            The official emblem of the Norwegian Postal Chess Federation,
-            representing the organization during its formative years.
-            </p>
+                <p>
+                Official emblem of the Norwegian Postal Chess Federation.
+                </p>
+            </div>
         </div>
 
         <div class="card">
-            <img src="../images/john-s-syversen.jpg" alt="John S. Syversen
+            <img src="../images/john-s-syversen.jpg" alt="John S. Syversen">
+
+            <div class="card-content">
+                <h3>John S. Syversen</h3>
+
+                <p>
+                Long-time leader and one of the most important figures in the
+                federation's early history.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="../images/styret1951.jpg" alt="Board Meeting 1951">
+
+            <div class="card-content">
+                <h3>Board Meeting 1951</h3>
+
+                <p>
+                Members of the federation's leadership during the expansion years.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section>
+    <h2>Legacy</h2>
+
+    <p>
+    The years 1945–1956 laid the foundation for organized correspondence
+    chess in Norway and established traditions that continued for decades.
+    </p>
+</section>
+
+</div>
+
+<footer>
+    Norwegian Postal Chess Federation Historical Project
+</footer>
+
+</body>
+</html>
