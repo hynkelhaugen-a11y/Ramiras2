@@ -10,7 +10,8 @@
 body{
     margin:0;
     background:#f5f7fa;
-    font-family:Georgia,serif;
+    font-family:Georgia, serif;
+    color:#222;
 }
 
 header{
@@ -20,10 +21,42 @@ header{
     padding:50px 20px;
 }
 
+header h1{
+    margin:0;
+    font-size:2.2rem;
+}
+
+header p{
+    margin-top:10px;
+    font-size:1.1rem;
+}
+
 main{
     max-width:1400px;
     margin:auto;
     padding:30px;
+}
+
+.navigation{
+    margin-bottom:20px;
+}
+
+.navigation a{
+    color:#2563eb;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.navigation a:hover{
+    text-decoration:underline;
+}
+
+.info{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    margin-bottom:20px;
+    box-shadow:0 3px 12px rgba(0,0,0,0.10);
 }
 
 .viewer{
@@ -35,17 +68,27 @@ main{
 
 iframe{
     width:100%;
-    height:900px;
+    height:950px;
     border:none;
 }
 
-a{
-    color:#2563eb;
-    text-decoration:none;
+footer{
+    text-align:center;
+    margin:40px 0 20px 0;
+    color:#666;
+    font-size:0.9rem;
 }
 
-a:hover{
-    text-decoration:underline;
+@media (max-width: 900px){
+    iframe{
+        height:800px;
+    }
+}
+
+@media (max-width: 600px){
+    iframe{
+        height:700px;
+    }
 }
 </style>
 
@@ -54,25 +97,15 @@ a:hover{
 <body>
 
 <header>
-<h1>🏆 EM VI Final</h1>
-<p>Arild Haugen – Pedro Garcia Corada</p>
+    <h1>🏆 EM VI Final</h1>
+    <p>European Championship VI Final</p>
 </header>
 
 <main>
 
-<p>
-<a href="../tournaments.html">← Tilbake til turneringer</a>
-</p>
-
-<div class="viewer">
-
-<iframe
-src="https://share.chessbase.com/SharedGames/frame/?p=PwjmZMejQtf+5qGFRZff0zW4wIXi+9Ocb09q2UJnzLRcW0nC3dQJLP+uupKvwz96">
-</iframe>
-
+<div class="navigation">
+    <a href="../tournaments.html">← Tilbake til turneringer</a>
 </div>
 
-</main>
-
-</body>
-</html>
+<div class="info">
+    <h2>Partid
