@@ -1,207 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Favourite Artists | Ramiras</title>
 
 <style>
 
-:root{
-    --bg:#101114;
-    --card:#1b1e24;
-    --text:#dddddd;
-    --gold:#d89b18;
-}
-
 body{
     margin:0;
-    background:var(--bg);
-    color:var(--text);
-    font-family:Georgia, serif;
+    background:#121212;
+    color:#e8e8e8;
+    font-family:Verdana, Arial, sans-serif;
 }
 
-/* HERO */
+/* HEADER */
 
 header{
-    height:420px;
-    background:
-      linear-gradient(rgba(0,0,0,.55),
-      rgba(0,0,0,.75)),
-      url("../images/music-banner.jpg");
-    background-size:cover;
-    background-position:center;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
+    background:linear-gradient(135deg,#8b0000,#d4a017);
+    padding:60px 20px;
     text-align:center;
 }
 
 header h1{
-    font-size:5rem;
     margin:0;
-    color:#f4ad24;
-    text-shadow:0 0 25px rgba(244,173,36,.5);
+    font-size:4rem;
+    color:white;
 }
 
 header p{
-    font-size:1.5rem;
-    color:#ededed;
+    font-size:1.3rem;
+    margin-top:10px;
+    color:#f5f5f5;
     font-style:italic;
 }
 
 /* CONTENT */
 
 .container{
-    max-width:1300px;
+    max-width:1100px;
     margin:auto;
-    padding:50px 20px;
+    padding:30px;
 }
 
 .artist{
-    display:flex;
-    gap:30px;
-    margin:40px 0;
-    background:var(--card);
-    border-radius:20px;
-    overflow:hidden;
-    box-shadow:0 10px 35px rgba(0,0,0,.45);
-    transition:.3s;
+    background:#1f1f1f;
+    border-radius:15px;
+    padding:25px;
+    margin-bottom:25px;
+    border-left:8px solid #666;
 }
 
-.artist:hover{
-    transform:translateY(-6px);
+/* Artist colours */
+
+.armar{
+    border-color:#d4a017;
 }
 
-.cover{
-    width:320px;
-    height:320px;
-    flex-shrink:0;
-    overflow:hidden;
+.cowboy{
+    border-color:#5dade2;
 }
 
-.cover img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    transition:.5s;
+.van{
+    border-color:#58d68d;
 }
 
-.artist:hover .cover img{
-    transform:scale(1.08);
+.sonvolt{
+    border-color:#ec7063;
 }
 
-.info{
-    padding:25px 35px;
-    flex:1;
+.helldorado{
+    border-color:#af7ac5;
 }
 
-.info p{
-    line-height:1.8;
+.flyingshoes{
+    border-color:#48c9b0;
 }
 
-/* Individual artist colours */
-
-.armar h2{
-    color:#f0a020;
+.eriksen{
+    border-color:#f8c471;
 }
 
-.cowboy h2{
-    color:#60c9ff;
+.dag{
+    border-color:#dc7633;
 }
 
-.van h2{
-    color:#9fe870;
+.artist h2{
+    margin-top:0;
 }
 
-.sonvolt h2{
-    color:#ff7070;
-}
-
-.helldorado h2{
-    color:#f07aff;
-}
-
-.flyingshoes h2{
-    color:#7fffd4;
-}
-
-.eriksen h2{
-    color:#ffcc66;
-}
-
-.dagvagle h2{
-    color:#ff9f50;
-}
-
-/* Buttons */
-
-.artist-link{
-    display:inline-block;
-    padding:12px 24px;
-    margin:15px 0;
-    background:#d89b18;
-    color:white;
-    text-decoration:none;
+.album-list{
+    margin-top:15px;
+    background:#111;
+    padding:15px;
     border-radius:8px;
+}
+
+.album-list h3{
+    margin-top:0;
+}
+
+.album-list ul{
+    margin-bottom:0;
+}
+
+.album-list a{
+    color:#8cc8ff;
+    text-decoration:none;
+}
+
+.album-list a:hover{
+    color:white;
+}
+
+.button{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 18px;
+    background:#d4a017;
+    color:black;
+    text-decoration:none;
+    border-radius:6px;
     font-weight:bold;
 }
 
-.artist-link:hover{
-    background:#f4ad24;
-    color:black;
+.button:hover{
+    background:#f0c040;
 }
 
-/* Album section */
-
-.album-box{
-    background:#121418;
-    border-radius:12px;
-    padding:18px;
-    margin-top:20px;
+footer{
+    text-align:center;
+    padding:30px;
+    color:#999;
 }
 
-.album-box h3{
-    margin-top:0;
-    color:#ffffff;
-}
-
-.album-box ul{
-    padding-left:20px;
-}
-
-.album-box li{
-    margin:8px 0;
-}
-
-.album-box a{
-    color:#82cfff;
-    text-decoration:none;
-}
-
-.album-box a:hover{
-    color:white;
-}
-
-/* Mobile */
-
-@media(max-width:900px){
-
-.artist{
-    flex-direction:column;
-}
-
-.cover{
-    width:100%;
-    height:350px;
-}
-
-header h1{
-    font-size:3rem;
-}
-
-}
 </style>
 </head>
 
@@ -214,59 +146,92 @@ header h1{
 
 <div class="container">
 
-    <!-- ARMAR & BEIN -->
-
     <div class="artist armar">
+        <h2>Armar & Bein</h2>
 
-        <div class="cover">
-            <img src="../images/armarbein.jpg" alt="Armar & Bein">
+        <p>
+        Rogaland originals with humour, memorable lyrics and a unique identity.
+        </p>
+
+        <a class="button" href="../armar-bein.html">
+            Artist Page
+        </a>
+
+        <div class="album-list">
+            <h3>Favourite Albums</h3>
+
+            <ul>
+                <li>Don Vadder</li>
+                <li>Kardang</li>
+                <li>Lette Formiddagsstoner</li>
+            </ul>
         </div>
-
-        <div class="info">
-
-            <h2>Armar & Bein</h2>
-
-            <p>
-                Rogaland originals with humour, unforgettable lyrics
-                and their own unmistakable identity.
-            </p>
-
-            <a class="artist-link" href="../armar-bein.html">
-                Artist Page
-            </a>
-
-            <div class="album-box">
-                <h3>Favourite Albums</h3>
-
-                <ul>
-                    <li><a href="#">Don Vadder</a></li>
-                    <li><a href="#">Kardang</a></li>
-                    <li><a href="#">Lette Formiddagsstoner</a></li>
-                </ul>
-            </div>
-
-        </div>
-
     </div>
 
-    <!-- COWBOY JUNKIES -->
-
     <div class="artist cowboy">
+        <h2>Cowboy Junkies</h2>
 
-        <div class="cover">
-            <img src="../images/cowboyjunkies.jpg" alt="Cowboy Junkies">
+        <p>
+        Add your text here...
+        </p>
+
+        <div class="album-list">
+            <h3>Favourite Albums</h3>
+            <ul>
+                <li>The Trinity Session</li>
+                <li>Black Eyed Man</li>
+                <li>Pale Sun Crescent Moon</li>
+            </ul>
         </div>
+    </div>
 
-        <div class="info">
+    <div class="artist van">
+        <h2>Van Morrison</h2>
 
-            <h2>Cowboy Junkies</h2>
+        <p>
+        Add your text here...
+        </p>
 
-            <p>Add your review here...</p>
+        <div class="album-list">
+            <h3>Favourite Albums</h3>
+            <ul>
+                <li>Astral Weeks</li>
+                <li>Moondance</li>
+                <li>Into The Music</li>
+            </ul>
+        </div>
+    </div>
 
-            <div class="album-box">
-                <h3>Favourite Albums</h3>
+    <div class="artist sonvolt">
+        <h2>Son Volt</h2>
+        <p>Add your text here...</p>
+    </div>
 
-                <ul>
-                    <li><a href="#">The Trinity Session</a></li>
-                    <li><a href="#">Black Eyed Man</a></li>
-        
+    <div class="artist helldorado">
+        <h2>Helldorado</h2>
+        <p>Add your text here...</p>
+    </div>
+
+    <div class="artist flyingshoes">
+        <h2>Flying Shoes</h2>
+        <p>Add your text here...</p>
+    </div>
+
+    <div class="artist eriksen">
+        <h2>Eriksen</h2>
+        <p>Add your text here...</p>
+    </div>
+
+    <div class="artist dag">
+        <h2>Dag Vagle</h2>
+        <p>Add your text here...</p>
+    </div>
+
+</div>
+
+<footer>
+    Ramiras Music • Favourite Artists
+</footer>
+
+</body>
+</html>
