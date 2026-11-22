@@ -3,151 +3,133 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>World Championships | Ramiras</title>
+<title>World Championship Semi Final | Ramiras</title>
 
 <style>
-
-body{
-    margin:0;
-    font-family:Georgia, serif;
-    background:#f5f7fa;
-    color:#333;
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f4f4f4;
 }
 
-header{
-    background:#1f2937;
-    color:white;
-    text-align:center;
-    padding:60px 20px;
+h1 {
+    text-align: center;
+    color: #003366;
 }
 
-header h1{
-    margin:0;
-    font-size:3rem;
+.section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,.15);
 }
 
-header p{
-    font-size:1.2rem;
+.game-row {
+    display: flex;
+    gap: 10px;
+    margin: 12px 0;
 }
 
-.container{
-    max-width:1200px;
-    margin:auto;
-    padding:40px 20px;
+.game-link {
+    flex: 3;
+    background: #003366;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
 }
 
-.back-link{
-    display:inline-block;
-    margin-bottom:25px;
-    text-decoration:none;
-    color:#2563eb;
-    font-weight:bold;
+.table-link {
+    flex: 1;
+    background: #228B22;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
 }
 
-.cards{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-    gap:25px;
+.game-link:hover {
+    background: #0055aa;
 }
 
-.card{
-    background:white;
-    padding:30px;
-    border-radius:12px;
-    box-shadow:0 3px 12px rgba(0,0,0,.10);
+.table-link:hover {
+    background: #2ea043;
 }
 
-.card h2{
-    margin-top:0;
-    color:#16213e;
+.home-link {
+    display: inline-block;
+    margin-top: 20px;
+    background: #555;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 6px;
 }
 
-.button{
-    display:inline-block;
-    margin-top:15px;
-    padding:10px 18px;
-    background:#2563eb;
-    color:white;
-    text-decoration:none;
-    border-radius:8px;
-    font-weight:bold;
+.home-link:hover {
+    background: #777;
 }
-
-.button:hover{
-    background:#1d4ed8;
-}
-
-footer{
-    margin-top:50px;
-    padding:25px;
-    text-align:center;
-    background:#16213e;
-    color:white;
-}
-
 </style>
 </head>
 
 <body>
 
-<header>
-    <h1>🌍 World Championships</h1>
-    <p>Games, tournaments and qualification cycles.</p>
-</header>
+<h1>World Championship Semi Final</h1>
 
-<div class="container">
+<div class="section">
 
-    <a class="back-link"
-       href="../../../CorrespondenceChess/tournaments.html">
-        ← Back to tournaments
-    </a>
+    <div class="game-row">
+        <a class="game-link"
+           href="game1.html">
+           Parti 1
+        </a>
 
-    <div class="cards">
+        <a class="table-link"
+           href="https://iccf.com/event?id=39688"
+           target="_blank">
+           Cross Table
+        </a>
+    </div>
 
-        <div class="card">
-            <h2>🌍 WC Semifinal</h2>
-            <p>
-                World Championship semifinal events and selected games.
-            </p>
+    <div class="game-row">
+        <a class="game-link"
+           href="game2.html">
+           Parti 2
+        </a>
 
-            <a class="button"
-               href="../../../CorrespondenceChess/games/vmsemi25.html">
-                Open games
-            </a>
-        </div>
+        <a class="table-link"
+           href="https://iccf.com/event?id=39688"
+           target="_blank">
+           Cross Table
+        </a>
+    </div>
 
-        <div class="card">
-            <h2>🌍 Candidates</h2>
-            <p>
-                Candidates tournaments and related games.
-            </p>
+    <div class="game-row">
+        <a class="game-link"
+           href="game3.html">
+           Parti 3
+        </a>
 
-            <a class="button"
-               href="candidates.html">
-                Open games
-            </a>
-        </div>
-
-        <div class="card">
-            <h2>🌍 WC Finals</h2>
-            <p>
-                World Championship finals and notable games.
-            </p>
-
-            <a class="button"
-               href="finals.html">
-                Open games
-            </a>
-        </div>
-
+        <a class="table-link"
+           href="https://iccf.com/event?id=39688"
+           target="_blank">
+           Cross Table
+        </a>
     </div>
 
 </div>
 
-<footer>
-    © Ramiras Chess Archive
-</footer>
+<p>
+    <a class="home-link" href="../../index.html">
+        Tilbake til Ramiras
+    </a>
+</p>
 
 </body>
 </html>
