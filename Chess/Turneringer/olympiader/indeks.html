@@ -3,155 +3,173 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Sjakkolympiader | Ramiras</title>
 
 <style>
-
-body{
-    margin:0;
-    font-family:Georgia,serif;
-    background:#f5f7fa;
-    color:#333;
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background: #f3f4f6;
+    color: #1f2937;
 }
 
-header{
-    background:#1f2937;
-    color:white;
-    text-align:center;
-    padding:60px 20px;
+header {
+    background: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
 }
 
-.container{
-    max-width:1200px;
-    margin:auto;
-    padding:40px 20px;
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
 }
 
-.cards{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-    gap:25px;
+header p {
+    font-size: 1.2rem;
 }
 
-.card{
-    background:white;
-    border-radius:12px;
-    padding:25px;
-    box-shadow:0 3px 12px rgba(0,0,0,0.10);
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
 }
 
-.button{
-    display:inline-block;
-    margin-top:15px;
-    padding:10px 18px;
-    border-radius:8px;
-    background:#2563eb;
-    color:white;
-    text-decoration:none;
+.back-link {
+    display: inline-block;
+    margin-bottom: 25px;
+    color: #5b21b6;
+    text-decoration: none;
+    font-size: 1.2rem;
 }
 
-.button:hover{
-    background:#1d4ed8;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 25px;
 }
 
-.back{
-    margin-bottom:25px;
+.card {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
 }
 
+.card h2 {
+    margin-top: 0;
+    color: #1e3a5f;
+}
+
+.card p {
+    min-height: 70px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-games {
+    background: #3f51e5;
+}
+
+.btn-games:hover {
+    background: #3141c8;
+}
+
+.btn-table {
+    background: #198754;
+}
+
+.btn-table:hover {
+    background: #146c43;
+}
 </style>
 </head>
 
 <body>
 
 <header>
-<h1>🌍 Sjakkolympiader</h1>
-<p>
-Historiske partier, resultater og minner fra sjakkolympiader gjennom flere tiår.
-</p>
+    <h1>🌍 Sjakkolympiader</h1>
+    <p>Historiske partier, resultater og minner fra sjakkolympiader gjennom flere tiår.</p>
 </header>
 
 <div class="container">
 
-<div class="back">
-<a href="../index.html">← Tilbake til Turneringer</a>
-</div>
+    <a href="../indeks.html" class="back-link">← Tilbake til Turneringer</a>
 
-<div class="cards">
-    
-<div class="card">
+    <div class="grid">
 
-<h2>🏆 OL 15 Final</h2>
+        <div class="card">
+            <h2>🏆 OL 15 Final</h2>
+            <p>Finalegruppen fra Sjakkolympiaden. Åpne partier eller se sluttabellen.</p>
 
-<p>
-Finalegruppen fra Sjakkolympiaden.
-Klikk på knappen for å åpne partiene.
-</p>
+            <div class="button-group">
+                <a href="ol15-final.html" class="btn btn-games">Åpne partier</a>
+                <a href="https://www.iccf.com/event?id=19151"
+                   target="_blank"
+                   class="btn btn-table">📊 Tabell</a>
+            </div>
+        </div>
 
-<a class="button"
-href="ol15final.html">
-Åpne partier
-</a>
+        <div class="card">
+            <h2>🏆 OL 17 Final</h2>
+            <p>Finalegruppen fra Sjakkolympiaden. Åpne partier eller se sluttabellen.</p>
 
-</div>
-<div class="card">
+            <div class="button-group">
+                <a href="ol17-final.html" class="btn btn-games">Åpne partier</a>
+                <a href="https://www.iccf.com/event?id=35091"
+                   target="_blank"
+                   class="btn btn-table">📊 Tabell</a>
+            </div>
+        </div>
 
-<h2>🏆 OL 17 Final</h2>
+        <div class="card">
+            <h2>♟️ OL 22</h2>
+            <p>Preliminærgruppe. Åpne partier eller se turneringstabellen.</p>
 
-<p>
-Finalegruppen fra Sjakkolympiaden.
-Klikk på knappen for å åpne partiene.
-</p>
+            <div class="button-group">
+                <a href="ol22.html" class="btn btn-games">Åpne partier</a>
+                <a href="#"
+                   class="btn btn-table">📊 Tabell</a>
+            </div>
+        </div>
 
-<a class="button"
-href="ol15final.html">
-Åpne partier
-</a>
+        <div class="card">
+            <h2>🌍 OL 15 Preliminærgruppe</h2>
+            <p>Partier fra preliminærgruppen. Se partier eller tabell.</p>
 
-</div>    
+            <div class="button-group">
+                <a href="ol15-prelim.html" class="btn btn-games">Åpne partier</a>
+                <a href="#"
+                   class="btn btn-table">📊 Tabell</a>
+            </div>
+        </div>
 
-<div class="card">
-<h2>♟ OL 22</h2>
+        <div class="card">
+            <h2>🌍 OL 13 Preliminærgruppe</h2>
+            <p>Partier fra preliminærgruppen. Se partier eller tabell.</p>
 
-<p>
-Preliminær gruppe.
-Klikk på knappen for å åpne partiene.
-</p>
+            <div class="button-group">
+                <a href="ol13-prelim.html" class="btn btn-games">Åpne partier</a>
+                <a href="#"
+                   class="btn btn-table">📊 Tabell</a>
+            </div>
+        </div>
 
-<a class="button"
-href="viewer.html?pgn=ol22prelim.pgn">
-Åpne partier
-</a>
-
-</div>
-
-<div class="card">
-<h2>🌍 OL 15 Preliminær gruppe</h2>
-
-<p>
-Preliminær gruppe.
-Klikk på knappen for å åpne partiene.
-</p>
-
-<a class="button"
-href="olprelim15.html">
-Åpne partier
-</a>
-
-</div>
-<div class="card">
-<h2>🌍 OL 13 Preliminær gruppe</h2>
-
-<p>
-Preliminær gruppe.
-Klikk på knappen for å åpne partiene.
-</p>
-
-<a class="button"
-href="ol13-prelim.html">
-Åpne partier
-</a>
-</div>
+    </div>
 
 </div>
 
