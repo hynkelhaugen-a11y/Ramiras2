@@ -3,88 +3,133 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Turneringsarkiv</title>
 
 <style>
-body {
+:root{
+    --blue:#1c355e;
+    --blue-light:#204a87;
+    --bg:#f4f6f9;
+    --card:#ffffff;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+body{
     font-family: Verdana, Arial, sans-serif;
-    background:#f5f5f5;
+    background: var(--bg);
     color:#222;
-    max-width:1200px;
+    max-width:1300px;
     margin:auto;
-    padding:20px;
+    padding:30px 20px;
 }
 
-header {
+header{
     text-align:center;
-    margin-bottom:30px;
+    margin-bottom:40px;
 }
 
-h1 {
-    color:#1c355e;
-    font-size:3em;
+h1{
+    color:var(--blue);
+    font-size:clamp(2.5rem,5vw,4rem);
+    margin-bottom:15px;
 }
 
-.intro {
-    font-size:1.1em;
-    margin-top:10px;
+.intro{
+    font-size:1.25rem;
+    color:#555;
 }
 
-.grid {
+.grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    gap:20px;
+    grid-template-columns:repeat(auto-fit,minmax(450px,1fr));
+    gap:25px;
 }
 
-.card {
-    background:white;
-    border-radius:12px;
-    padding:20px;
-    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+.card{
+    background:var(--card);
+    border-radius:16px;
+    padding:24px;
+    min-height:260px;
+    box-shadow:0 4px 14px rgba(0,0,0,0.10);
+    transition:transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.card h2 {
-    color:#1c355e;
+.card:hover{
+    transform:translateY(-3px);
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card h2{
+    color:var(--blue);
     margin-top:0;
+    margin-bottom:18px;
+    padding-bottom:10px;
+    border-bottom:2px solid #e5eaf2;
 }
 
-.card ul {
+.card ul{
     margin:0;
-    padding-left:20px;
+    padding-left:24px;
 }
 
-.card li {
-    margin-bottom:8px;
+.card li{
+    margin-bottom:10px;
+    line-height:1.4;
 }
 
-a {
-    color:#204a87;
-    text-decoration:none;
+a{
+    color:var(--blue-light);
     font-weight:bold;
+    text-decoration:none;
 }
 
-a:hover {
+a:hover{
     text-decoration:underline;
 }
 
-.home {
+.home{
     text-align:center;
     margin-top:40px;
 }
 
-.home a {
-    background:#1c355e;
+.home a{
+    display:inline-block;
+    background:var(--blue);
     color:white;
-    padding:12px 25px;
-    border-radius:8px;
+    padding:14px 28px;
+    border-radius:10px;
+    text-decoration:none;
+    transition:background 0.2s ease;
 }
 
-footer {
+.home a:hover{
+    background:#294a82;
+    text-decoration:none;
+}
+
+footer{
     text-align:center;
-    margin-top:40px;
+    margin-top:35px;
     color:#666;
+    font-size:1.05rem;
+}
+
+@media (max-width:600px){
+
+    .grid{
+        grid-template-columns:1fr;
+    }
+
+    .card{
+        min-height:auto;
+    }
 }
 </style>
+
 </head>
 
 <body>
@@ -101,39 +146,40 @@ footer {
 
     <div class="card">
         <h2>Norgesmesterskap</h2>
+
         <ul>
-            <li><a href="NMU2001/">NM for Ungdomslag 2001</a></li>            
+            <li><a href="NMU2001/">NM for Ungdomslag 2001</a></li>
             <li><a href="Rand-partier/lagnm-2001.html">NM for lag 2001</a></li>
         </ul>
     </div>
 
     <div class="card">
         <h2>Internasjonale turneringer</h2>
+
         <ul>
             <li><a href="Rand-partier/emclub.html">EM for klubber Hellas</a></li>
         </ul>
     </div>
-    
-</div>
+
     <div class="card">
         <h2>Randaberg</h2>
-        <ul>            
+
+        <ul>
             <li><a href="Rand-partier/randaberg-tidlig.html">Randaberg tidlig</a></li>
             <li><a href="Rand-partier/randaberg-2000.html">Randaberg 2000-tallet</a></li>
             <li><a href="Rand-partier/randaberg-hurtig.html">Randaberg hurtigsjakk</a></li>
-            
         </ul>
     </div>
 
     <div class="card">
         <h2>Øvrige turneringer</h2>
+
         <ul>
             <li><a href="Fister/">Fister</a></li>
             <li><a href="Rand-partier/svgprix.html">Stavanger Grand Prix 2001</a></li>
             <li><a href="Rand-partier/krets.html">Kretskamper</a></li>
             <li><a href="Rand-partier/seniornm-2004.html">Senior NM 2004</a></li>
-            
-            </ul>
+        </ul>
     </div>
 
 </div>
