@@ -2,128 +2,155 @@
 <html lang="no">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Ramiras | Chess, Music & Family History</title>
 
+<meta name="description"
+      content="Ramiras er nettsiden til Arild Haugen med korrespondansesjakk, norsk sjakkhistorie, musikk, slektshistorie og Haugen–Hiim-krøniken.">
+
 <style>
+
+:root{
+    --bg:#f5f7fa;
+    --card:#ffffff;
+    --dark:#0f172a;
+    --nav:#1e293b;
+    --primary:#0369a1;
+    --primary-hover:#075985;
+    --text:#222;
+}
+
+*{
+    box-sizing:border-box;
+}
 
 body{
     margin:0;
     font-family:Segoe UI, Arial, sans-serif;
-    background:#f5f7fa;
-    color:#333;
+    background:var(--bg);
+    color:var(--text);
+    line-height:1.7;
+}
+
+.skip-link{
+    position:absolute;
+    left:-9999px;
+}
+
+.skip-link:focus{
+    left:10px;
+    top:10px;
+    background:white;
+    color:black;
+    padding:12px;
+    z-index:1000;
+    border:2px solid black;
 }
 
 header{
-    background:#0f172a;
+    background:var(--dark);
     color:white;
     text-align:center;
-    padding:80px 20px;
+    padding:5rem 1rem;
 }
 
 header h1{
     margin:0;
-    font-size:4rem;
+    font-size:clamp(2.5rem,8vw,4.5rem);
 }
 
 header p{
-    font-size:1.3rem;
+    margin-top:1rem;
+    font-size:1.25rem;
 }
 
 nav{
-    background:#1e293b;
-    text-align:center;
-    padding:10px;
+    background:var(--nav);
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:0.5rem;
+    padding:0.75rem;
 }
 
 nav a{
-    display:inline-block;
     color:white;
     text-decoration:none;
-    margin:4px;
-    padding:12px 16px;
-    font-weight:bold;
-    border-radius:6px;
+    font-weight:600;
+    padding:14px 20px;
+    border-radius:8px;
 }
 
 nav a:hover,
-nav a:focus{
-    color:#38bdf8;
+nav a:focus-visible{
+    background:#334155;
     outline:3px solid #38bdf8;
-    outline-offset:3px;
+    outline-offset:2px;
 }
 
-.container{
+main{
     max-width:1200px;
     margin:auto;
-    padding:50px 20px;
+    padding:2rem 1rem;
 }
 
 .intro{
     text-align:center;
     max-width:900px;
-    margin:0 auto 50px auto;
-    line-height:1.8;
-    font-size:1.1rem;
+    margin:0 auto 3rem auto;
 }
 
 .cards{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-    gap:30px;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:2rem;
 }
 
 .card{
-    background:white;
+    background:var(--card);
     border-radius:12px;
-    padding:30px;
-    box-shadow:0 3px 12px rgba(0,0,0,0.10);
+    padding:2rem;
+    box-shadow:0 4px 14px rgba(0,0,0,0.08);
 }
 
 .card h2{
     margin-top:0;
-    color:#0f172a;
+    color:var(--dark);
 }
 
 .button{
     display:inline-block;
-    background:#0284c7;
+    margin-top:1rem;
+    padding:12px 20px;
+    background:var(--primary);
     color:white;
     text-decoration:none;
-    padding:12px 20px;
     border-radius:8px;
-    margin-top:15px;
+    font-weight:600;
 }
 
 .button:hover,
-.button:focus{
-    background:#0369a1;
-    outline:3px solid #0369a1;
-    outline-offset:3px;
+.button:focus-visible{
+    background:var(--primary-hover);
+    outline:3px solid var(--primary-hover);
+    outline-offset:2px;
 }
 
-.about-author{
-    max-width:900px;
-    margin:50px auto;
-    padding:25px;
+.about{
     background:white;
+    padding:2rem;
+    margin-top:3rem;
     border-radius:12px;
-    box-shadow:0 3px 12px rgba(0,0,0,0.10);
-    line-height:1.8;
-}
-
-.about-author h2{
-    margin-top:0;
-    color:#0f172a;
+    box-shadow:0 4px 14px rgba(0,0,0,0.08);
 }
 
 footer{
-    margin-top:50px;
-    background:#0f172a;
+    margin-top:3rem;
+    background:var(--dark);
     color:white;
     text-align:center;
-    padding:25px;
+    padding:2rem 1rem;
 }
 
 </style>
@@ -131,12 +158,14 @@ footer{
 
 <body>
 
+<a href="#content" class="skip-link">Hopp til innhold</a>
+
 <header>
     <h1>Ramiras</h1>
     <p>Chess • Music • Family History</p>
 </header>
 
-<nav aria-label="Main navigation">
+<nav aria-label="Hovednavigasjon">
     <a href="index.html">Home</a>
     <a href="CorrespondenceChess/">Correspondence Chess</a>
     <a href="Chess/">Sjakk</a>
@@ -144,117 +173,112 @@ footer{
     <a href="Family/">Family</a>
 </nav>
 
-<div class="container">
+<main id="content">
 
 <section class="intro">
+    <p>
+        Welcome to Ramiras, a personal website bringing together
+        correspondence chess, Norwegian chess history, music,
+        family heritage and personal memories collected over a lifetime.
+    </p>
 
-<p>
-Welcome to Ramiras, a personal website bringing together
-correspondence chess, Norwegian chess history, music,
-family heritage and personal memories collected over a lifetime.
-</p>
-
-<p>
-The site contains selected games, articles, photographs,
-genealogical research, historical material and information
-about the book <em>Chess Without Borders</em>.
-</p>
-
+    <p>
+        The site contains selected games, articles, photographs,
+        genealogical research, historical material and information
+        about the book <em>Chess Without Borders</em>.
+    </p>
 </section>
 
 <section class="cards">
 
-<div class="card">
+<article class="card">
     <h2>♔ Correspondence Chess</h2>
 
     <p>
-        International correspondence chess, ICCF tournaments,
-        selected games, ratings, books and decades of
-        analytical chess experience.
+        ICCF tournaments, ratings, games, books and analytical experience
+        from decades of international correspondence chess.
     </p>
 
     <a class="button" href="CorrespondenceChess/">
         Enter Correspondence Chess
     </a>
-</div>
+</article>
 
-<div class="card">
+<article class="card">
     <h2>♟ Sjakk</h2>
 
     <p>
-        Norsk sjakkhistorie, turneringer, sjakkminner,
-        analyser, partier, artikler og historiske
-        tilbakeblikk fra mer enn seksti år med sjakk.
+        Norsk sjakkhistorie, partier, artikler, analyser,
+        turneringer og personlige sjakkminner.
     </p>
 
     <a class="button" href="Chess/">
         Enter Sjakk
     </a>
-</div>
+</article>
 
-<div class="card">
+<article class="card">
     <h2>🎵 Music</h2>
 
     <p>
-        Favourite recordings, musicians, concerts,
-        personal collections and musical interests.
+        Favourite recordings, musicians, concerts and
+        personal musical interests collected over many years.
     </p>
 
     <a class="button" href="Music/">
         Enter Music
     </a>
-</div>
+</article>
 
-<div class="card">
+<article class="card">
     <h2>👨‍👩‍👧 Hot Stuff</h2>
 
     <p>
-        Reviews of books, movies and various personal interests.
+        Reviews, memories, books, films and personal interests
+        beyond chess and genealogy.
     </p>
 
     <a class="button" href="Family/">
         Enter Hot Stuff
     </a>
-</div>
+</article>
 
-<div class="card">
+<article class="card">
     <h2>📖 Haugen–Hiim Krøniken</h2>
 
     <p>
-        Familiekrønike, genealogi, bilder,
-        historier og historiske kilder fra
-        Haugen- og Hiim-slektene.
+        Familiehistorie, slektsforskning, fotografier,
+        dokumenter og historier fra Haugen- og Hiim-slektene.
     </p>
 
     <a class="button"
        href="https://haugen-hiim-offentlig.appreciativefir2.chatgpt.site/"
        target="_blank"
-       rel="noopener noreferrer">
+       rel="noopener noreferrer"
+       aria-label="Åpne Haugen Hiim Krøniken i ny fane">
         Open Chronicle
     </a>
-</div>
+</article>
 
 </section>
 
-<section class="about-author">
-
+<section class="about">
     <h2>About Arild Haugen</h2>
 
     <p>
         Arild Haugen is a Norwegian correspondence chess player,
         chess historian, music enthusiast and family researcher.
-        Through Ramiras he shares articles, historical material,
-        photographs and personal research collected over many years.
+        Through Ramiras he shares articles, photographs and historical
+        material collected through decades of work and personal interest.
     </p>
 
     <p>
-        His interests include correspondence chess, Norwegian chess
-        history, classical and popular music, genealogy and local history.
+        His primary interests include correspondence chess,
+        Norwegian chess history, music, genealogy and local history.
     </p>
-
 </section>
 
-</div>
+</main>
 
 <footer>
     © Ramiras | Chess, Music & Family History
