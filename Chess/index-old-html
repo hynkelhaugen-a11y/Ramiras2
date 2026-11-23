@@ -3,21 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ramiras Chess</title>
+
+<title>Sjakk | Ramiras</title>
 
 <style>
+
 body{
     margin:0;
-    font-family:Segoe UI, Arial, sans-serif;
+    font-family:Georgia, serif;
     background:#f5f7fa;
     color:#333;
+    line-height:1.7;
 }
 
 header{
-    background:#0f172a;
+    background:#1f2937;
     color:white;
     text-align:center;
-    padding:80px 20px;
+    padding:70px 20px;
 }
 
 header h1{
@@ -30,9 +33,9 @@ header p{
 }
 
 nav{
-    background:#1e293b;
-    padding:15px;
+    background:#374151;
     text-align:center;
+    padding:15px;
 }
 
 nav a{
@@ -43,13 +46,21 @@ nav a{
 }
 
 nav a:hover{
-    color:#38bdf8;
+    color:#60a5fa;
 }
 
 .container{
     max-width:1200px;
     margin:auto;
     padding:40px 20px;
+}
+
+.intro{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 3px 12px rgba(0,0,0,0.10);
+    margin-bottom:40px;
 }
 
 .cards{
@@ -62,264 +73,175 @@ nav a:hover{
     background:white;
     padding:25px;
     border-radius:12px;
-    box-shadow:0 3px 12px rgba(0,0,0,0.1);
+    box-shadow:0 3px 12px rgba(0,0,0,0.10);
 }
 
 .card h2{
-    color:#0f172a;
     margin-top:0;
-}
-
-.card p{
-    line-height:1.6;
+    color:#1f2937;
 }
 
 .button{
     display:inline-block;
     margin-top:15px;
-    padding:12px 18px;
-    background:#0284c7;
+    background:#2563eb;
     color:white;
     text-decoration:none;
+    padding:10px 18px;
     border-radius:8px;
 }
 
 .button:hover{
-    background:#0369a1;
+    background:#1d4ed8;
+}
+
+.quote{
+    margin:25px 0;
+    padding-left:15px;
+    border-left:4px solid #2563eb;
+    font-style:italic;
 }
 
 footer{
-    margin-top:40px;
-    background:#0f172a;
+    margin-top:50px;
+    background:#1f2937;
     color:white;
     text-align:center;
     padding:25px;
 }
+
 </style>
 </head>
 
 <body>
 
 <header>
-    <h1>♟ Ramiras Chess</h1>
-    <p>Correspondence Chess • ICCF • Tournaments • Chess History</p>
+
+<h1>♟ Sjakk</h1>
+
+<p>
+Partier, turneringer, minner og norsk sjakkhistorie
+</p>
+
 </header>
 
 <nav>
-    <a href="../index.html">Home</a>
-    <a href="../Family/">Family</a>
+    <a href="../index.html">Hjem</a>
+    <a href="../CorrespondenceChess/">Correspondence Chess</a>
+    <a href="../music.html">Musikk</a>
+    <a href="../Family/">Slekt</a>
 </nav>
 
 <div class="container">
 
+<div class="intro">
+
+<h2>Velkommen til sjakksidene</h2>
+
+<p>
+Sjakk har vært en del av livet mitt siden barndommen i Stavanger.
+Gjennom mer enn seks tiår har spillet gitt opplevelser, vennskap,
+konkurranser og mange minner.
+</p>
+
+<p>
+På disse sidene har jeg samlet partier, turneringer, artikler,
+historisk stoff, fotografier og personlige erfaringer fra norsk
+sjakkliv.
+</p>
+
+<div class="quote">
+"Sjakk er ikke bare et spill. Det er historie, kultur,
+vennskap og livslang læring."
+</div>
+
+<p>
+For internasjonal korrespondansesjakk og ICCF-materiale,
+besøk den separate seksjonen
+<strong>Correspondence Chess</strong>.
+</p>
+
+</div>
+
+<h2>Sjakkarkiv</h2>
+
 <div class="cards">
 
 <div class="card">
-    <h2>♞ Chess Archive</h2>
-    <p>
-        The original Ramiras chess pages with historical tournament reports,
-        analyses, correspondence games and older chess material.
-    </p>
-
-    <a class="button" href="../chess.html">
-        Open Chess Archive
-    </a>
+<h2>♔ Correspondence Chess</h2>
+<p>
+Internasjonale turneringer, ICCF, analytiske partier,
+bokprosjekter og korrespondansesjakk gjennom flere tiår.
+</p>
+<a class="button" href="../CorrespondenceChess/">
+Åpne seksjonen
+</a>
 </div>
 
 <div class="card">
-    <h2>🏆 ICCF Career</h2>
-    <p>
-        Ratings, tournaments, titles and achievements in correspondence chess.
-    </p>
-
-    <a class="button" href="#">
-        Coming Soon
-    </a>
+<h2>🏆 Turneringer</h2>
+<p>
+Resultater, minner, rapporter og historisk materiale
+fra turneringer.
+</p>
+<a class="button" href="Turneringer/">
+Turneringer
+</a>
 </div>
 
 <div class="card">
-    <h2>♟ Tournament Archive</h2>
-    <p>
-        World Cups, Norwegian events and other correspondence tournaments.
-    </p>
-
-    <a class="button" href="#">
-        Coming Soon
-    </a>
+<h2>♜ Randaberg Sjakklubb</h2>
+<p>
+Historien om Randaberg Sjakklubb fra etableringen i 1979,
+med klubbhistorie, profiler, turneringer, postsjakk,
+bilder, partier og minner fra et aktivt sjakkmiljø i Rogaland.
+</p>
+<a class="button" href="Randaberg.htm">
+Åpne Randaberg Sjakklubb
+</a>
 </div>
 
 <div class="card">
-    <h2>📖 Selected Games</h2>
-    <p>
-        Annotated games, opening ideas and endgame studies.
-    </p>
+   <h2>⚔️ Hnefatafl</h2>
+   <p>
+       Vikingsjakk fra Norden. Kongen og hans forsvarere kjemper
+       mot en større angripende styrke i et av de eldste
+       strategispillene vi kjenner.
+   </p>
+   <a href="hnefatafl.html" class="button">
+       Regler, historie og spillbrett
+   </a>
+    
+</div> 
 
-    <a class="button" href="#">
-        Coming Soon
-    </a>
+<div class="card">
+<h2>📖 Fister Grand Prix</h2>
+<p>
+Flotte partier og mye god fisk!
+</p>
+<a class="button" href="Partier/GrandPrix/fisterGP.html">Fister GP
+</a>
 </div>
 
+<div class="card">
+<h2>📚 Min sjakkhistorie</h2>
+<p>
+Personlige erfaringer fra de første
+sjakkårene til dagens aktiviteter.
+</p>
+<a class="button" href="sjakkhistorie.htm">
+Les mer
+</a>
 </div>
 
+
 </div>
-<!DOCTYPE html>
-<html lang="no">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Min sjakkhistorie</title>
-    <link rel="stylesheet" href="../style.css">
-</head>
-
-<body>
-
-<header>
-    <h1>Min sjakkhistorie</h1>
-    <p>
-        Fra de første sjakkbrikkene i barndommen til internasjonal
-        postsjakk og stormestertittel.
-    </p>
-</header>
-
-<nav>
-    <a href="../index.html">Hjem</a> |
-    <a href="../music/index.html">Music</a> |
-    <a href="../family/index.html">Family</a> |
-    <a href="../things/index.html">Things</a>
-</nav>
-
-<main>
-
-<section>
-    <h2>Velkommen</h2>
-
-    <p>
-        Denne delen av nettstedet forteller historien om mitt liv i sjakken.
-        Historien begynner i barndommens Stavanger, fortsetter gjennom
-        skolesjakk, klubbspill, postsjakk og internasjonale turneringer,
-        og ender foreløpig med stormestertittel og mange års aktivitet
-        som spiller, lagkaptein og skribent.
-    </p>
-
-    <p>
-        Materialet er organisert kronologisk slik at leseren kan følge
-        utviklingen gjennom ulike perioder av livet.
-    </p>
-</section>
-
-<section>
-    <h2>Sjakkreisen</h2>
-
-    <ul>
-        <li>
-            <a href="sjakk-barndom.html">
-                Barndom og de første trekkene
-            </a>
-        </li>
-
-        <li>
-            <a href="sjakk-skolesjakk.html">
-                Skolesjakk og ungdomsår
-            </a>
-        </li>
-
-        <li>
-            <a href="stavanger-sjakklubb.html">
-                Stavanger Sjakklubb
-            </a>
-        </li>
-
-        <li>
-            <a href="postsjakk-starten.html">
-                Møtet med postsjakken
-            </a>
-        </li>
-
-        <li>
-            <a href="trondheim.html">
-                Trondheim-årene
-            </a>
-        </li>
-
-        <li>
-            <a href="randaberg.html">
-                Randaberg Sjakklubb
-            </a>
-        </li>
-
-        <li>
-            <a href="titteljakten.html">
-                Veien mot titlene
-            </a>
-        </li>
-
-        <li>
-            <a href="internasjonal-karriere.html">
-                Internasjonal karriere
-            </a>
-        </li>
-    </ul>
-</section>
-
-<section>
-    <h2>Partier og analyser</h2>
-
-    <ul>
-        <li>
-            <a href="partier.html">
-                Utvalgte partier
-            </a>
-        </li>
-
-        <li>
-            <a href="colin-mcnab.html">
-                Partiet mot Colin McNab
-            </a>
-        </li>
-    </ul>
-</section>
-
-<section>
-    <h2>Postsjakk</h2>
-
-    <ul>
-        <li>
-            <a href="postsjakkforum.html">
-                Postsjakkforum og Internett-perioden
-            </a>
-        </li>
-
-        <li>
-            <a href="meritter.html">
-                Meritter og statistikk
-            </a>
-        </li>
-    </ul>
-</section>
-
-<section>
-    <h2>Favorittsitat</h2>
-
-    <blockquote>
-        "Sjakk er både sport, kunst og vitenskap."
-    </blockquote>
-</section>
-
-</main>
 
 <footer>
-    <hr>
-    <p>
-        Ramiras – Chess, Music & Things
-    </p>
+<p>
+Ramiras | Sjakk • Correspondence Chess • Musikk • Slektshistorie
+</p>
 </footer>
 
 </body>
 </html>
-<footer>
-    © Ramiras Chess
-</footer>
-
-</body>
-</html>
-
