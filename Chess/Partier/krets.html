@@ -1,44 +1,70 @@
 <!DOCTYPE html>
 <html lang="no">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sjakkparti</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            text-align: center;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        iframe {
-            border: 0;
-            width: 100%;
-            max-width: 900px;
-            height: 600px;
-        }
+<title>ChessBase Game Viewer</title>
 
-        a {
-            font-size: 1.1em;
-        }
-    </style>
+<style>
+body{
+    font-family:Segoe UI, Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:#f5f7fa;
+    text-align:center;
+}
+
+h1{
+    color:#0f172a;
+}
+
+.viewer{
+    max-width:1000px;
+    margin:auto;
+}
+
+iframe{
+    width:100%;
+    height:650px;
+    border:none;
+    border-radius:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
+}
+
+.link{
+    margin-top:20px;
+}
+
+.link a{
+    color:#0369a1;
+    text-decoration:none;
+    font-weight:bold;
+}
+</style>
+
 </head>
 <body>
 
-<h1>Sjakkparti</h1>
+<div class="viewer">
 
-<p>
-    <a href="https://share.chessbase.com/SharedGames/game/?p=VZ8/3oMsUhj2BUOe2o3RAila7cEZ/4EwAw3hBSUIfDtrSyvJVjrd0o22vEpKFWqo"
+<h1>ChessBase Shared Game</h1>
+
+<iframe
+    src="https://share.chessbase.com/SharedGames/frame/?p=ccotsvQO6jawSWXNGFyBJLhC5jOCEkF2nxYnjlfhL7wHbb6EnsuKH1PTuaAPhQuu"
+    title="ChessBase Game Viewer"
+    loading="lazy">
+</iframe>
+
+<p class="link">
+    <a href="https://share.chessbase.com/SharedGames/game/?p=ccotsvQO6jawSWXNGFyBJLhC5jOCEkF2nxYnjlfhL7wHbb6EnsuKH1PTuaAPhQuu"
        target="_blank"
        rel="noopener noreferrer">
-       Åpne partiet i eget vindu
+       Open game in ChessBase
     </a>
 </p>
 
-<iframe
-    src="https://share.chessbase.com/SharedGames/frame/?p=VZ8/3oMsUhj2BUOe2o3RAila7cEZ/4EwAw3hBSUIfDtrSyvJVjrd0o22vEpKFWqo"
-    title="Sjakkparti">
-</iframe>
+</div>
 
 </body>
 </html>
