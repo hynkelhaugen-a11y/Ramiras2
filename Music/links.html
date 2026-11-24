@@ -6,73 +6,102 @@
     <title>Arild Haugens Musikklenker</title>
 
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 40px 20px;
-            background-color: #f4f6f8;
+            margin: 0;
+            background: #f4f6f8;
             color: #333;
-            line-height: 1.6;
         }
 
         header {
+            background: linear-gradient(135deg, #1db954, #169c46);
+            color: white;
             text-align: center;
-            margin-bottom: 40px;
+            padding: 50px 20px;
         }
 
-        h1 {
-            color: #1db954;
-            margin-bottom: 10px;
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
         }
 
-        .subtitle {
-            color: #666;
-            font-size: 1.1em;
+        header p {
+            margin-top: 10px;
+            font-size: 1.1rem;
+            opacity: 0.9;
         }
 
-        .playlist-container {
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section {
             background: white;
             border-radius: 12px;
             padding: 25px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            margin-bottom: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #1db954;
         }
 
         ul {
             list-style: none;
             padding: 0;
+            margin: 0;
         }
 
         li {
-            margin: 15px 0;
+            margin: 12px 0;
         }
 
         a {
             display: block;
             padding: 15px;
-            border-radius: 8px;
             text-decoration: none;
-            background-color: #f8f9fa;
             color: #222;
-            transition: all 0.2s ease;
+            background: #f8f9fa;
             border-left: 5px solid #1db954;
+            border-radius: 8px;
+            transition: all 0.25s ease;
         }
 
         a:hover {
-            background-color: #e8f5ec;
+            background: #e8f5ec;
             transform: translateX(5px);
         }
 
-        .playlist-title {
+        .title {
+            font-size: 1.1rem;
             font-weight: 600;
-            font-size: 1.1em;
+        }
+
+        .description {
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 4px;
         }
 
         footer {
             text-align: center;
-            margin-top: 40px;
-            color: #777;
-            font-size: 0.9em;
+            padding: 30px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
         }
     </style>
 </head>
@@ -81,48 +110,81 @@
 
 <header>
     <h1>🎵 Arild Haugens Musikklenker</h1>
-    <p class="subtitle">
-        En samling Spotify-spillelister og gode musikkressurser.
-    </p>
+    <p>Spotify-spillelister og lenker til musikkprosjekter</p>
 </header>
 
-<section class="playlist-container">
-    <h2>Spotify-spillelister</h2>
+<main>
 
-    <ul>
-        <li>
-            <a href="https://open.spotify.com/playlist/6c86Ynq29fpHUmQVsenU11"
-               target="_blank"
-               rel="noopener noreferrer">
-                <span class="playlist-title">Ramiras-1</span>
-            </a>
-        </li>
+    <section>
+        <h2>🎧 Spotify-spillelister</h2>
 
-        <li>
-            <a href="https://open.spotify.com/playlist/7wZKPEGwqLCwV9JYHHExN6"
-               target="_blank"
-               rel="noopener noreferrer">
-                <span class="playlist-title">Songs That Shaped Van Morrison</span>
-            </a>
-        </li>
+        <ul>
 
-        <li>
-            <a href="https://open.spotify.com/playlist/4zeZ2mdneCFPzfbuTL13Kj"
-               target="_blank"
-               rel="noopener noreferrer">
-                <span class="playlist-title">Fiskesangen</span>
-            </a>
-        </li>
+            <li>
+                <a href="https://open.spotify.com/playlist/6c86Ynq29fpHUmQVsenU11"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    <div class="title">Ramiras-1</div>
+                    <div class="description">
+                        En personlig spilleliste satt sammen av Arild Haugen.
+                    </div>
+                </a>
+            </li>
 
-        <li>
-            <a href="https://open.spotify.com/playlist/3lztRubGbmtF7x6ZGfovbP"
-               target="_blank"
-               rel="noopener noreferrer">
-                <span class="playlist-title">Music for Stiff Necks</span>
-            </a>
-        </li>
-    </ul>
-</section>
+            <li>
+                <a href="https://open.spotify.com/playlist/7wZKPEGwqLCwV9JYHHExN6"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    <div class="title">Songs That Shaped Van Morrison</div>
+                    <div class="description">
+                        Musikk som inspirerte og formet Van Morrisons musikalske univers.
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://open.spotify.com/playlist/4zeZ2mdneCFPzfbuTL13Kj"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    <div class="title">Fiskesangen</div>
+                    <div class="description">
+                        En spilleliste med maritim stemning og gode historier.
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://open.spotify.com/playlist/3lztRubGbmtF7x6ZGfovbP"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    <div class="title">Music for Stiff Necks</div>
+                    <div class="description">
+                        Avslappende musikk for stive nakker og rolige stunder.
+                    </div>
+                </a>
+            </li>
+
+        </ul>
+    </section>
+
+    <section>
+        <h2>🎸 Armar &amp; Bein</h2>
+
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/search/top?q=armar%26bein"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    <div class="title">Armar &amp; Bein på Facebook</div>
+                    <div class="description">
+                        Følg Armar &amp; Bein på Facebook for oppdateringer, musikk og nyheter.
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+</main>
 
 <footer>
     © 2026 Arild Haugen • Musikk anbefalt med hjertet ❤️
