@@ -3,18 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gode musikklenker</title>
+    <title>Arild Haugens Musikklenker</title>
+
     <style>
         body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 20px;
-            background-color: #f5f5f5;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #f4f6f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
         }
 
         h1 {
             color: #1db954;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+        }
+
+        .playlist-container {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
         }
 
         ul {
@@ -23,49 +44,89 @@
         }
 
         li {
-            margin: 12px 0;
+            margin: 15px 0;
         }
 
         a {
-            color: #0066cc;
+            display: block;
+            padding: 15px;
+            border-radius: 8px;
             text-decoration: none;
-            font-size: 1.1em;
+            background-color: #f8f9fa;
+            color: #222;
+            transition: all 0.2s ease;
+            border-left: 5px solid #1db954;
         }
 
         a:hover {
-            text-decoration: underline;
+            background-color: #e8f5ec;
+            transform: translateX(5px);
+        }
+
+        .playlist-title {
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #777;
+            font-size: 0.9em;
         }
     </style>
 </head>
+
 <body>
-    <h1>🎵 Gode musikklenker</h1>
 
-<h1>🎵 Arild Haugens Spotify-spillelister</h1>
+<header>
+    <h1>🎵 Arild Haugens Musikklenker</h1>
+    <p class="subtitle">
+        En samling Spotify-spillelister og gode musikkressurser.
+    </p>
+</header>
 
-<ul>
-    <li>
-        <a href="https://open.spotify.com/playlist/6c86Ynq29fpHUmQVsenU11" target="_blank" rel="noopener noreferrer">
-            Ramiras-1 - playlist by Arild Haugen
-        </a>
-    </li>
+<section class="playlist-container">
+    <h2>Spotify-spillelister</h2>
 
-    <li>
-        <a href="https://open.spotify.com/playlist/7wZKPEGwqLCwV9JYHHExN6" target="_blank" rel="noopener noreferrer">
-            Songs That Shaped Van Morrison - playlist by Arild Haugen
-        </a>
-    </li>
+    <ul>
+        <li>
+            <a href="https://open.spotify.com/playlist/6c86Ynq29fpHUmQVsenU11"
+               target="_blank"
+               rel="noopener noreferrer">
+                <span class="playlist-title">Ramiras-1</span>
+            </a>
+        </li>
 
-    <li>
-        <a href="https://open.spotify.com/playlist/4zeZ2mdneCFPzfbuTL13Kj" target="_blank" rel="noopener noreferrer">
-            Fiskesangen - playlist by Arild Haugen
-        </a>
-    </li>
+        <li>
+            <a href="https://open.spotify.com/playlist/7wZKPEGwqLCwV9JYHHExN6"
+               target="_blank"
+               rel="noopener noreferrer">
+                <span class="playlist-title">Songs That Shaped Van Morrison</span>
+            </a>
+        </li>
 
-    <li>
-        <a href="https://open.spotify.com/playlist/3lztRubGbmtF7x6ZGfovbP" target="_blank" rel="noopener noreferrer">
-            Music for Stiff Necks - playlist by Arild Haugen
-        </a>
-    </li>
-</ul>
+        <li>
+            <a href="https://open.spotify.com/playlist/4zeZ2mdneCFPzfbuTL13Kj"
+               target="_blank"
+               rel="noopener noreferrer">
+                <span class="playlist-title">Fiskesangen</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="https://open.spotify.com/playlist/3lztRubGbmtF7x6ZGfovbP"
+               target="_blank"
+               rel="noopener noreferrer">
+                <span class="playlist-title">Music for Stiff Necks</span>
+            </a>
+        </li>
+    </ul>
+</section>
+
+<footer>
+    © 2026 Arild Haugen • Musikk anbefalt med hjertet ❤️
+</footer>
+
 </body>
 </html>
