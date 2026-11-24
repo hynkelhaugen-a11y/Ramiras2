@@ -1,0 +1,90 @@
+[Event "Stavanger Grand Prix (2)"]
+[Site "?"]
+[Date "2001.05.20"]
+[Round "?"]
+[White "Sersch, Rudi"]
+[Black "Stokke, Kjetil"]
+[Result "1-0"]
+[ECO "A36"]
+[Annotator "Haugen,Arild"]
+[PlyCount "91"]
+[EventDate "2001.05.20"]
+[SourceDate "2001.05.20"]
+
+1. e4 c5 2. c4 Nc6 3. Nc3 g6 4. g3 Bg7 5. Bg2 Nf6 6. Nge2 O-O 7. d3 d6 8. Bg5
+Ne8 9. Qd2 Nc7 10. h4 h5 11. Bh6 a6 12. Bxg7 Kxg7 13. f4 Ne6 14. g4 hxg4 15. h5
+Rh8 16. f5 Ned4 17. O-O-O Nf3 $2 (17... gxf5 18. exf5 Bxf5 $15) 18. Bxf3 gxf3
+19. fxg6 Rh6 20. gxf7 Kh7 21. Rdg1 Qf8 22. Rg6 Be6 23. Rg8 Qxf7 (23... fxe2)
+24. Rxa8 fxe2 25. Qxe2 (25. Rh8+ $1 Kxh8 26. Qxh6+ Qh7 27. Qxe6 $18) 25... Nd4
+26. Qg2 Rxh5 27. Rf8 $1 Qg6 28. Qxg6+ Kxg6 29. Rxh5 Kxh5 30. Re8 Nc6 31. Nd5
+Bf7 32. Rf8 Kh6 33. Rc8 Bxd5 34. exd5 Nb4 35. Kd2 Nxa2 36. Rc7 Kg6 37. Rxb7 Nb4
+38. Rb8 Kf7 39. Ke3 Nc2+ 40. Ke4 Kg7 41. Ra8 Nb4 42. d4 cxd4 43. Kxd4 Kf6 44.
+c5 dxc5+ 45. Kxc5 Nd3+ 46. Kd4 1-0
+
+[Event "Stavanger Grand Prix"]
+[Site "MyTown"]
+[Date "2001.05.20"]
+[Round "?"]
+[White "Hersvik, Daniel"]
+[Black "Fossan, Erik"]
+[Result "1-0"]
+[ECO "B30"]
+[Annotator "Haugen,Arild"]
+[PlyCount "53"]
+[EventDate "2001.05.20"]
+[SourceDate "2001.05.20"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 e6 4. O-O Nge7 5. Nc3 a6 6. Bxc6 Nxc6 7. d4 cxd4 8.
+Nxd4 d6 9. Be3 Be7 10. a4 O-O 11. Kh1 $146 (11. Qe2 Qc7 12. Rad1 Bd7 13. f4)
+11... Ne5 (11... Bf6 {Antakelig bedre i folge Erik}) 12. Qe2 $1 {
+Na far hvit tid til a fa tarnet pa a1 i spill for Lc1.} 12... Qc7 13. Rad1 Bd7
+(13... b6 $1 {var nok en bedre plan!}) 14. f4 Nc4 15. Bc1 Rac8 (15... Nb6 16.
+a5 Nc4 17. Nf5 exf5 18. Nd5 Qd8 19. exf5 Bh4 20. Qxc4 Bb5 21. Qb4 Bxf1 22. Rxf1
+$11) 16. Rf3 Bf6 17. Rg3 g6 (17... Nb6 18. e5 (18. a5 Nc4 19. Qg4 Kh8 $15)) 18.
+b3 Na5 19. Ba3 Rfd8 20. f5 {Dette er mulig siden springeren er borte!} (20. Nf5
+exf5 21. Nd5 Qxc2 22. Nxf6+ Kg7 23. Rd2 $11) 20... Be5 (20... Bg7 21. Qd2 b6
+22. Qd3 Nc6 23. fxe6 fxe6 24. Nde2 Ne5 25. Qxd6 Qxd6 26. Bxd6 Be8 27. Nf4 $11)
+21. Rh3 Nc6 22. Qe3 Nxd4 (22... Bg7) 23. Qh6 gxf5 $2 (23... Be8 $1 {
+Det var enda mulig a kjempe! Dette blir uhyre komplisert!} 24. Qxh7+ Kf8 25.
+Bc1 gxf5 26. Bg5 (26. Bh6+ Ke7 27. Bg5+ Kd7 28. Bxd8 Kxd8 $19) 26... Bc6 27.
+Rg3 $1 {med vinstmuligheter, men dette er vanskelig a finne i hurtigsjakk!}
+27... d5 (27... f4) 28. Bh4 (28. exd5 Rxd5 29. Bh4 Ke8 30. Rgd3 f6 31. Qg8+ Kd7
+32. Qg6 Qd6 33. Nxd5 Bxd5 34. c4 Be4 $17) 28... Ke8 29. exd5 (29. Rg7 Bxg7 30.
+Qxg7 f6 (30... Ne2 31. e5 Ng3+ 32. hxg3 Ra8 33. Ne4 fxe4 34. Rf1 d4 35. Qg8+
+Kd7 36. Rxf7+ $18) 31. Qh8+ Kf7 (31... Kd7 32. Qxf6 Ke8) 32. Qxf6+ Kg8 (32...
+Ke8 33. Qh8+ Kf7 34. Bxd8 Qxd8 35. Qxd4 $18) 33. Rxd4 Re8 34. Rd3 f4 35. exd5
+exd5 36. Nxd5 Qg7 37. Qxg7+ Kxg7 38. Nxf4 $16) 29... Bxd5 (29... Rxd5 30. Rg8+
+Kd7 31. Rxc8 Kxc8 (31... Qxc8 32. Qxf7+) 32. Qg8+ Rd8 33. Bxd8 Qxd8 34. Qxd8+
+Kxd8 35. Ne2 $16) 30. Rg8+ Kd7 31. Nxd5 exd5 32. Rxd4 Bxd4 33. Qxf7+ Kc6 34.
+Qe6+ Qd6 35. Qxd6+ Kxd6 36. Rxd8+ Rxd8 37. Bxd8 $16) 24. Rdd3 $1 (24. Rxd4 Bxd4
+(24... Bc6 25. Rdd3 f6) 25. Rg3+ Kh8 26. Rh3 $11) 24... f4 25. Rh5 Be8 (25...
+f3 26. Qxh7+ Kf8 27. Rxe5 Bxa4 28. Rg5 Bb5 29. Rxd4 f2 30. Rg8+ Ke7 31. Qh4+
+Kd7 32. Qxf2 Rxg8 33. Qxf7+ Kc6 34. Qxe6 Rcd8 35. Bxd6 Rxd6 36. Rxd6+ Qxd6 37.
+Qxg8 $18) 26. Rg5+ Kh8 27. Qf8# 1-0
+
+[Event "Stavanger Grand Prix (4)"]
+[Site "MyTown"]
+[Date "2001.05.20"]
+[Round "?"]
+[White "Storland, Knut"]
+[Black "Fossan, Petter"]
+[Result "1/2-1/2"]
+[ECO "A32"]
+[Annotator "Haugen,Arild"]
+[PlyCount "69"]
+[EventDate "2001.05.20"]
+[SourceDate "2001.05.20"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 c5 4. g3 cxd4 5. Nxd4 Nc6 6. Bg2 Bb4+ 7. Bd2 Qb6 8.
+Nb3 d5 9. cxd5 Nxd5 10. O-O O-O 11. e4 Nf6 12. Be3 Qc7 13. a3 Be7 14. Nc3 a6 {
+Tasta-trekket er faktisk en nyhet!} (14... Rd8 15. Qe2) 15. Rc1 Bd7 16. f4 Rfd8
+17. e5 (17. Na4 Be8 18. Qe1 Nd7 19. Nd4 Rac8 20. e5 $14) 17... Ne8 $2 (17...
+Be8 18. Qf3 Nd7 19. Ne4 Nb6 20. Bc5 $14) 18. Ne4 (18. Na4 $18) 18... Rac8 19.
+Qh5 g6 (19... f6) 20. Qe2 (20. Qf3 $16) 20... Qb8 $2 (20... f5 21. Nec5 $16)
+21. Nbc5 $2 (21. Bb6 Nc7 22. Rfd1 $18 (22. Nd6 Bxd6 23. exd6 $18)) 21... Nc7
+22. Nxd7 (22. Rfd1) (22. Nc3) 22... Rxd7 23. Bc5 Nd5 24. Bxe7 (24. b4 Bxc5+ 25.
+bxc5 Nd4 26. Qb2 Nf5 27. Nd6 $16) 24... Ncxe7 25. Nd6 Rcc7 (25... Rcd8) 26. Qf2
+b5 27. Bf3 Rxc1 28. Rxc1 Rc7 29. Qd2 (29. Rc5) 29... Qb6+ 30. Kh1 h5 (30...
+Rxc1+ 31. Qxc1 Qf2 $11) 31. h4 (31. Rxc7 Qxc7 32. b3 Qc3 33. Qxc3 Nxc3 $14)
+31... Rxc1+ 32. Qxc1 Qf2 33. Bxd5 Nxd5 34. Qc8+ Kg7 35. Qe8 1/2-1/2
+

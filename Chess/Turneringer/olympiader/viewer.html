@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Ramiras PGN Viewer</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/chessboard.js/1.0.0/chessboard-1.0.0.min.css">
+
+<style>
+body{
+    font-family:Georgia,serif;
+    margin:20px;
+    background:#f5f7fa;
+}
+
+#board{
+    width:500px;
+    max-width:100%;
+}
+
+button{
+    padding:8px 16px;
+    margin:5px;
+}
+
+#moves{
+    margin-top:15px;
+    background:white;
+    padding:15px;
+    border-radius:8px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>♟ Ramiras PGN Viewer</h1>
+
+<div id="board"></div>
+
+<p>
+<button onclick="prevMove()">← Tilbake</button>
+<button onclick="nextMove()">Neste →</button>
+</p>
+
+<div id="moves"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chessboard.js/1.0.0/chessboard-1.0.0.min.js"></script>
+
+<script>
+
+var board = Chessboard('board','start');
+
+</script>
+
+</body>
+</html>
