@@ -1,1 +1,424 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Øystein Sande – Bærebjelken | Ramiras</title>
+
+<meta name="description"
+      content="Portrett av Øystein Sande – spiller, redaktør og historieforteller i norsk korrespondansesjakk.">
+
+<style>
+
+:root{
+    --primary:#7d1f35;
+    --primary-dark:#5f1227;
+    --accent:#d6a85f;
+    --bg:#faf8f7;
+    --card:#ffffff;
+    --text:#232323;
+    --muted:#6c6c6c;
+    --shadow:0 10px 30px rgba(0,0,0,.08);
+    --radius:20px;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:
+        Inter,
+        Segoe UI,
+        Roboto,
+        sans-serif;
+
+    color:var(--text);
+    background:var(--bg);
+    line-height:1.75;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+.container{
+    width:min(1150px,92%);
+    margin:auto;
+}
+
+/* HERO */
+
+.hero{
+    min-height:90vh;
+    display:grid;
+    grid-template-columns:420px 1fr;
+    gap:4rem;
+    align-items:center;
+
+    padding:5rem 0;
+}
+
+.hero-image{
+    position:relative;
+}
+
+.hero-image img{
+    width:100%;
+    border-radius:30px;
+    box-shadow:var(--shadow);
+}
+
+.hero-image::after{
+    content:"";
+    position:absolute;
+    inset:-15px;
+    z-index:-1;
+
+    background:
+      linear-gradient(
+      135deg,
+      rgba(125,31,53,.1),
+      rgba(214,168,95,.15));
+
+    border-radius:35px;
+}
+
+.hero-content h1{
+    font-size:clamp(2.4rem,5vw,5rem);
+    line-height:1;
+    color:var(--primary);
+    margin-bottom:1rem;
+}
+
+.subtitle{
+    color:var(--muted);
+    font-size:1.25rem;
+    margin-bottom:2rem;
+}
+
+.lead{
+    font-size:1.12rem;
+    max-width:65ch;
+}
+
+.buttons{
+    margin-top:2rem;
+    display:flex;
+    gap:1rem;
+    flex-wrap:wrap;
+}
+
+.btn{
+    display:inline-block;
+    padding:.9rem 1.4rem;
+
+    border-radius:12px;
+    text-decoration:none;
+    font-weight:600;
+
+    transition:.25s;
+}
+
+.btn-primary{
+    background:var(--primary);
+    color:white;
+}
+
+.btn-outline{
+    border:2px solid var(--primary);
+    color:var(--primary);
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+}
+
+/* FACTS */
+
+.facts{
+    margin:3rem 0 5rem;
+}
+
+.fact-grid{
+    display:grid;
+    grid-template-columns:
+       repeat(auto-fit,minmax(220px,1fr));
+    gap:1.5rem;
+}
+
+.fact-card{
+    background:var(--card);
+    border-radius:var(--radius);
+    padding:1.5rem;
+
+    box-shadow:var(--shadow);
+}
+
+.fact-card h3{
+    color:var(--primary);
+    margin-bottom:.5rem;
+}
+
+/* CONTENT */
+
+.article{
+    max-width:850px;
+    margin:auto;
+}
+
+.article section{
+    margin-bottom:4rem;
+}
+
+.article h2{
+    color:var(--primary);
+    font-size:2rem;
+    margin-bottom:1rem;
+}
+
+.article p{
+    margin-bottom:1rem;
+}
+
+.quote{
+    margin:2rem 0;
+    padding:2rem;
+
+    background:white;
+    border-left:6px solid var(--primary);
+
+    border-radius:18px;
+    box-shadow:var(--shadow);
+}
+
+.quote p{
+    font-size:1.15rem;
+    margin:0;
+    font-style:italic;
+}
+
+/* FOOTER */
+
+footer{
+    margin-top:6rem;
+    padding:3rem 0;
+
+    text-align:center;
+    color:var(--muted);
+
+    border-top:1px solid #ddd;
+}
+
+/* MOBILE */
+
+@media (max-width:900px){
+
+.hero{
+    grid-template-columns:1fr;
+    text-align:center;
+    min-height:auto;
+}
+
+.hero-image{
+    max-width:420px;
+    margin:auto;
+}
+
+.buttons{
+    justify-content:center;
+}
+
+.article{
+    max-width:100%;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<section class="hero">
+
+<div class="hero-image">
+<img
+src="images/oystein-sande.jpg"
+alt="Øystein Sande">
+</div>
+
+<div class="hero-content">
+
+<h1>Øystein Sande</h1>
+
+<p class="subtitle">
+Spiller • Redaktør • Organisator • Historieforteller
+</p>
+
+<p class="lead">
+Gjennom flere tiår var Øystein Sande blant de mest
+innflytelsesrike personene i norsk korrespondansesjakk.
+Som spiller, skribent og den siste redaktøren av
+Postsjakk-bladet bidro han til å bevare historien
+om en unik del av norsk sjakkultur.
+</p>
+
+<div class="buttons">
+
+<a class="btn btn-primary"
+   href="sjakk-uten-grenser.html">
+Tilbake til Chess Without Borders
+</a>
+
+<a class="btn btn-outline"
+   href="#biografi">
+Les artikkelen
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="facts">
+
+<div class="fact-grid">
+
+<div class="fact-card">
+<h3>Født</h3>
+<p>Randaberg, 1943</p>
+</div>
+
+<div class="fact-card">
+<h3>Yrke</h3>
+<p>Sosiolog og høgskolelektor</p>
+</div>
+
+<div class="fact-card">
+<h3>Sjakk</h3>
+<p>Topp spiller i både nær- og korrespondansesjakk</p>
+</div>
+
+<div class="fact-card">
+<h3>Redaktør</h3>
+<p>Siste redaktør av Postsjakk-bladet</p>
+</div>
+
+</div>
+
+</section>
+
+<main class="article" id="biografi">
+
+<section>
+
+<h2>Fra Randaberg til sjakkeliten</h2>
+
+<p>
+Sjakkinteressen kom tidlig gjennom familien og
+miljøet rundt Stavanger Sjakklubb. Gjennom ungdomsårene
+utviklet han seg raskt til en av klubbens fremste
+spillere.
+</p>
+
+<p>
+Studier ved Universitetet i Oslo førte samtidig til
+nye impulser både akademisk og sjakklig. Her fortsatte
+utviklingen som turneringsspiller, samtidig som han
+la grunnlaget for en framtidig karriere innen
+undervisning og forskning.
+</p>
+
+</section>
+
+<section>
+
+<h2>Korrespondansesjakken</h2>
+
+<p>
+I 1971 oppdaget han korrespondansesjakken.
+Den langsomme, analytiske formen passet hans
+arbeidsmetode og interesse for grundige undersøkelser.
+</p>
+
+<div class="quote">
+<p>
+«Korrespondansesjakk handler om analyse,
+fordypning og tålmodighet.»
+</p>
+</div>
+
+<p>
+Etter hvert ble han en av de mest respekterte norske
+utøverne innen denne sjakkformen.
+</p>
+
+</section>
+
+<section>
+
+<h2>Postsjakk-bladet</h2>
+
+<p>
+Et av de viktigste bidragene kom gjennom arbeidet med
+Postsjakk-bladet. Han var først partiredaktør og overtok
+senere det fulle redaktøransvaret.
+</p>
+
+<p>
+Som den siste redaktøren ledet han bladet gjennom store
+teknologiske forandringer. I løpet av disse årene gikk
+korrespondansesjakken fra konvolutter og postkort til
+digitale servere og internettbasert spill.
+</p>
+
+<p>
+Gjennom artikler, partier og historisk dokumentasjon
+bidro han til å bevare en sentral del av norsk
+sjakkhistorie.
+</p>
+
+</section>
+
+<section>
+
+<h2>Musikk og språk</h2>
+
+<p>
+Ved siden av sjakken hadde Øystein Sande en bred
+kulturinteresse. Musikk har fulgt ham gjennom hele
+livet, og han utviklet også stor interesse for språk
+og internasjonal kultur.
+</p>
+
+<p>
+Den samme nysgjerrigheten preget tilnærmingen til
+sjakk. Han beskrev ofte seg selv som en forskertype,
+alltid på jakt etter nye ideer og dypere forståelse.
+</p>
+
+</section>
+
+<section>
+
+<h2>Ettermæle</h2>
+
+<p>
+Øystein Sande står igjen som en av de viktigste
+skikkelsene i norsk korrespondansesjakks historie.
+Hans innsats som spiller, redaktør, organisator og
+formidler har bidratt til at historien om norsk
+postsjakk er bevart for
 
