@@ -3,162 +3,184 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Øystein Sande – Bærebjelken i norsk postsjakk</title>
+<title>Øystein Sande – Bærebjelken | Ramiras</title>
 
 <style>
-body {
-    font-family: Georgia, serif;
-    line-height: 1.7;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-    color: #222;
-    background: #fdfdfd;
+body{
+    font-family:Georgia,serif;
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+    line-height:1.7;
+    color:#222;
+    background:#fafafa;
 }
-
-header {
-    border-bottom: 3px solid #8b0000;
-    margin-bottom: 30px;
-    padding-bottom: 15px;
+header{
+    border-bottom:3px solid #7a0019;
+    padding-bottom:15px;
+    margin-bottom:30px;
 }
-
-h1 {
-    color: #8b0000;
-    margin-bottom: 0;
+h1,h2{
+    color:#7a0019;
 }
-
-h2 {
-    color: #8b0000;
-    margin-top: 40px;
+.byline{
+    color:#666;
+    font-style:italic;
 }
-
-.byline {
-    font-style: italic;
-    color: #666;
+figure{
+    float:right;
+    width:260px;
+    margin:0 0 20px 30px;
 }
-
-figure {
-    float: right;
-    width: 280px;
-    margin: 0 0 20px 30px;
+figure img{
+    width:100%;
+    border:1px solid #ccc;
 }
-
-figure img {
-    width: 100%;
-    border: 1px solid #ccc;
+figcaption{
+    font-size:0.9em;
+    color:#666;
 }
-
-figcaption {
-    font-size: 0.9em;
-    color: #666;
+.factbox{
+    background:#f1f1f1;
+    border-left:5px solid #7a0019;
+    padding:15px;
+    margin:20px 0;
 }
-
-blockquote {
-    border-left: 4px solid #8b0000;
-    padding-left: 15px;
-    margin-left: 0;
-    color: #444;
-    font-style: italic;
+blockquote{
+    border-left:4px solid #7a0019;
+    padding-left:15px;
+    font-style:italic;
+    color:#555;
 }
-
-.factbox {
-    background: #f4f4f4;
-    border-left: 5px solid #8b0000;
-    padding: 15px;
-    margin: 20px 0;
+footer{
+    margin-top:40px;
+    border-top:1px solid #ccc;
+    padding-top:20px;
 }
-
-footer {
-    margin-top: 50px;
-    border-top: 1px solid #ccc;
-    padding-top: 20px;
-    font-size: 0.95em;
+a{
+    color:#7a0019;
 }
 </style>
-
 </head>
 
 <body>
 
 <header>
-<h1>Øystein Sande – Bærebjelken i norsk postsjakk</h1>
-<p class="byline">Intervju av Reidar Gramstad</p>
+<h1>Øystein Sande – Bærebjelken</h1>
+<p class="byline">Av Reidar Gramstad</p>
 </header>
 
 <figure>
 <img src="images/oystein-sande.jpg" alt="Øystein Sande">
 <figcaption>
-Øystein Sande var den siste redaktøren av Postsjakk-bladet og en sentral skikkelse i norsk korrespondansesjakk.
+Øystein Sande var en av de mest markante skikkelsene i norsk
+korrespondansesjakk.
 </figcaption>
 </figure>
 
 <p>
-Noen personer setter dypere spor enn andre. I norsk korrespondansesjakk
-er Øystein Sande en av dem. Som spiller, organisator, skribent og
-redaktør gjennom flere tiår var han blant de viktigste bidragsyterne til
-miljøet rundt Norges Postsjakkforbund.
+Noen sjakkpersoner er blitt kalt «krumtapper» og «bautaer».
+Om norsk fjernsjakk skulle hatt sitt eget «Mount Rushmore»,
+ville Øystein Sande hatt en naturlig plass. Gjennom et langt
+sjakkliv satte han sterke spor etter seg både som spiller,
+redaktør, organisator og historieforteller.
 </p>
 
 <div class="factbox">
-<strong>Fakta:</strong><br>
-• Sjakkspiller og korrespondansespiller<br>
-• Langvarig redaktør av Postsjakk-bladet<br>
-• Den siste redaktøren før bladets epoke tok slutt<br>
-• Aktiv bidragsyter til dokumentasjon av norsk postsjakkhistorie
+<b>Fakta om Øystein Sande</b><br><br>
+
+• Født på Sande i Randaberg 17. juli 1943.<br>
+• Magistergrad i sosiologi ved Universitetet i Oslo.<br>
+• Underviste ved Distriktshøgskulen i Volda / Høgskulen i Volda.<br>
+• Aktiv toppspiller i norsk sjakk og korrespondansesjakk.<br>
+• Partiredaktør i Postsjakk 1982–1991.<br>
+• Redaktør av Postsjakk-bladet fra 1991.<br>
+• Æresmedlem i Norges Postsjakkforbund.
 </div>
 
-<h2>Innledning</h2>
+<h2>Fra Randaberg til sjakkeliten</h2>
 
 <p>
-Dette intervjuet ble gjennomført av Reidar Gramstad som en del av arbeidet
-med å dokumentere historien til norsk korrespondansesjakk.
-Øystein Sande forteller om oppvekst, sjakk, studier,
-yrkesliv, redaktørarbeid og utviklingen av postsjakken gjennom flere tiår.
+Sjakkinteressen kom tidlig gjennom storebroren Erling. Etter hvert
+tok Torger Bø ham med til Stavanger Sjakklubb. Allerede som unggutt
+dominerte han junioravdelingen, og i 1963 vant han klubbmesterskapet
+før studiene i Oslo startet.
+</p>
+
+<p>
+I Oslo spilte han først i Akademisk Sjakklubb og senere i OSS.
+Etter noen år med fremgang etablerte han seg i elitesjiktet av norsk
+sjakk, representerte Norge internasjonalt og deltok på det norske
+laget under sjakk-OL på Malta.
+</p>
+
+<h2>Postsjakken</h2>
+
+<p>
+I 1971 oppdaget Øystein Sande korrespondansesjakken.
+Denne spilleformen passet godt til hans analytiske legning, og
+etter hvert ble han en av norsk fjernsjakks sterkeste profiler.
 </p>
 
 <blockquote>
-"Postsjakken ga mulighet til fordypning på en måte som var vanskelig
-å finne andre steder."
+«Det var i 1971, mitt siste år i Oslo, at jeg fant at
+postsjakk kunne passe meg bra.»
 </blockquote>
+
+<h2>Den siste redaktøren av Postsjakk-bladet</h2>
+
+<p>
+Da Roald Nilsen sluttet som redaktør, meldte Sande seg selv som
+etterfølger. Han overtok redaktøransvaret i 1991 og skulle bli den
+siste redaktøren av Postsjakk-bladet.
+</p>
+
+<p>
+Gjennom nær tre tiår ledet han bladet gjennom en tid med store
+forandringer. Produksjonen gikk fra papirbaserte rutiner til digitale
+arbeidsformer, samtidig som korrespondansesjakken flyttet seg fra
+postverket til internett.
+</p>
+
+<p>
+Sande fremhevet ofte at en redaktør må beherske både det sjakklige
+og det tekniske håndverket. Denne kombinasjonen gjorde det mulig å
+holde bladet levende gjennom mange år.
+</p>
+
+<h2>Musikk, språk og kunnskapsglede</h2>
+
+<p>
+Ved siden av sjakken har musikk hatt en viktig plass. Han spilte både
+orgel og piano og utviklet tidlig en interesse for språk. Italiensk
+lærte han gjennom et NRK-kurs på 1960-tallet, og senere arbeidet han
+også med fransk og spansk.
+</p>
+
+<p>
+Kunnskapsgleden og evnen til å fordype seg preget også tilnærmingen
+til sjakk. Da han ble bedt om å beskrive hvilken type spiller han var,
+pekte han på Botvinnik som den nærmeste parallellen:
+forskeren ved sjakkbrettet.
+</p>
 
 <h2>Intervjuet</h2>
 
-<p><strong>Reidar Gramstad:</strong> [Sett inn spørsmål]</p>
-
-<p><strong>Øystein Sande:</strong> [Sett inn svar]</p>
-
-<p><strong>Reidar Gramstad:</strong> [Sett inn spørsmål]</p>
-
-<p><strong>Øystein Sande:</strong> [Sett inn svar]</p>
-
-<p><strong>Reidar Gramstad:</strong> [Sett inn spørsmål]</p>
-
-<p><strong>Øystein Sande:</strong> [Sett inn svar]</p>
-
-<!-- Fortsett intervjuet her -->
-
-<h2>Postsjakk-bladet</h2>
-
 <p>
-Et viktig kapittel i Sandes virke var arbeidet med
-Postsjakk-bladet. Gjennom mange år redigerte han bladet og sørget for
-at resultater, partier, analyser, historiske artikler og nyheter ble
-bevart for ettertiden.
+Dette portrettet bygger på Reidar Gramstads intervju med Øystein
+Sande, der han forteller om oppveksten på Randaberg, studietiden,
+sjakkarrieren, arbeidet med Postsjakk-bladet og utviklingen av
+norsk korrespondansesjakk gjennom flere tiår.
 </p>
 
-<h2>Ettermæle</h2>
-
 <p>
-Øystein Sandes innsats for norsk korrespondansesjakk kan vanskelig
-overvurderes. Gjennom arbeid som spiller, redaktør og organisator
-bidro han til å bevare og videreutvikle en viktig del av norsk
-sjakkhistorie.
+Intervjuet gir samtidig et verdifullt innblikk i historien til
+Norges Postsjakkforbund og menneskene som bygget miljøet.
 </p>
 
 <footer>
 <p>
-Publisert på Ramiras som del av dokumentasjonen av norsk
-korrespondansesjakk og arbeidet med <em>Chess Without Borders</em>.
+Publisert som en del av <em>Chess Without Borders</em>.
 </p>
 
 <p>
