@@ -104,11 +104,25 @@ nav a{
     margin:10px 0;
 }
 
-.chapters-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+.chapters-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+    margin-top:20px;
 }
+
+@media (max-width:900px){
+    .chapters-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+@media (max-width:600px){
+    .chapters-grid{
+        grid-template-columns:1fr;
+    }
+}
+    
 
 .card{
     background:white;
@@ -261,12 +275,10 @@ co-author of Chess Without Borders.
 
 <h2>Selected Chapters</h2>
 
-<div class="cards">
+<div class="chapters-grid">
 
 <div class="card">
-
 <h3>📜 From Stamps to the Internet</h3>
-
 <p>
 The evolution of correspondence chess from postal mail
 to modern servers.
@@ -276,7 +288,6 @@ to modern servers.
 href="from-stamps-to-the-internet.html">
 Read Chapter
 </a>
-
 </div>
 
 <div class="card">
@@ -324,7 +335,7 @@ Read Chapter
 </a>
 
 </div>
-</div>
+
 
 <div class="card">
 
@@ -355,10 +366,9 @@ Chess Without Borders.
 href="games-from-the-book.html">
 View Games
 </a>
-
-</div>
 </div>
 
+</div>
 </div>
 
 
