@@ -1,1 +1,379 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Ivar Bern | Ramiras</title>
+
+<style>
+
+:root{
+    --primary:#16213e;
+    --secondary:#1e293b;
+    --accent:#0284c7;
+    --bg:#f5f7fa;
+    --card:#ffffff;
+    --text:#333;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:Georgia, serif;
+    background:var(--bg);
+    color:var(--text);
+    line-height:1.8;
+}
+
+/* Header */
+
+header{
+    background:linear-gradient(135deg,#16213e,#243b63);
+    color:white;
+    text-align:center;
+    padding:90px 20px;
+}
+
+header h1{
+    margin:0;
+    font-size:clamp(2.5rem,5vw,4rem);
+}
+
+header p{
+    margin-top:15px;
+    font-size:1.2rem;
+    opacity:.9;
+}
+
+/* Navigation */
+
+nav{
+    background:var(--secondary);
+    text-align:center;
+    padding:15px;
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+nav a{
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#7dd3fc;
+}
+
+/* Layout */
+
+.container{
+    width:min(1100px,92%);
+    margin:auto;
+    padding:50px 0;
+}
+
+.section{
+    background:var(--card);
+    padding:40px;
+    border-radius:18px;
+    margin-bottom:40px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.section h2{
+    margin-top:0;
+    color:var(--primary);
+}
+
+/* Hero profile */
+
+.profile{
+    display:flex;
+    gap:40px;
+    align-items:flex-start;
+    flex-wrap:wrap;
+}
+
+.profile-image{
+    width:340px;
+    max-width:100%;
+    border-radius:16px;
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+.text{
+    flex:1;
+    min-width:300px;
+}
+
+/* Fact box */
+
+.fact-box{
+    margin-top:25px;
+    background:#eff6ff;
+    border-left:5px solid var(--accent);
+    padding:20px;
+    border-radius:10px;
+}
+
+.fact-box ul{
+    margin:0;
+    padding-left:20px;
+}
+
+.fact-box li{
+    margin-bottom:8px;
+}
+
+/* Quotes */
+
+blockquote{
+    margin:25px 0;
+    padding:20px 25px;
+    background:#f8fafc;
+    border-left:5px solid var(--accent);
+    border-radius:10px;
+    font-style:italic;
+}
+
+/* Buttons */
+
+.button{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 22px;
+    background:var(--accent);
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    transition:.25s;
+}
+
+.button:hover{
+    background:#0369a1;
+    transform:translateY(-2px);
+}
+
+/* Footer */
+
+footer{
+    background:#16213e;
+    color:white;
+    text-align:center;
+    padding:30px;
+    margin-top:60px;
+}
+
+/* Readability */
+
+.section p{
+    max-width:75ch;
+}
+
+/* Responsive */
+
+@media (max-width:900px){
+
+    .profile{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .section{
+        padding:30px;
+    }
+
+    nav a{
+        display:inline-block;
+        margin:8px;
+    }
+}
+
+@media (max-width:600px){
+
+    header{
+        padding:60px 15px;
+    }
+
+    .section{
+        padding:25px;
+    }
+
+    .button{
+        display:block;
+        text-align:center;
+    }
+
+    blockquote{
+        padding:15px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Ivar Bern</h1>
+    <p>Verdensmester i postsjakk 2006 • Den visjonære verdensmesteren</p>
+</header>
+
+<nav>
+    <a href="../index.html">Home</a>
+    <a href="index.html">Correspondence Chess</a>
+    <a href="../Chess/">Chess</a>
+    <a href="../Family/">Family</a>
+</nav>
+
+<div class="container">
+
+    <div class="section">
+
+        <div class="profile">
+
+            <img src="../images/ivar-bern.jpg"
+                 alt="Ivar Bern ved sjakkbrettet"
+                 class="profile-image">
+
+            <div class="text">
+
+                <h2>Den visjonære verdensmesteren</h2>
+
+                <p>
+                    Ivar Bern skrev norsk postsjakks historie da han i 2006
+                    ble verdensmester i korrespondansesjakk. Han er fortsatt
+                    den eneste nordmannen som har vunnet denne tittelen.
+                </p>
+
+                <p>
+                    Veien til verdensmesterskapet strakte seg over mange år,
+                    fra semifinale på 1990-tallet via kandidatturnering til
+                    VM-finalen som startet i 2002 og ble avgjort i 2006.
+                </p>
+
+                <div class="fact-box">
+
+                    <h3>Fakta</h3>
+
+                    <ul>
+                        <li><strong>Hjemsted:</strong> Bergen</li>
+                        <li><strong>Verdensmester:</strong> 2006</li>
+                        <li><strong>VM-finale:</strong> 17. verdensmesterskap</li>
+                        <li><strong>Score:</strong> 10,5 av 16 poeng</li>
+                        <li><strong>Resultat:</strong> Ubesiret gjennom hele finalen</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="section">
+
+        <h2>Veien til VM-gull</h2>
+
+        <p>
+            Verdensmesterskapet i korrespondansesjakk er en langvarig
+            prosess der deltakerne må kvalifisere seg gjennom flere nivåer.
+            Bern arbeidet målrettet gjennom semifinaler og kandidatturneringer
+            før han kvalifiserte seg til VM-finalen.
+        </p>
+
+        <p>
+            I finalen møtte han noen av verdens sterkeste postsjakkspillere.
+            Med fem seire og elleve remiser gikk han ubeseiret gjennom
+            turneringen og sikret tittelen foran et internasjonalt felt.
+        </p>
+
+    </div>
+
+    <div class="section">
+
+        <h2>«Er du klar for natten, Fritz?»</h2>
+
+        <blockquote>
+            «Jeg har spilt postsjakk i 20 år, men denne turneringen ble noe mye
+            mer, egentlig en form for ekstremsport. Sjakk både natt og dag med
+            analyser om dagen og sjakkmaskinen i full sving hele døgnet.»
+        </blockquote>
+
+        <p>
+            Bern beskrev arbeidet under verdensmesterskapet som et prosjekt
+            som krevde enorm innsats. Datamaskiner og analyseprogrammer var
+            viktige hjelpemidler, men den menneskelige vurderingen sto alltid
+            i sentrum.
+        </p>
+
+        <p>
+            Moderne korrespondansesjakk handler ikke bare om å bruke
+            datamaskiner. Det handler om å forstå stillingene dypere enn
+            motstanderen og kombinere teknologi med erfaring og strategi.
+        </p>
+
+    </div>
+
+    <div class="section">
+
+        <h2>Menneske og maskin</h2>
+
+        <p>
+            Ivar Bern tilhørte generasjonen som opplevde overgangen fra
+            tradisjonell postsjakk til digital analyse. Han så tidlig hvordan
+            datamaskiner kunne brukes som verktøy for å undersøke komplekse
+            stillinger.
+        </p>
+
+        <p>
+            Samtidig understreket han at sjakkprogrammer alene ikke skaper
+            vinnende strategier. Den avgjørende faktoren er fortsatt den
+            menneskelige evnen til å tolke analyser og velge langsiktige planer.
+        </p>
+
+        <p>
+            På sitt mest aktive hadde han et stort antall pågående partier samtidig,
+            noe som krevde systematisk arbeid og betydelig tidsbruk hver dag.
+        </p>
+
+    </div>
+
+    <div class="section">
+
+        <h2>Et historisk livsverk</h2>
+
+        <p>
+            Verdensmestertittelen i 2006 er en av de største prestasjonene i
+            norsk korrespondansesjakks historie. Berns arbeid over mange år
+            demonstrerer den tålmodigheten, nøyaktigheten og dedikasjonen som
+            kreves på høyeste nivå.
+        </p>
+
+        <p>
+            Prestasjonen har sikret ham en varig plass i historien til Norges
+            Postsjakkforbund og internasjonal korrespondansesjakk.
+        </p>
+
+        <a class="button" href="index.html">
+            Tilbake til Correspondence Chess
+        </a>
+
+    </div>
+
+</div>
+
+<footer>
+    Ramiras | Correspondence Chess • Chess • Music • Family History
+</footer>
+
+</body>
+</html>
